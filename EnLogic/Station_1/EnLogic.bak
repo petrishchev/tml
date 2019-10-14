@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<KLogicDocument IDE_Ver="5.0.0.7">
+  <GlobalScriptSettings/>
+  <Alarm>
+    <Use>False</Use>
+    <Port>1</Port>
+    <CheckModemPeriod>30</CheckModemPeriod>
+    <TautBit>50</TautBit>
+  </Alarm>
+  <Info>
+    <Use>False</Use>
+    <Port>30293</Port>
+  </Info>
+  <Proxy>
+    <Use>False</Use>
+    <IP>127.0.0.1</IP>
+    <Port>30294</Port>
+  </Proxy>
+  <EnComSrv>
+    <IP>127.0.0.1</IP>
+    <Port>28915</Port>
+  </EnComSrv>
+  <Controller>
+    <Settings>
+      <Signature>ОВЕН ПЛК-323.ТЛ</Signature>
+      <GroupName>ОВЕН ПЛК-323.ТЛ</GroupName>
+      <CntrlrCode>20002</CntrlrCode>
+      <Name>Контроллер КСОД (A1)</Name>
+      <StaticGUID>{1910EF54-2F21-4664-87D4-6A9546523B47}</StaticGUID>
+    </Settings>
+  </Controller>
+</KLogicDocument>

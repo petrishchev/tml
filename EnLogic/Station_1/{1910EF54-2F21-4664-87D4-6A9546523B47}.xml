@@ -1,0 +1,2967 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<KLogicDocument>
+  <Controller>
+    <Settings>
+      <Signature>ОВЕН ПЛК-323.ТЛ</Signature>
+      <GroupName>ОВЕН ПЛК-323.ТЛ</GroupName>
+      <CntrlrCode>20002</CntrlrCode>
+      <Name>Контроллер КСОД (A1)</Name>
+      <SystNum>1</SystNum>
+      <CntMode>0</CntMode>
+      <PCPort>
+        <LinkType>0</LinkType>
+        <LinkRS232>False</LinkRS232>
+        <LinkETH>True</LinkETH>
+        <Port>COM1</Port>
+        <Speed>9600</Speed>
+        <ToutGetParamMSec>500</ToutGetParamMSec>
+        <ToutWriteParamMSec>500</ToutWriteParamMSec>
+        <ToutBetwBytesMSec>30</ToutBetwBytesMSec>
+        <ComBufferSize>512</ComBufferSize>
+        <ModbusAddrPoll>4</ModbusAddrPoll>
+        <UseModem>False</UseModem>
+        <PhoneString></PhoneString>
+        <InitString></InitString>
+        <TypeModem>0</TypeModem>
+        <HangUpSec>30</HangUpSec>
+        <RedialCnt>3</RedialCnt>
+        <TimeOutBRedial>30</TimeOutBRedial>
+        <EthTransp>0</EthTransp>
+        <IPAddress>192.168.0.77</IPAddress>
+        <IPPortNumber>30292</IPPortNumber>
+        <UDPTimeOutMs>15000</UDPTimeOutMs>
+      </PCPort>
+      <PCPort>
+        <LinkType>0</LinkType>
+        <LinkRS232>False</LinkRS232>
+        <LinkETH>True</LinkETH>
+        <Port>COM1</Port>
+        <Speed>9600</Speed>
+        <ToutGetParamMSec>500</ToutGetParamMSec>
+        <ToutWriteParamMSec>500</ToutWriteParamMSec>
+        <ToutBetwBytesMSec>30</ToutBetwBytesMSec>
+        <ComBufferSize>512</ComBufferSize>
+        <ModbusAddrPoll>5</ModbusAddrPoll>
+        <UseModem>False</UseModem>
+        <PhoneString></PhoneString>
+        <InitString></InitString>
+        <TypeModem>0</TypeModem>
+        <HangUpSec>30</HangUpSec>
+        <RedialCnt>3</RedialCnt>
+        <TimeOutBRedial>30</TimeOutBRedial>
+        <EthTransp>0</EthTransp>
+        <IPAddress>192.168.0.77</IPAddress>
+        <IPPortNumber>30292</IPPortNumber>
+        <UDPTimeOutMs>5000</UDPTimeOutMs>
+      </PCPort>
+      <FullName>Контроллер ОВЕН ПЛК-323.ТЛ</FullName>
+      <GroupName>ОВЕН ПЛК-323.ТЛ</GroupName>
+      <CntrlrCode>20002</CntrlrCode>
+      <StaticGUID>{1910EF54-2F21-4664-87D4-6A9546523B47}</StaticGUID>
+      <ParamQuan>243</ParamQuan>
+      <InitiatorIndex>-1</InitiatorIndex>
+      <PeriodicPoll>True</PeriodicPoll>
+      <PeriodTCP.value>30</PeriodTCP.value>
+      <PeriodTCP.type>1</PeriodTCP.type>
+      <PeriodCOM.value>30</PeriodCOM.value>
+      <PeriodCOM.type>1</PeriodCOM.type>
+      <RestartPeriodHour>0</RestartPeriodHour>
+      <IgnoreErr>False</IgnoreErr>
+      <IgnoreErrSec>30</IgnoreErrSec>
+      <useIECtask>True</useIECtask>
+      <IECtask_period_ms>1000</IECtask_period_ms>
+      <IECtask_port>2404</IECtask_port>
+      <IECtask_max_connects>2</IECtask_max_connects>
+      <IECtask_queue_mult>12</IECtask_queue_mult>
+      <IECtask_k>12</IECtask_k>
+      <IECtask_w>8</IECtask_w>
+      <IECtask_t0>30</IECtask_t0>
+      <IECtask_t1>15</IECtask_t1>
+      <IECtask_t2>10</IECtask_t2>
+      <IECtask_t3>20</IECtask_t3>
+      <IECApertureMode>0</IECApertureMode>
+      <IECApertureMultToSend>2</IECApertureMultToSend>
+      <IECAdditionalQual>False</IECAdditionalQual>
+      <IECTimeStampsInCommonAnswer>False</IECTimeStampsInCommonAnswer>
+      <TimeShiftSec>0</TimeShiftSec>
+      <IECInitiativeWriteDB>False</IECInitiativeWriteDB>
+      <useHMItask>False</useHMItask>
+      <HMI_panel_type>0</HMI_panel_type>
+      <HMI_protocol>0</HMI_protocol>
+      <HMI_port>1</HMI_port>
+      <HMI_baud_rate>6</HMI_baud_rate>
+      <HMI_addr>1</HMI_addr>
+      <useAutoModbusMapping>True</useAutoModbusMapping>
+      <ChannelNameExportType>0</ChannelNameExportType>
+      <ChannelNameExportMask>%O %N adr[%K]</ChannelNameExportMask>
+      <ChannelCommentExportType>0</ChannelCommentExportType>
+      <ChannelCommentExportMask>%C</ChannelCommentExportMask>
+      <TimeChangeAuto>False</TimeChangeAuto>
+      <TimeSyncUse>False</TimeSyncUse>
+      <TimeSyncStId>0</TimeSyncStId>
+      <TimeSyncPeriod>60</TimeSyncPeriod>
+      <TimeSyncDivergence>1000</TimeSyncDivergence>
+      <EnComSrv>False</EnComSrv>
+      <SN>5929</SN>
+      <KiDArray/>
+      <ReserveTimeOutSec>30</ReserveTimeOutSec>
+      <VULinks>
+        <VULink0>
+          <IsVULinkActive>False</IsVULinkActive>
+          <LinkType>1</LinkType>
+          <sCOMPort>COM4</sCOMPort>
+          <sCOMSpeed>9600</sCOMSpeed>
+          <bCOMBitCount>8</bCOMBitCount>
+          <bCOMControlType>0</bCOMControlType>
+          <bCOMStopBits>0</bCOMStopBits>
+          <bMultiplier>1</bMultiplier>
+          <IsModemLink>False</IsModemLink>
+        </VULink0>
+      </VULinks>
+    </Settings>
+    <TasksGroup0>
+      <Settings/>
+      <UserTask>
+        <Settings>
+          <Name>Задача 1</Name>
+          <Period>1000</Period>
+          <PriorityIndex>3</PriorityIndex>
+          <TaskType>0</TaskType>
+          <TaskElements>&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1251&quot;?&gt;
+&lt;Elements&gt;&lt;Controls/&gt;&lt;/Elements&gt;
+</TaskElements>
+        </Settings>
+        <FB>
+          <Settings>
+            <Name>Таймер-Календарь 1</Name>
+            <Type>120</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>65</Left>
+            <Top>43</Top>
+          </Settings>
+          <InOut Name="Год">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>1</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Месяц">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>2</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="День">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>3</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ДеньНедели">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>4</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Час">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>5</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Минут">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>6</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Секунд">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>7</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Миллисекунд">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>8</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Режим">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>9</KId>
+            </Settings>
+          </InOut>
+        </FB>
+      </UserTask>
+      <UserTask>
+        <Settings>
+          <Name>Задача 2</Name>
+          <UserComment>опрос токовых входов</UserComment>
+          <Period>1000</Period>
+          <PriorityIndex>3</PriorityIndex>
+          <TaskType>0</TaskType>
+          <TaskElements>&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1251&quot;?&gt;
+&lt;Elements&gt;&lt;Controls/&gt;&lt;/Elements&gt;
+</TaskElements>
+        </Settings>
+      </UserTask>
+      <UserTask>
+        <Settings>
+          <Name>Управление задвижками</Name>
+          <UserComment>управление задвижками</UserComment>
+          <Period>1000</Period>
+          <PriorityIndex>3</PriorityIndex>
+          <TaskType>0</TaskType>
+          <TaskElements>&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1251&quot;?&gt;
+&lt;Elements&gt;&lt;Controls/&gt;&lt;/Elements&gt;
+</TaskElements>
+        </Settings>
+        <FB>
+          <Settings>
+            <Name>КЗР1 Dn300</Name>
+            <Type>92</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>198</Left>
+            <Top>41</Top>
+          </Settings>
+          <InOut Name="Работа">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>254</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Авто">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>255</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>256</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>257</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>258</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>259</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Задание">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>260</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Положение">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Modbus 1.МВ110-8АC (A3).Аналоговые входы.In3</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>261</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Тм">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>25,00</InitValue0>
+              <KId>262</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Dp">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>1,00</InitValue0>
+              <KId>263</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Откр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A7).Состояние выходов Запись.DO7</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>264</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A7).Состояние выходов Запись.DO8</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>265</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Ош">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>266</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>КЗР2 Dn100</Name>
+            <Type>92</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>228</Left>
+            <Top>235</Top>
+          </Settings>
+          <InOut Name="Работа">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>12</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Авто">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>23</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>34</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>108</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>109</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>110</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Задание">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Переменные.Группа 1.Простые типы.КЗР2-задание</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>111</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Положение">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Modbus 1.МВ110-8АC (A3).Аналоговые входы.In2</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>112</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Тм">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>25,00</InitValue0>
+              <KId>113</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Dp">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>1,00</InitValue0>
+              <KId>114</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Откр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A7).Состояние выходов Запись.DO5</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>115</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A7).Состояние выходов Запись.DO6</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>116</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Ош">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>117</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>КЗР3 Dn50</Name>
+            <Type>92</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>201</Left>
+            <Top>413</Top>
+          </Settings>
+          <InOut Name="Работа">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>118</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Авто">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>119</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>120</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>121</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>122</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>123</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Задание">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Переменные.Группа 1.Простые типы.КЗР3-задание</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>124</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Положение">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Modbus 1.МВ110-8АC (A3).Аналоговые входы.In1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>125</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Тм">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>25,00</InitValue0>
+              <KId>126</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Dp">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>1,00</InitValue0>
+              <KId>169</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Откр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A7).Состояние выходов Запись.DO2</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>170</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A7).Состояние выходов Запись.DO3</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>171</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Ош">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>172</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>ЗД1 Dn300</Name>
+            <Type>92</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>491</Left>
+            <Top>49</Top>
+          </Settings>
+          <InOut Name="Работа">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>173</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Авто">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>174</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>175</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>176</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>177</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>178</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Задание">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Переменные.Группа 1.Простые типы.ЗД1-задание</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>179</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Положение">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Modbus 1.МВ110-8АC (A3).Аналоговые входы.In4</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>180</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Тм">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>25,00</InitValue0>
+              <KId>181</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Dp">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>1,00</InitValue0>
+              <KId>182</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Откр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A8).Состояние выходов Запись.DO3</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>183</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A8).Состояние выходов Запись.DO4</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>184</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Ош">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>185</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>ЗД2 Dn100</Name>
+            <Type>92</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>511</Left>
+            <Top>228</Top>
+          </Settings>
+          <InOut Name="Работа">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>186</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Авто">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>187</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>188</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>189</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>190</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>191</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Задание">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Переменные.Группа 1.Простые типы.ЗД2-задание</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>192</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Положение">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Modbus 1.МВ110-8АC (A3).Аналоговые входы.In5</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>193</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Тм">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>25,00</InitValue0>
+              <KId>194</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Dp">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>1,00</InitValue0>
+              <KId>195</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Откр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A8).Состояние выходов Запись.DO6</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>196</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A8).Состояние выходов Запись.DO7</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>197</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Ош">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>198</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>ЗД3 Dn50</Name>
+            <Type>92</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>509</Left>
+            <Top>408</Top>
+          </Settings>
+          <InOut Name="Работа">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>199</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Авто">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>200</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>201</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>202</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>203</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>204</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Задание">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Переменные.Группа 1.Простые типы.ЗД3-задание</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>205</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Положение">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Modbus 1.МВ110-8АC (A3).Аналоговые входы.In6</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>206</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Тм">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>25,00</InitValue0>
+              <KId>226</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Dp">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>1,00</InitValue0>
+              <KId>227</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Откр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>228</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закр">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO2</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>229</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Ош">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>230</KId>
+            </Settings>
+          </InOut>
+        </FB>
+      </UserTask>
+      <UserTask>
+        <Settings>
+          <Name>Задача 4</Name>
+          <UserComment>управление насосами</UserComment>
+          <Period>1000</Period>
+          <PriorityIndex>3</PriorityIndex>
+          <TaskType>0</TaskType>
+          <TaskElements></TaskElements>
+        </Settings>
+        <FB>
+          <Settings>
+            <Name>Насос 1</Name>
+            <Type>93</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>-1</Left>
+            <Top>-1</Top>
+          </Settings>
+          <InOut Name="Работа">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>127</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Включен">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>128</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выключен">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>129</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Включить">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>130</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выключить">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>131</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="РежимИмпульс">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>132</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Готовность">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>133</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="КонтрольФазАвария">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>134</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ПерегревАвария">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>135</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="СухойХодАвария">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>136</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ПерегрузкаАвария">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>137</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ДавлениеВнутрАвария">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>138</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ДавлениеВыходАвария">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>139</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Авария">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>140</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="СбросАварии">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>141</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВремяПерегрузкаАвария">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>5000</InitValue0>
+              <KId>142</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВремяДавлениеВыходАвария">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>5000</InitValue0>
+              <KId>143</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВремяАвтоСбросаАварии">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>10000</InitValue0>
+              <KId>144</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВремяИмпульсаКоманды">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>5000</InitValue0>
+              <KId>145</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="КомандаВключить">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>146</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="КомандаВыключить">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>147</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Состояние">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>167</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="СостояниеАвар">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>168</KId>
+            </Settings>
+          </InOut>
+        </FB>
+      </UserTask>
+    </TasksGroup0>
+    <TasksGroup1>
+      <Settings/>
+      <Protocol>
+        <Settings>
+          <Name>Modbus 1</Name>
+          <Period>1000</Period>
+          <PriorityIndex>3</PriorityIndex>
+          <TaskType>11</TaskType>
+          <ProtCode>25</ProtCode>
+          <Port>COM1</Port>
+          <Speed>9600</Speed>
+          <BitCountIndex>1</BitCountIndex>
+          <ControlIndex>0</ControlIndex>
+          <StopBitsIndex>0</StopBitsIndex>
+          <Checksum>True</Checksum>
+          <PropList Id9="0" Id1="1" Id2="6" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="1000" Id6="100" Id7="1" Id4="2" Id8="0" Id5="5" Id17="0" Id18="0" Id19="0" Id22="0" Id10="0" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
+        </Settings>
+        <Module>
+          <Settings>
+            <Name>МВ110-8АC (A2)</Name>
+            <ModuleID>622</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="2" Id2="0" Id3="0"/>
+          </Settings>
+          <Group Name="Служебные">
+            <Settings>
+              <Name>Служебные</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Связь">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
+                <KId>10</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="0" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Время">
+              <Settings>
+                <wKind>6</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>11</KId>
+                <PropList Adr="2" Func="0" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Аналоговые входы">
+            <Settings>
+              <Name>Аналоговые входы</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="In1">
+              <Settings>
+                <UserComment>РМ1</UserComment>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>РМ1</Naimen>
+                <Measure>мА</Measure>
+                <KId>13</KId>
+                <TransferType>1</TransferType>
+                <UpBord>20</UpBord>
+                <PropList Adr="256" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In2">
+              <Settings>
+                <UserComment>РМ2</UserComment>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>РМ2</Naimen>
+                <Measure>мА</Measure>
+                <KId>14</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="257" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In3">
+              <Settings>
+                <UserComment>РМ2</UserComment>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>РМ2</Naimen>
+                <Measure>мА</Measure>
+                <KId>15</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="258" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In4">
+              <Settings>
+                <UserComment>ДД1</UserComment>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>ДД1</Naimen>
+                <Measure>мА</Measure>
+                <KId>16</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="259" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In5">
+              <Settings>
+                <UserComment>ДД2</UserComment>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>ДД2</Naimen>
+                <Measure>мА</Measure>
+                <KId>17</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="260" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In6">
+              <Settings>
+                <UserComment>ДД3</UserComment>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>ДД3</Naimen>
+                <Measure>мА</Measure>
+                <KId>18</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="261" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In7">
+              <Settings>
+                <UserComment>ДД4</UserComment>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>ДД4</Naimen>
+                <Measure>мА</Measure>
+                <KId>19</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="262" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In8">
+              <Settings>
+                <UserComment>ДД5</UserComment>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>ДД5</Naimen>
+                <Measure>мА</Measure>
+                <KId>20</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="263" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+        <Module>
+          <Settings>
+            <Name>МВ110-8АC (A3)</Name>
+            <ModuleID>622</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="3" Id2="0" Id3="0"/>
+          </Settings>
+          <Group Name="Служебные">
+            <Settings>
+              <Name>Служебные</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Связь">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
+                <KId>21</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="0" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Время">
+              <Settings>
+                <wKind>6</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>22</KId>
+                <PropList Adr="2" Func="0" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Аналоговые входы">
+            <Settings>
+              <Name>Аналоговые входы</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="In1">
+              <Settings>
+                <UserComment>КЗР3-положение</UserComment>
+                <Connected>Управление задвижками.КЗР3 Dn50.Положение</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>КЗР3-положение</Naimen>
+                <Measure>мА</Measure>
+                <KId>24</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="256" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In2">
+              <Settings>
+                <UserComment>КЗР2-положение</UserComment>
+                <Connected>Управление задвижками.КЗР2 Dn100.Положение</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>КЗР2-положение</Naimen>
+                <Measure>мА</Measure>
+                <KId>25</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="257" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In3">
+              <Settings>
+                <UserComment>КЗР1-положение</UserComment>
+                <Connected>Управление задвижками.КЗР1 Dn300.Положение</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>КЗР1-положение</Naimen>
+                <Measure>мА</Measure>
+                <KId>26</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="258" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In4">
+              <Settings>
+                <UserComment>ЗД1-положение</UserComment>
+                <Connected>Управление задвижками.ЗД1 Dn300.Положение</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>ЗД1-положение</Naimen>
+                <Measure>мА</Measure>
+                <KId>27</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="259" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In5">
+              <Settings>
+                <UserComment>ЗД2-положение</UserComment>
+                <Connected>Управление задвижками.ЗД2 Dn100.Положение</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>ЗД2-положение</Naimen>
+                <Measure>мА</Measure>
+                <KId>28</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="260" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In6">
+              <Settings>
+                <UserComment>ЗД3-положение</UserComment>
+                <Connected>Управление задвижками.ЗД3 Dn50.Положение</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <Naimen>ЗД3-положение</Naimen>
+                <Measure>мА</Measure>
+                <KId>29</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="261" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In7">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>30</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="262" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In8">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>31</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="263" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+        <Module>
+          <Settings>
+            <Name>МВ110-8АC (A4)</Name>
+            <ModuleID>622</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="4" Id2="0" Id3="0"/>
+          </Settings>
+          <Group Name="Служебные">
+            <Settings>
+              <Name>Служебные</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Связь">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
+                <KId>32</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="0" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Время">
+              <Settings>
+                <wKind>6</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>33</KId>
+                <PropList Adr="2" Func="0" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Аналоговые входы">
+            <Settings>
+              <Name>Аналоговые входы</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="In1">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>35</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="256" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In2">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>36</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="257" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In3">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <KId>37</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="258" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In4">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <KId>38</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="259" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In5">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <KId>39</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="260" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In6">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <KId>40</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="261" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In7">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <KId>41</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="262" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In8">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>0,00</InitValue0>
+                <KId>42</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="263" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+        <Module>
+          <Settings>
+            <Name>МВ110-8А (A5)</Name>
+            <ModuleID>5005</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="5" Id2="0" Id3="0"/>
+          </Settings>
+          <Group Name="Служебные">
+            <Settings>
+              <Name>Служебные</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Связь">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>43</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Время">
+              <Settings>
+                <wKind>6</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>44</KId>
+                <PropList Adr="2" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Приостанов">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>45</KId>
+                <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Входа">
+            <Settings>
+              <Name>Входа</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Вх1">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>46</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="4" Func="3" DataType="23" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Вх2">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>47</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="10" Func="3" DataType="23" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Вх3">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>48</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="16" Func="3" DataType="23" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Вх4">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>49</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="22" Func="3" DataType="23" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Вх5">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>50</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="28" Func="3" DataType="23" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Вх6">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>51</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="34" Func="3" DataType="23" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Вх7">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>52</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="40" Func="3" DataType="23" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Вх8">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>53</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="46" Func="3" DataType="23" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+        <Module>
+          <Settings>
+            <Name>МВ110-32ДН (A6)</Name>
+            <ModuleID>628</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="6" Id2="0" Id3="0"/>
+          </Settings>
+          <Group Name="Служебные">
+            <Settings>
+              <Name>Служебные</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Связь">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>54</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Время">
+              <Settings>
+                <wKind>6</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>55</KId>
+                <PropList Adr="2" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Приостанов">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>56</KId>
+                <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Входы">
+            <Settings>
+              <Name>Входы</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="DI1">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
+                <KId>57</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="1"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI2">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>58</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="2"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI3">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>59</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="4"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI4">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>60</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="8"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI5">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>61</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="16"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI6">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>62</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="32"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI7">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>63</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="64"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI8">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>64</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="128"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI9">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>65</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="256"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI10">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>66</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="512"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI11">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>67</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="1024"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI12">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>68</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="2048"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI13">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>69</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="4096"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI14">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>70</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="8192"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI15">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>71</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="16384"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI16">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>72</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="100" Func="3" DataType="11" K="1,0000" msk="32768"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI17">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>73</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="1"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI18">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>74</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="2"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI19">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>75</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="4"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI20">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>76</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="8"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI21">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>77</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="16"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI22">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>78</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="32"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI23">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>79</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="64"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI24">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>80</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="128"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI25">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>81</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="256"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI26">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>82</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="512"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI27">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>83</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="1024"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI28">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>84</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="2048"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI29">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>85</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="4096"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI30">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>86</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="8192"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI31">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>87</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="16384"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DI32">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>88</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="99" Func="3" DataType="11" K="1,0000" msk="32768"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+        <Module>
+          <Settings>
+            <Name>МУ110-8Р (A7)</Name>
+            <ModuleID>623</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="7" Id2="0" Id3="0"/>
+          </Settings>
+          <Group Name="Служебные">
+            <Settings>
+              <Name>Служебные</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Связь">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>89</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Время">
+              <Settings>
+                <wKind>6</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>90</KId>
+                <PropList Adr="2" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Приостанов">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>91</KId>
+                <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Состояние выходов Чтение">
+            <Settings>
+              <Name>Состояние выходов Чтение</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="DO1">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>92</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="0" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO2">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>93</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO3">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>94</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="2" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO4">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>95</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="3" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO5">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>96</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="4" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO6">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>97</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="5" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO7">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>98</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="6" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO8">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>99</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="7" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Состояние выходов Запись">
+            <Settings>
+              <Name>Состояние выходов Запись</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="DO1">
+              <Settings>
+                <UserComment>КЗР3-вкл</UserComment>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>КЗР3-вкл</Naimen>
+                <KId>100</KId>
+                <PropList Adr="0" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO2">
+              <Settings>
+                <UserComment>КЗР3-больше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.КЗР3 Dn50.Откр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
+                <Naimen>КЗР3-больше</Naimen>
+                <KId>101</KId>
+                <PropList Adr="1" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO3">
+              <Settings>
+                <UserComment>КЗР3-меньше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.КЗР3 Dn50.Закр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
+                <Naimen>КЗР3-меньше</Naimen>
+                <KId>102</KId>
+                <PropList Adr="2" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO4">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>103</KId>
+                <PropList Adr="3" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO5">
+              <Settings>
+                <UserComment>КЗР2-больше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.КЗР2 Dn100.Откр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>КЗР2-больше</Naimen>
+                <KId>104</KId>
+                <PropList Adr="4" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO6">
+              <Settings>
+                <UserComment>КЗР2-меньше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.КЗР2 Dn100.Закр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>КЗР2-меньше</Naimen>
+                <KId>105</KId>
+                <PropList Adr="5" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO7">
+              <Settings>
+                <UserComment>КЗР1-больше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.КЗР1 Dn300.Откр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>КЗР1-больше</Naimen>
+                <KId>106</KId>
+                <PropList Adr="6" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO8">
+              <Settings>
+                <UserComment>КЗР1-меньше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.КЗР1 Dn300.Закр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>КЗР1-меньше</Naimen>
+                <KId>107</KId>
+                <PropList Adr="7" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+        <Module>
+          <Settings>
+            <Name>МУ110-8Р (A8)</Name>
+            <ModuleID>623</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="8" Id2="0" Id3="0"/>
+          </Settings>
+          <Group Name="Служебные">
+            <Settings>
+              <Name>Служебные</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Связь">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>148</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Время">
+              <Settings>
+                <wKind>6</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>149</KId>
+                <PropList Adr="2" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Приостанов">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>150</KId>
+                <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Состояние выходов Чтение">
+            <Settings>
+              <Name>Состояние выходов Чтение</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="DO1">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>151</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="0" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO2">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>152</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO3">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>153</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="2" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO4">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>154</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="3" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO5">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>155</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="4" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO6">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>156</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="5" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO7">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>157</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="6" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO8">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>158</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="7" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Состояние выходов Запись">
+            <Settings>
+              <Name>Состояние выходов Запись</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="DO1">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>159</KId>
+                <PropList Adr="0" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO2">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>160</KId>
+                <PropList Adr="1" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO3">
+              <Settings>
+                <UserComment>ЗД1-больше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.ЗД1 Dn300.Откр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>ЗД1-больше</Naimen>
+                <KId>161</KId>
+                <PropList Adr="2" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO4">
+              <Settings>
+                <UserComment>ЗД1-меньше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.ЗД1 Dn300.Закр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>ЗД1-меньше</Naimen>
+                <KId>162</KId>
+                <PropList Adr="3" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO5">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>163</KId>
+                <PropList Adr="4" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO6">
+              <Settings>
+                <UserComment>ЗД2-больше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.ЗД2 Dn100.Откр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>ЗД2-больше</Naimen>
+                <KId>164</KId>
+                <PropList Adr="5" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO7">
+              <Settings>
+                <UserComment>ЗД2-меньше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.ЗД2 Dn100.Закр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>ЗД2-меньше</Naimen>
+                <KId>165</KId>
+                <PropList Adr="6" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO8">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>166</KId>
+                <PropList Adr="7" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+        <Module>
+          <Settings>
+            <Name>МУ110-8Р (A9)</Name>
+            <ModuleID>623</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="9" Id2="0" Id3="0"/>
+          </Settings>
+          <Group Name="Служебные">
+            <Settings>
+              <Name>Служебные</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Связь">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>207</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Время">
+              <Settings>
+                <wKind>6</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>208</KId>
+                <PropList Adr="2" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Приостанов">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>209</KId>
+                <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Состояние выходов Чтение">
+            <Settings>
+              <Name>Состояние выходов Чтение</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="DO1">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>210</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="0" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO2">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>211</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="1" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO3">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>212</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="2" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO4">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>213</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="3" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO5">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>214</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="4" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO6">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>215</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="5" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO7">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>216</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="6" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO8">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>217</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="7" Func="4" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="Состояние выходов Запись">
+            <Settings>
+              <Name>Состояние выходов Запись</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="DO1">
+              <Settings>
+                <UserComment>ЗД3-больше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.ЗД3 Dn50.Откр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>ЗД3-больше</Naimen>
+                <KId>218</KId>
+                <PropList Adr="0" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO2">
+              <Settings>
+                <UserComment>ЗД3-меньше</UserComment>
+                <wKind>1</wKind>
+                <Connected>Управление задвижками.ЗД3 Dn50.Закр</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <Naimen>ЗД3-меньше</Naimen>
+                <KId>219</KId>
+                <PropList Adr="1" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO3">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>220</KId>
+                <PropList Adr="2" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO4">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>221</KId>
+                <PropList Adr="3" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO5">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>222</KId>
+                <PropList Adr="4" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO6">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>223</KId>
+                <PropList Adr="5" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO7">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>224</KId>
+                <PropList Adr="6" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="DO8">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>225</KId>
+                <PropList Adr="7" Func="15" DataType="11" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+      </Protocol>
+    </TasksGroup1>
+    <GlobVarGroups>
+      <Group Name="Группа 1">
+        <Settings>
+          <Name>Группа 1</Name>
+          <IsHidden>False</IsHidden>
+          <GroupType>13</GroupType>
+          <GroupSubType>1</GroupSubType>
+          <TaskElements></TaskElements>
+        </Settings>
+        <VarSimple>
+          <InOut Name="КЗР1-задание">
+            <Settings>
+              <UserComment>КЗР1-задание</UserComment>
+              <IsGlobVar>1</IsGlobVar>
+              <VariableSource></VariableSource>
+              <Description></Description>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>231</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="КЗР2-задание">
+            <Settings>
+              <UserComment>КЗР2-задание</UserComment>
+              <IsGlobVar>1</IsGlobVar>
+              <Connected>Управление задвижками.КЗР2 Dn100.Задание</Connected>
+              <VariableSource></VariableSource>
+              <Description></Description>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>232</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="КЗР3-задание">
+            <Settings>
+              <UserComment>КЗР3-задание</UserComment>
+              <IsGlobVar>1</IsGlobVar>
+              <Connected>Управление задвижками.КЗР3 Dn50.Задание</Connected>
+              <VariableSource></VariableSource>
+              <Description></Description>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>233</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ЗД1-задание">
+            <Settings>
+              <UserComment>ЗД1-задание</UserComment>
+              <IsGlobVar>1</IsGlobVar>
+              <Connected>Управление задвижками.ЗД1 Dn300.Задание</Connected>
+              <VariableSource></VariableSource>
+              <Description></Description>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>234</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ЗД2-задание">
+            <Settings>
+              <UserComment>ЗД2-задание</UserComment>
+              <IsGlobVar>1</IsGlobVar>
+              <Connected>Управление задвижками.ЗД2 Dn100.Задание</Connected>
+              <VariableSource></VariableSource>
+              <Description></Description>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>235</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ЗД3-задание">
+            <Settings>
+              <UserComment>ЗД3-задание</UserComment>
+              <IsGlobVar>1</IsGlobVar>
+              <Connected>Управление задвижками.ЗД3 Dn50.Задание</Connected>
+              <VariableSource></VariableSource>
+              <Description></Description>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>236</KId>
+            </Settings>
+          </InOut>
+        </VarSimple>
+        <VarArrays/>
+      </Group>
+    </GlobVarGroups>
+    <TasksGroup2>
+      <Settings/>
+    </TasksGroup2>
+    <MezhCont>
+      <Settings>
+        <Name>Межконтроллерный обмен</Name>
+        <Period>0</Period>
+        <PriorityIndex>0</PriorityIndex>
+        <TaskType>0</TaskType>
+      </Settings>
+    </MezhCont>
+  </Controller>
+</KLogicDocument>

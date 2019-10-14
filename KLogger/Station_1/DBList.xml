@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<DBList>
+  <DB>
+    <GUID>{FF84D2E5-BC9A-4C78-8BF1-382DE819C63B}</GUID>
+    <Name>Новая БД 1</Name>
+    <Type>0</Type>
+    <DBMSType>0</DBMSType>
+    <IBMainCfg>
+      <ServerIsStation>True</ServerIsStation>
+      <ServerStationId>1</ServerStationId>
+      <FileName>C:\Users\naumov\Documents\ПРОЕКТ ТМЛ\Base\kdb.fdb</FileName>
+      <UserName>sysdba</UserName>
+      <Password>ЬРВЕФГЪФИ</Password>
+    </IBMainCfg>
+    <Reserving>False</Reserving>
+    <Version>10</Version>
+    <WriteShortDB>False</WriteShortDB>
+  </DB>
+</DBList>

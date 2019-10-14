@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<KLogicDocument>
+  <Controller>
+    <Settings>
+      <Signature>ОВЕН КСОД</Signature>
+      <GroupName>ОВЕН КСОД</GroupName>
+      <CntrlrCode>20003</CntrlrCode>
+      <Name>Контроллер 3</Name>
+      <SystNum>3</SystNum>
+      <CntMode>0</CntMode>
+      <PCPort>
+        <LinkType>0</LinkType>
+        <LinkRS232>False</LinkRS232>
+        <LinkETH>True</LinkETH>
+        <Port>COM1</Port>
+        <Speed>9600</Speed>
+        <ToutGetParamMSec>500</ToutGetParamMSec>
+        <ToutWriteParamMSec>500</ToutWriteParamMSec>
+        <ToutBetwBytesMSec>30</ToutBetwBytesMSec>
+        <ComBufferSize>512</ComBufferSize>
+        <ModbusAddrPoll>1</ModbusAddrPoll>
+        <UseModem>False</UseModem>
+        <PhoneString></PhoneString>
+        <InitString></InitString>
+        <TypeModem>0</TypeModem>
+        <HangUpSec>30</HangUpSec>
+        <RedialCnt>3</RedialCnt>
+        <TimeOutBRedial>30</TimeOutBRedial>
+        <EthTransp>0</EthTransp>
+        <IPAddress>192.168.0.77</IPAddress>
+        <IPPortNumber>31292</IPPortNumber>
+        <UDPTimeOutMs>5000</UDPTimeOutMs>
+      </PCPort>
+      <PCPort>
+        <LinkType>0</LinkType>
+        <LinkRS232>False</LinkRS232>
+        <LinkETH>True</LinkETH>
+        <Port>COM1</Port>
+        <Speed>9600</Speed>
+        <ToutGetParamMSec>500</ToutGetParamMSec>
+        <ToutWriteParamMSec>500</ToutWriteParamMSec>
+        <ToutBetwBytesMSec>30</ToutBetwBytesMSec>
+        <ComBufferSize>512</ComBufferSize>
+        <ModbusAddrPoll>2</ModbusAddrPoll>
+        <UseModem>False</UseModem>
+        <PhoneString></PhoneString>
+        <InitString></InitString>
+        <TypeModem>0</TypeModem>
+        <HangUpSec>30</HangUpSec>
+        <RedialCnt>3</RedialCnt>
+        <TimeOutBRedial>30</TimeOutBRedial>
+        <EthTransp>0</EthTransp>
+        <IPAddress>192.168.0.77</IPAddress>
+        <IPPortNumber>30292</IPPortNumber>
+        <UDPTimeOutMs>5000</UDPTimeOutMs>
+      </PCPort>
+      <FullName>Контроллер ОВЕН КСОД</FullName>
+      <GroupName>ОВЕН КСОД</GroupName>
+      <CntrlrCode>20003</CntrlrCode>
+      <StaticGUID>{55DCBB77-2CFC-482C-B030-C56930507D46}</StaticGUID>
+      <ParamQuan>25</ParamQuan>
+      <InitiatorIndex>-1</InitiatorIndex>
+      <PeriodicPoll>True</PeriodicPoll>
+      <PeriodTCP.value>30</PeriodTCP.value>
+      <PeriodTCP.type>1</PeriodTCP.type>
+      <PeriodCOM.value>30</PeriodCOM.value>
+      <PeriodCOM.type>1</PeriodCOM.type>
+      <RestartPeriodHour>0</RestartPeriodHour>
+      <IgnoreErr>False</IgnoreErr>
+      <IgnoreErrSec>30</IgnoreErrSec>
+      <useIECtask>True</useIECtask>
+      <IECtask_period_ms>1000</IECtask_period_ms>
+      <IECtask_port>2404</IECtask_port>
+      <IECtask_max_connects>2</IECtask_max_connects>
+      <IECtask_queue_mult>12</IECtask_queue_mult>
+      <IECtask_k>12</IECtask_k>
+      <IECtask_w>8</IECtask_w>
+      <IECtask_t0>30</IECtask_t0>
+      <IECtask_t1>15</IECtask_t1>
+      <IECtask_t2>10</IECtask_t2>
+      <IECtask_t3>20</IECtask_t3>
+      <IECApertureMode>0</IECApertureMode>
+      <IECApertureMultToSend>2</IECApertureMultToSend>
+      <IECAdditionalQual>False</IECAdditionalQual>
+      <IECTimeStampsInCommonAnswer>False</IECTimeStampsInCommonAnswer>
+      <TimeShiftSec>0</TimeShiftSec>
+      <IECInitiativeWriteDB>False</IECInitiativeWriteDB>
+      <useHMItask>False</useHMItask>
+      <HMI_panel_type>0</HMI_panel_type>
+      <HMI_protocol>0</HMI_protocol>
+      <HMI_port>1</HMI_port>
+      <HMI_baud_rate>6</HMI_baud_rate>
+      <HMI_addr>1</HMI_addr>
+      <useAutoModbusMapping>True</useAutoModbusMapping>
+      <ChannelNameExportType>0</ChannelNameExportType>
+      <ChannelNameExportMask>%O %N adr[%K]</ChannelNameExportMask>
+      <ChannelCommentExportType>0</ChannelCommentExportType>
+      <ChannelCommentExportMask>%C</ChannelCommentExportMask>
+      <TimeChangeAuto>False</TimeChangeAuto>
+      <TimeSyncUse>False</TimeSyncUse>
+      <TimeSyncStId>1</TimeSyncStId>
+      <TimeSyncPeriod>60</TimeSyncPeriod>
+      <TimeSyncDivergence>1000</TimeSyncDivergence>
+      <EnComSrv>False</EnComSrv>
+      <SN></SN>
+      <KiDArray/>
+      <ReserveTimeOutSec>0</ReserveTimeOutSec>
+      <VULinks>
+        <VULink0>
+          <IsVULinkActive>False</IsVULinkActive>
+          <LinkType>1</LinkType>
+          <sCOMPort>COM4</sCOMPort>
+          <sCOMSpeed>9600</sCOMSpeed>
+          <bCOMBitCount>8</bCOMBitCount>
+          <bCOMControlType>0</bCOMControlType>
+          <bCOMStopBits>0</bCOMStopBits>
+          <bMultiplier>1</bMultiplier>
+          <IsModemLink>False</IsModemLink>
+        </VULink0>
+      </VULinks>
+    </Settings>
+    <TasksGroup0>
+      <Settings/>
+      <UserTask>
+        <Settings>
+          <Name>Задача 1</Name>
+          <Period>1000</Period>
+          <PriorityIndex>3</PriorityIndex>
+          <TaskType>0</TaskType>
+          <TaskElements>&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1251&quot;?&gt;
+&lt;Elements&gt;&lt;Controls/&gt;&lt;/Elements&gt;
+</TaskElements>
+        </Settings>
+        <FB>
+          <Settings>
+            <Name>Регулирующий клапан 1</Name>
+            <Type>92</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>491</Left>
+            <Top>123</Top>
+          </Settings>
+          <InOut Name="Работа">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>13</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Авто">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>14</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>15</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыт">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>16</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>17</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>18</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Задание">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>19</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Положение">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Modbus.МВ110-8АC 1.Аналоговые входы.In1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>20</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Тм">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>25,00</InitValue0>
+              <KId>21</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Dp">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>1,00</InitValue0>
+              <KId>22</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Откр">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>23</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закр">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>24</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Ош">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>25</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>Задвижка 1</Name>
+            <Type>94</Type>
+            <ChannelCount>0</ChannelCount>
+            <Left>351</Left>
+            <Top>305</Top>
+          </Settings>
+          <InOut Name="Работа">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>26</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Положение">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>27</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ПоложениеОткрытия">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>28</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ПоложениеЗакрытия">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>29</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открытие">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>30</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрытие">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>31</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Открыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>32</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Закрыть">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>33</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Стоп">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>34</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВыходИмпульс">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>35</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Защита">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>36</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="СбросАварии">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>37</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВремяСходаОткр">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>5000</InitValue0>
+              <KId>38</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВремяСходаЗакр">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>5000</InitValue0>
+              <KId>39</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВремяМеханизма">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>5000</InitValue0>
+              <KId>40</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВремяИмпульсаКоманды">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>5000</InitValue0>
+              <KId>41</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВремяАвтоСбросаАварии">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>10000</InitValue0>
+              <KId>42</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="КомандаОткрыть">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>43</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="КомандаЗакрыть">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>44</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="КомандаСтоп">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>45</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Авария">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>46</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Состояние">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>47</KId>
+            </Settings>
+          </InOut>
+        </FB>
+      </UserTask>
+    </TasksGroup0>
+    <TasksGroup1>
+      <Settings/>
+      <Protocol>
+        <Settings>
+          <Name>Входы/выходы КСОД 1</Name>
+          <Period>1000</Period>
+          <PriorityIndex>3</PriorityIndex>
+          <TaskType>3</TaskType>
+          <ProtCode>44</ProtCode>
+          <Port>COM1</Port>
+          <Speed>9600</Speed>
+          <BitCountIndex>1</BitCountIndex>
+          <ControlIndex>0</ControlIndex>
+          <StopBitsIndex>0</StopBitsIndex>
+          <Checksum>True</Checksum>
+          <PropList/>
+        </Settings>
+        <Module>
+          <Settings>
+            <Name>DI Порт1 1</Name>
+            <ModuleID>540</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <AnalogType>1</AnalogType>
+            <ValueFormat>0</ValueFormat>
+            <RangeCode>255</RangeCode>
+            <ChannelStatus>0</ChannelStatus>
+            <RejFiltFreq>1</RejFiltFreq>
+            <useCRC>False</useCRC>
+          </Settings>
+          <InOut Name="DI0">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>6</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="DI1">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>7</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="DI2">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>8</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="DI3">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>9</KId>
+            </Settings>
+          </InOut>
+        </Module>
+      </Protocol>
+      <Protocol>
+        <Settings>
+          <Name>Modbus</Name>
+          <Period>1000</Period>
+          <PriorityIndex>3</PriorityIndex>
+          <TaskType>11</TaskType>
+          <ProtCode>25</ProtCode>
+          <Port>COM1</Port>
+          <Speed>9600</Speed>
+          <BitCountIndex>1</BitCountIndex>
+          <ControlIndex>0</ControlIndex>
+          <StopBitsIndex>0</StopBitsIndex>
+          <Checksum>True</Checksum>
+          <PropList Id9="0" Id1="1" Id2="6" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="1000" Id6="100" Id7="1" Id4="2" Id8="0" Id5="5" Id17="0" Id18="0" Id19="0" Id22="0" Id10="0" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
+        </Settings>
+        <Module>
+          <Settings>
+            <Name>МЭ110-3М 1</Name>
+            <ModuleID>625</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="1" Id2="0" Id3="0"/>
+          </Settings>
+        </Module>
+        <Module>
+          <Settings>
+            <Name>МВ110-8АC 1</Name>
+            <ModuleID>622</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id1="2" Id2="0" Id3="0"/>
+          </Settings>
+          <Group Name="Аналоговые входы">
+            <Settings>
+              <Name>Аналоговые входы</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="In1">
+              <Settings>
+                <Connected>Задача 1.Регулирующий клапан 1.Положение</Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <doSaveInEEPROM>True</doSaveInEEPROM>
+                <KId>1</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="256" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In2">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>2</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="257" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In3">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>3</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="258" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In4">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>4</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="259" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In5">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>5</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="260" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In6">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>10</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="261" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In7">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>11</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="262" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="In8">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>12</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="263" Func="3" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+      </Protocol>
+    </TasksGroup1>
+    <GlobVarGroups/>
+    <TasksGroup2>
+      <Settings/>
+    </TasksGroup2>
+    <MezhCont>
+      <Settings>
+        <Name>Межконтроллерный обмен</Name>
+        <Period>0</Period>
+        <PriorityIndex>0</PriorityIndex>
+        <TaskType>0</TaskType>
+      </Settings>
+    </MezhCont>
+  </Controller>
+</KLogicDocument>
