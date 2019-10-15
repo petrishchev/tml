@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <DBList>
   <DB>
-    <GUID>{FF84D2E5-BC9A-4C78-8BF1-382DE819C63B}</GUID>
-    <Name>Новая БД 1</Name>
+    <GUID>{9DCC4453-22CA-451D-9305-38428829C8A4}</GUID>
+    <Name>БД стенда ПГМ</Name>
     <Type>0</Type>
     <DBMSType>0</DBMSType>
     <IBMainCfg>
