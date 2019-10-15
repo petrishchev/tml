@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <MnemoList/>
+=======
+<MnemoList ProjectName="Новый проект" StartMnemoID="{4F3F03AF-6DFA-43A8-9AE2-564491EB7661}"><UsersNames><UserName>admin</UserName><UserName>ПГМ</UserName></UsersNames><Mnemo ID="4F3F03AF-6DFA-43A8-9AE2-564491EB7661"><Name>Мнемосхема 1</Name><Comments></Comments><Engineering>False</Engineering><PopUp>False</PopUp><AutoLoad>True</AutoLoad><AutoView>False</AutoView><UseZone>False</UseZone><Permissions>11</Permissions><ParamList><KLPar>$01$DE$01$0104</KLPar><KLPar>$01$DE$01$0002</KLPar></ParamList></Mnemo></MnemoList>
+>>>>>>> parent of 04b9f37... added some components
