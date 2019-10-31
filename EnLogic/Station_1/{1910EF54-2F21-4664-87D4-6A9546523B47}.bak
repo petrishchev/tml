@@ -2,9 +2,9 @@
 <KLogicDocument>
   <Controller>
     <Settings>
-      <Signature>ОВЕН ПЛК-323.ТЛ</Signature>
-      <GroupName>ОВЕН ПЛК-323.ТЛ</GroupName>
-      <CntrlrCode>20002</CntrlrCode>
+      <Signature>ОВЕН КСОД</Signature>
+      <GroupName>ОВЕН КСОД</GroupName>
+      <CntrlrCode>20003</CntrlrCode>
       <Name>Контроллер КСОД (A1)</Name>
       <SystNum>1</SystNum>
       <CntMode>0</CntMode>
@@ -18,7 +18,7 @@
         <ToutWriteParamMSec>500</ToutWriteParamMSec>
         <ToutBetwBytesMSec>30</ToutBetwBytesMSec>
         <ComBufferSize>512</ComBufferSize>
-        <ModbusAddrPoll>4</ModbusAddrPoll>
+        <ModbusAddrPoll>1</ModbusAddrPoll>
         <UseModem>False</UseModem>
         <PhoneString></PhoneString>
         <InitString></InitString>
@@ -54,21 +54,21 @@
         <IPPortNumber>30292</IPPortNumber>
         <UDPTimeOutMs>5000</UDPTimeOutMs>
       </PCPort>
-      <FullName>Контроллер ОВЕН ПЛК-323.ТЛ</FullName>
-      <GroupName>ОВЕН ПЛК-323.ТЛ</GroupName>
-      <CntrlrCode>20002</CntrlrCode>
+      <FullName>Контроллер ОВЕН КСОД</FullName>
+      <GroupName>ОВЕН КСОД</GroupName>
+      <CntrlrCode>20003</CntrlrCode>
       <StaticGUID>{1910EF54-2F21-4664-87D4-6A9546523B47}</StaticGUID>
-      <ParamQuan>305</ParamQuan>
+      <ParamQuan>274</ParamQuan>
       <InitiatorIndex>-1</InitiatorIndex>
       <PeriodicPoll>True</PeriodicPoll>
       <PeriodTCP.value>30</PeriodTCP.value>
       <PeriodTCP.type>1</PeriodTCP.type>
       <PeriodCOM.value>30</PeriodCOM.value>
       <PeriodCOM.type>1</PeriodCOM.type>
-      <RestartPeriodHour>0</RestartPeriodHour>
+      <RestartPeriodHour>255</RestartPeriodHour>
       <IgnoreErr>False</IgnoreErr>
       <IgnoreErrSec>30</IgnoreErrSec>
-      <useIECtask>True</useIECtask>
+      <useIECtask>False</useIECtask>
       <IECtask_period_ms>1000</IECtask_period_ms>
       <IECtask_port>2404</IECtask_port>
       <IECtask_max_connects>2</IECtask_max_connects>
@@ -97,10 +97,10 @@
       <ChannelCommentExportType>0</ChannelCommentExportType>
       <ChannelCommentExportMask>%C</ChannelCommentExportMask>
       <TimeChangeAuto>False</TimeChangeAuto>
-      <TimeSyncUse>False</TimeSyncUse>
+      <TimeSyncUse>True</TimeSyncUse>
       <TimeSyncStId>0</TimeSyncStId>
-      <TimeSyncPeriod>60</TimeSyncPeriod>
-      <TimeSyncDivergence>1000</TimeSyncDivergence>
+      <TimeSyncPeriod>5</TimeSyncPeriod>
+      <TimeSyncDivergence>500</TimeSyncDivergence>
       <EnComSrv>False</EnComSrv>
       <SN>5929</SN>
       <KiDArray/>
@@ -137,7 +137,7 @@
             <Type>120</Type>
             <ChannelCount>0</ChannelCount>
             <Left>65</Left>
-            <Top>42</Top>
+            <Top>41</Top>
           </Settings>
           <InOut Name="Год">
             <Settings>
@@ -223,7 +223,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>198</Left>
-            <Top>39</Top>
+            <Top>35</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -302,6 +302,7 @@
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>0,00</InitValue0>
+              <Measure>%</Measure>
               <KId>261</KId>
             </Settings>
           </InOut>
@@ -362,7 +363,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>228</Left>
-            <Top>233</Top>
+            <Top>229</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -501,7 +502,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>201</Left>
-            <Top>411</Top>
+            <Top>407</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -640,7 +641,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>721</Left>
-            <Top>36</Top>
+            <Top>32</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -779,7 +780,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>715</Left>
-            <Top>221</Top>
+            <Top>217</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -918,7 +919,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>713</Left>
-            <Top>401</Top>
+            <Top>397</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -1302,8 +1303,8 @@
             <Name>Импульсный таймер 1</Name>
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
-            <Left>606</Left>
-            <Top>174</Top>
+            <Left>620</Left>
+            <Top>192</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
@@ -1363,7 +1364,7 @@
           <InOut Name="ВыходНО 1">
             <Settings>
               <wKind>0</wKind>
-              <Connected>Переменные.Насос.Простые типы.пуск_Н1_прям</Connected>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO3</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -1376,8 +1377,8 @@
             <Name>Импульсный таймер 2</Name>
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
-            <Left>601</Left>
-            <Top>314</Top>
+            <Left>620</Left>
+            <Top>299</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
@@ -1437,7 +1438,7 @@
           <InOut Name="ВыходНО 1">
             <Settings>
               <wKind>0</wKind>
-              <Connected>Переменные.Насос.Простые типы.пуск_Н1_рев</Connected>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO4</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -1511,7 +1512,7 @@
           <InOut Name="ВыходНО 1">
             <Settings>
               <wKind>0</wKind>
-              <Connected>Переменные.Насос.Простые типы.пуск_Н2_прям</Connected>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO5</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -1585,7 +1586,7 @@
           <InOut Name="ВыходНО 1">
             <Settings>
               <wKind>0</wKind>
-              <Connected>Переменные.Насос.Простые типы.пуск_Н2_рев</Connected>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO6</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -1610,7 +1611,7 @@
           <ControlIndex>0</ControlIndex>
           <StopBitsIndex>0</StopBitsIndex>
           <Checksum>True</Checksum>
-          <PropList Id9="0" Id1="1" Id2="6" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="1000" Id6="100" Id7="1" Id4="2" Id8="0" Id5="5" Id17="0" Id18="0" Id19="0" Id22="0" Id10="0" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
+          <PropList Id9="0" Id1="4" Id2="8" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="200" Id6="100" Id7="1" Id4="2" Id8="0" Id5="20" Id17="0" Id18="0" Id19="0" Id22="0" Id10="0" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
         </Settings>
         <Module>
           <Settings>
@@ -1649,6 +1650,15 @@
                 <PropList Adr="2" Func="0" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
+            <InOut Name="Приостанов">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>284</KId>
+                <PropList Adr="3" Func="0" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
           </Group>
           <Group Name="Аналоговые входы">
             <Settings>
@@ -1669,7 +1679,7 @@
                 <KId>13</KId>
                 <TransferType>1</TransferType>
                 <Multiplier>0,1</Multiplier>
-                <UpBord>25470</UpBord>
+                <UpBord>2547</UpBord>
                 <PropList Adr="256" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -1684,7 +1694,7 @@
                 <KId>14</KId>
                 <TransferType>1</TransferType>
                 <Multiplier>0,1</Multiplier>
-                <UpBord>2840</UpBord>
+                <UpBord>284</UpBord>
                 <PropList Adr="257" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -1699,7 +1709,7 @@
                 <KId>15</KId>
                 <TransferType>1</TransferType>
                 <Multiplier>0,01</Multiplier>
-                <UpBord>7200</UpBord>
+                <UpBord>72</UpBord>
                 <PropList Adr="258" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -1778,7 +1788,7 @@
             <CntMask>0</CntMask>
             <Security>UnAvailable</Security>
             <SerialNum></SerialNum>
-            <PropList Id1="3" Id2="0" Id3="0"/>
+            <PropList Id1="10" Id2="0" Id3="0"/>
           </Settings>
           <Group Name="Служебные">
             <Settings>
@@ -1805,6 +1815,15 @@
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>22</KId>
                 <PropList Adr="2" Func="0" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Приостанов">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>285</KId>
+                <PropList Adr="3" Func="0" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
           </Group>
@@ -1926,7 +1945,7 @@
             <CntMask>0</CntMask>
             <Security>UnAvailable</Security>
             <SerialNum></SerialNum>
-            <PropList Id1="4" Id2="0" Id3="0"/>
+            <PropList Id1="18" Id2="0" Id3="0"/>
           </Settings>
           <Group Name="Служебные">
             <Settings>
@@ -1953,6 +1972,15 @@
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>33</KId>
                 <PropList Adr="2" Func="0" DataType="10" K="1,0000" msk="65535"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Приостанов">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>286</KId>
+                <PropList Adr="3" Func="0" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
           </Group>
@@ -2050,7 +2078,7 @@
             <CntMask>0</CntMask>
             <Security>UnAvailable</Security>
             <SerialNum></SerialNum>
-            <PropList Id1="5" Id2="0" Id3="0"/>
+            <PropList Id1="26" Id2="0" Id3="0"/>
           </Settings>
           <Group Name="Служебные">
             <Settings>
@@ -2169,7 +2197,7 @@
             <CntMask>0</CntMask>
             <Security>UnAvailable</Security>
             <SerialNum></SerialNum>
-            <PropList Id1="6" Id2="0" Id3="0"/>
+            <PropList Id1="34" Id2="0" Id3="0"/>
           </Settings>
           <Group Name="Служебные">
             <Settings>
@@ -2582,7 +2610,7 @@
             <CntMask>0</CntMask>
             <Security>UnAvailable</Security>
             <SerialNum></SerialNum>
-            <PropList Id1="7" Id2="0" Id3="0"/>
+            <PropList Id1="66" Id2="0" Id3="0"/>
           </Settings>
           <Group Name="Служебные">
             <Settings>
@@ -2815,7 +2843,7 @@
             <CntMask>0</CntMask>
             <Security>UnAvailable</Security>
             <SerialNum></SerialNum>
-            <PropList Id1="8" Id2="0" Id3="0"/>
+            <PropList Id1="74" Id2="0" Id3="0"/>
           </Settings>
           <Group Name="Служебные">
             <Settings>
@@ -3043,7 +3071,7 @@
             <CntMask>0</CntMask>
             <Security>UnAvailable</Security>
             <SerialNum></SerialNum>
-            <PropList Id1="9" Id2="0" Id3="0"/>
+            <PropList Id1="82" Id2="0" Id3="0"/>
           </Settings>
           <Group Name="Служебные">
             <Settings>
@@ -3193,8 +3221,9 @@
             </InOut>
             <InOut Name="DO3">
               <Settings>
+                <UserComment>Н1 пуск</UserComment>
                 <wKind>1</wKind>
-                <Connected></Connected>
+                <Connected>Управление насосом.Импульсный таймер 1.ВыходНО 1</Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>220</KId>
                 <PropList Adr="2" Func="15" DataType="11" K="1,0000" msk="65535"/>
@@ -3202,8 +3231,9 @@
             </InOut>
             <InOut Name="DO4">
               <Settings>
+                <UserComment>Н1 рев</UserComment>
                 <wKind>1</wKind>
-                <Connected></Connected>
+                <Connected>Управление насосом.Импульсный таймер 2.ВыходНО 1</Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>221</KId>
                 <PropList Adr="3" Func="15" DataType="11" K="1,0000" msk="65535"/>
@@ -3211,8 +3241,9 @@
             </InOut>
             <InOut Name="DO5">
               <Settings>
+                <UserComment>Н2 пуск</UserComment>
                 <wKind>1</wKind>
-                <Connected></Connected>
+                <Connected>Управление насосом.Импульсный таймер 3.ВыходНО 1</Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>222</KId>
                 <PropList Adr="4" Func="15" DataType="11" K="1,0000" msk="65535"/>
@@ -3220,8 +3251,9 @@
             </InOut>
             <InOut Name="DO6">
               <Settings>
+                <UserComment>Н2 рев</UserComment>
                 <wKind>1</wKind>
-                <Connected></Connected>
+                <Connected>Управление насосом.Импульсный таймер 4.ВыходНО 1</Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>223</KId>
                 <PropList Adr="5" Func="15" DataType="11" K="1,0000" msk="65535"/>
@@ -3249,13 +3281,13 @@
         </Module>
         <Module>
           <Settings>
-            <Name>OMIX P99 37 кВт</Name>
+            <Name>OMIX P99 ML3</Name>
             <ModuleID>9088</ModuleID>
             <Address>1</Address>
             <CntMask>0</CntMask>
             <Security>UnAvailable</Security>
             <SerialNum></SerialNum>
-            <PropList Id4="192.168.127.254" Id5="502" Id1="10" Id2="0" Id3="0" Id240="C:\Users\naumov\Desktop\mb-omix.xlsx" Id241="Таблица параметров"/>
+            <PropList Id4="255.255.255.255" Id5="502" Id1="91" Id2="0" Id3="0" Id240="C:\Users\naumov\Desktop\mb-omix.xlsx" Id241="Таблица параметров"/>
           </Settings>
           <Group Name="Служебные">
             <Settings>
@@ -3317,58 +3349,58 @@
                 <GroupSubType>2</GroupSubType>
                 <TaskElements></TaskElements>
               </Settings>
-              <InOut Name="Uab">
+              <InOut Name="Ua">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>В</Measure>
                   <KId>241</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x1" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Uac">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>В</Measure>
-                  <KId>242</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x2" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Ubc">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>В</Measure>
-                  <KId>243</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x3" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Ua">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>В</Measure>
-                  <KId>244</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x4" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x25" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Ub">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>В</Measure>
-                  <KId>245</KId>
+                  <KId>242</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x5" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x26" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Uc">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>В</Measure>
+                  <KId>243</KId>
+                  <TransferType>1</TransferType>
+                  <PropList Adr="0x27" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
+                </Settings>
+              </InOut>
+              <InOut Name="Uab">
+                <Settings>
+                  <AssignedMBA>-1</AssignedMBA>
+                  <Measure>В</Measure>
+                  <KId>244</KId>
+                  <TransferType>1</TransferType>
+                  <PropList Adr="0x28" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
+                </Settings>
+              </InOut>
+              <InOut Name="Ubc">
+                <Settings>
+                  <AssignedMBA>-1</AssignedMBA>
+                  <Measure>В</Measure>
+                  <KId>245</KId>
+                  <TransferType>1</TransferType>
+                  <PropList Adr="0x29" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
+                </Settings>
+              </InOut>
+              <InOut Name="Uca">
+                <Settings>
+                  <AssignedMBA>-1</AssignedMBA>
+                  <Measure>В</Measure>
                   <KId>246</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x6" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x2A" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Ia">
@@ -3377,7 +3409,7 @@
                   <Measure>A</Measure>
                   <KId>247</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x7" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x2B" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Ib">
@@ -3386,7 +3418,7 @@
                   <Measure>A</Measure>
                   <KId>248</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x8" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x2C" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Ic">
@@ -3395,523 +3427,202 @@
                   <Measure>A</Measure>
                   <KId>249</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x9" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x2D" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
-              <InOut Name="F">
+              <InOut Name="Pa">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
-                  <Measure>Гц</Measure>
+                  <Measure>Вт</Measure>
                   <KId>250</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0xA" Func="0x4" DataType="11" K="0,0100" msk="0xFFFF"/>
+                  <PropList Adr="0x2E" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
-              <InOut Name="P">
+              <InOut Name="Pb">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Вт</Measure>
                   <KId>251</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0xB" Func="0x4" DataType="10" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Q">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВАр</Measure>
-                  <KId>252</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0xC" Func="0x4" DataType="10" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="S">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВА</Measure>
-                  <KId>253</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0xD" Func="0x4" DataType="10" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="PF">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>267</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0xE" Func="0x4" DataType="10" K="0,0010" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Pa">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>A</Measure>
-                  <KId>268</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0xF" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Pb">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>A</Measure>
-                  <KId>269</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x10" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x2F" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Pc">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
-                  <Measure>A</Measure>
-                  <KId>270</KId>
+                  <Measure>Вт</Measure>
+                  <KId>252</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x11" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x30" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
+                </Settings>
+              </InOut>
+              <InOut Name="Ps">
+                <Settings>
+                  <AssignedMBA>-1</AssignedMBA>
+                  <Measure>Вт</Measure>
+                  <KId>253</KId>
+                  <TransferType>1</TransferType>
+                  <PropList Adr="0x31" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Qa">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>ВАр</Measure>
-                  <KId>271</KId>
+                  <KId>267</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x12" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
+                  <PropList Adr="0x32" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Qb">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>ВАр</Measure>
-                  <KId>272</KId>
+                  <KId>268</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x13" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
+                  <PropList Adr="0x33" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Qc">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>ВАр</Measure>
+                  <KId>269</KId>
+                  <TransferType>1</TransferType>
+                  <PropList Adr="0x34" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
+                </Settings>
+              </InOut>
+              <InOut Name="Qs">
+                <Settings>
+                  <AssignedMBA>-1</AssignedMBA>
+                  <Measure>ВАр</Measure>
+                  <KId>270</KId>
+                  <TransferType>1</TransferType>
+                  <PropList Adr="0x35" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
+                </Settings>
+              </InOut>
+              <InOut Name="PFa">
+                <Settings>
+                  <AssignedMBA>-1</AssignedMBA>
+                  <KId>271</KId>
+                  <TransferType>1</TransferType>
+                  <Multiplier>0,001</Multiplier>
+                  <UpBord>1</UpBord>
+                  <PropList Adr="0x36" Func="0x3" DataType="10" K="0,0010" msk="0xFFFF"/>
+                </Settings>
+              </InOut>
+              <InOut Name="PFb">
+                <Settings>
+                  <AssignedMBA>-1</AssignedMBA>
+                  <KId>272</KId>
+                  <TransferType>1</TransferType>
+                  <UpBord>1</UpBord>
+                  <PropList Adr="0x37" Func="0x3" DataType="10" K="0,0010" msk="0xFFFF"/>
+                </Settings>
+              </InOut>
+              <InOut Name="PFc">
+                <Settings>
+                  <AssignedMBA>-1</AssignedMBA>
                   <KId>273</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x14" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
+                  <UpBord>1</UpBord>
+                  <PropList Adr="0x38" Func="0x3" DataType="10" K="0,0010" msk="0xFFFF"/>
+                </Settings>
+              </InOut>
+              <InOut Name="PFs">
+                <Settings>
+                  <AssignedMBA>-1</AssignedMBA>
+                  <KId>274</KId>
+                  <TransferType>1</TransferType>
+                  <UpBord>1</UpBord>
+                  <PropList Adr="0x39" Func="0x3" DataType="10" K="0,0010" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Sa">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>ВА</Measure>
-                  <KId>274</KId>
+                  <KId>275</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x15" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
+                  <PropList Adr="0x3A" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Sb">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>ВА</Measure>
-                  <KId>275</KId>
+                  <KId>276</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x16" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
+                  <PropList Adr="0x3B" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="Sc">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>ВА</Measure>
-                  <KId>276</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x17" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="PFa">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
                   <KId>277</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x18" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
+                  <PropList Adr="0x3C" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
-              <InOut Name="PFb">
+              <InOut Name="Ss">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
+                  <Measure>ВА</Measure>
                   <KId>278</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0x19" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="PFc">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>279</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1A" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Act+">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>280</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1B" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Act -">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>281</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1C" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Re +">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>282</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1D" Func="0x4" DataType="10" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Re -">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>283</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1E" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-            </Group>
-          </Group>
-        </Module>
-        <Module>
-          <Settings>
-            <Name>OMIX P99 6 кВт</Name>
-            <ModuleID>9088</ModuleID>
-            <Address>1</Address>
-            <CntMask>0</CntMask>
-            <Security>UnAvailable</Security>
-            <SerialNum></SerialNum>
-            <PropList Id4="192.168.127.254" Id5="502" Id1="11" Id2="0" Id3="0" Id240="C:\Users\naumov\Desktop\mb-omix.xlsx" Id241="Таблица параметров"/>
-          </Settings>
-          <Group Name="Служебные">
-            <Settings>
-              <Name>Служебные</Name>
-              <IsHidden>False</IsHidden>
-              <GroupType>0</GroupType>
-              <GroupSubType>2</GroupSubType>
-              <TaskElements></TaskElements>
-            </Settings>
-            <InOut Name="Связь">
-              <Settings>
-                <wKind>0</wKind>
-                <AssignedMBA>-1</AssignedMBA>
-                <KId>284</KId>
-                <TransferType>2</TransferType>
-                <PropList Adr="0x1" Func="0x0" DataType="11" K="1,0000" msk="0xFFFF"/>
-              </Settings>
-            </InOut>
-            <InOut Name="Время">
-              <Settings>
-                <wKind>6</wKind>
-                <AssignedMBA>-1</AssignedMBA>
-                <KId>285</KId>
-                <PropList Adr="0x2" Func="0x0" DataType="11" K="1,0000" msk="0xFFFF"/>
-              </Settings>
-            </InOut>
-            <InOut Name="Приостанов">
-              <Settings>
-                <wKind>1</wKind>
-                <Connected></Connected>
-                <AssignedMBA>-1</AssignedMBA>
-                <KId>286</KId>
-                <PropList Adr="0x3" Func="0x0" DataType="11" K="1,0000" msk="0xFFFF"/>
-              </Settings>
-            </InOut>
-            <InOut Name="ПринудЗапись">
-              <Settings>
-                <wKind>1</wKind>
-                <Connected></Connected>
-                <AssignedMBA>-1</AssignedMBA>
-                <KId>287</KId>
-                <PropList Adr="0x5" Func="0x0" DataType="11" K="1,0000" msk="0xFFFF"/>
-              </Settings>
-            </InOut>
-          </Group>
-          <Group Name="OMIX P99 MLA">
-            <Settings>
-              <Name>OMIX P99 MLA</Name>
-              <IsHidden>False</IsHidden>
-              <GroupType>0</GroupType>
-              <GroupSubType>2</GroupSubType>
-              <TaskElements></TaskElements>
-            </Settings>
-            <Group Name="Параметры">
-              <Settings>
-                <Name>Параметры</Name>
-                <IsHidden>False</IsHidden>
-                <GroupType>0</GroupType>
-                <GroupSubType>2</GroupSubType>
-                <TaskElements></TaskElements>
-              </Settings>
-              <InOut Name="Uab">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>В</Measure>
-                  <KId>288</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Uac">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>В</Measure>
-                  <KId>289</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x2" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Ubc">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>В</Measure>
-                  <KId>290</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x3" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Ua">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>В</Measure>
-                  <KId>291</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x4" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Ub">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>В</Measure>
-                  <KId>292</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x5" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Uc">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>В</Measure>
-                  <KId>293</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x6" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Ia">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>A</Measure>
-                  <KId>294</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x7" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Ib">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>A</Measure>
-                  <KId>295</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x8" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Ic">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>A</Measure>
-                  <KId>296</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x9" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x3D" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
               <InOut Name="F">
                 <Settings>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Гц</Measure>
-                  <KId>297</KId>
+                  <KId>279</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0xA" Func="0x4" DataType="11" K="0,0100" msk="0xFFFF"/>
+                  <Multiplier>0,1</Multiplier>
+                  <PropList Adr="0x3E" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
-              <InOut Name="P">
+              <InOut Name="EPp">
                 <Settings>
+                  <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Вт</Measure>
-                  <KId>298</KId>
+                  <KId>280</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0xB" Func="0x4" DataType="10" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x47" Func="0x3" DataType="10" K="1,0000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
-              <InOut Name="Q">
+              <InOut Name="EPn">
                 <Settings>
+                  <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВАр</Measure>
-                  <KId>299</KId>
+                  <Measure>Вт</Measure>
+                  <KId>281</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0xC" Func="0x4" DataType="10" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x49" Func="0x3" DataType="10" K="1,0000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
-              <InOut Name="S">
+              <InOut Name="EQp">
                 <Settings>
+                  <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВА</Measure>
-                  <KId>300</KId>
+                  <Measure>Вт</Measure>
+                  <KId>282</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0xD" Func="0x4" DataType="10" K="0,1000" msk="0xFFFF"/>
+                  <PropList Adr="0x4B" Func="0x3" DataType="10" K="1,0000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
-              <InOut Name="PF">
+              <InOut Name="WQn">
                 <Settings>
+                  <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
-                  <KId>301</KId>
+                  <Measure>Вт</Measure>
+                  <KId>283</KId>
                   <TransferType>1</TransferType>
-                  <PropList Adr="0xE" Func="0x4" DataType="10" K="0,0010" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Pa">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>A</Measure>
-                  <KId>302</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0xF" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Pb">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>A</Measure>
-                  <KId>303</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x10" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Pc">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>A</Measure>
-                  <KId>304</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x11" Func="0x4" DataType="11" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Qa">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВАр</Measure>
-                  <KId>305</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x12" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Qb">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВАр</Measure>
-                  <KId>306</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x13" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Qc">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВАр</Measure>
-                  <KId>307</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x14" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Sa">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВА</Measure>
-                  <KId>308</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x15" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Sb">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВА</Measure>
-                  <KId>309</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x16" Func="0x4" DataType="10" K="0,0100" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Sc">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <Measure>ВА</Measure>
-                  <KId>310</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x17" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="PFa">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>311</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x18" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="PFb">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>312</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x19" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="PFc">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>313</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1A" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Act+">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>314</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1B" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Act -">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>315</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1C" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Re +">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>316</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1D" Func="0x4" DataType="10" K="0,1000" msk="0xFFFF"/>
-                </Settings>
-              </InOut>
-              <InOut Name="Re -">
-                <Settings>
-                  <AssignedMBA>-1</AssignedMBA>
-                  <KId>317</KId>
-                  <TransferType>1</TransferType>
-                  <PropList Adr="0x1E" Func="0x4" DataType="10" K="1,0000" msk="0xFFFF"/>
+                  <PropList Adr="0x4D" Func="0x3" DataType="10" K="1,0000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
             </Group>
@@ -4372,7 +4083,7 @@
               <UserComment>пуск_Н1_прям</UserComment>
               <IsGlobVar>1</IsGlobVar>
               <wKind>0</wKind>
-              <VariableSource>Управление насосом.Импульсный таймер 1.ВыходНО 1</VariableSource>
+              <VariableSource></VariableSource>
               <Description></Description>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -4384,7 +4095,7 @@
               <UserComment>пуск_Н1_рев</UserComment>
               <IsGlobVar>1</IsGlobVar>
               <wKind>0</wKind>
-              <VariableSource>Управление насосом.Импульсный таймер 2.ВыходНО 1</VariableSource>
+              <VariableSource></VariableSource>
               <Description></Description>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -4396,7 +4107,7 @@
               <UserComment>пуск_Н2_прям</UserComment>
               <IsGlobVar>1</IsGlobVar>
               <wKind>0</wKind>
-              <VariableSource>Управление насосом.Импульсный таймер 3.ВыходНО 1</VariableSource>
+              <VariableSource></VariableSource>
               <Description></Description>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -4408,7 +4119,7 @@
               <UserComment>пуск_Н2_рев</UserComment>
               <IsGlobVar>1</IsGlobVar>
               <wKind>0</wKind>
-              <VariableSource>Управление насосом.Импульсный таймер 4.ВыходНО 1</VariableSource>
+              <VariableSource></VariableSource>
               <Description></Description>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>

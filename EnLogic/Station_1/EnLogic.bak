@@ -22,9 +22,9 @@
   </EnComSrv>
   <Controller>
     <Settings>
-      <Signature>нбем окй-323.рк</Signature>
-      <GroupName>нбем окй-323.рк</GroupName>
-      <CntrlrCode>20002</CntrlrCode>
+      <Signature>нбем йянд</Signature>
+      <GroupName>нбем йянд</GroupName>
+      <CntrlrCode>20003</CntrlrCode>
       <Name>йНМРПНККЕП йянд (A1)</Name>
       <StaticGUID>{1910EF54-2F21-4664-87D4-6A9546523B47}</StaticGUID>
     </Settings>
