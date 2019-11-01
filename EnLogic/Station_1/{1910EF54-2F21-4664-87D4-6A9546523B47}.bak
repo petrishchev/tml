@@ -1720,7 +1720,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>ÄÄ1</Naimen>
-                <Measure>ìÀ</Measure>
+                <Measure>bar</Measure>
                 <KId>16</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="259" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1733,7 +1733,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>ÄÄ2</Naimen>
-                <Measure>ìÀ</Measure>
+                <Measure>bar</Measure>
                 <KId>17</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="260" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1746,7 +1746,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>ÄÄ3</Naimen>
-                <Measure>ìÀ</Measure>
+                <Measure>bar</Measure>
                 <KId>18</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="261" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1759,7 +1759,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>ÄÄ4</Naimen>
-                <Measure>ìÀ</Measure>
+                <Measure>bar</Measure>
                 <KId>19</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="262" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1772,7 +1772,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>ÄÄ5</Naimen>
-                <Measure>ìÀ</Measure>
+                <Measure>bar</Measure>
                 <KId>20</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="263" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -3459,6 +3459,7 @@
               </InOut>
               <InOut Name="Ps">
                 <Settings>
+                  <UserComment>P</UserComment>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Âò</Measure>
                   <KId>253</KId>
@@ -3495,6 +3496,7 @@
               </InOut>
               <InOut Name="Qs">
                 <Settings>
+                  <UserComment>Q</UserComment>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>ÂÀð</Measure>
                   <KId>270</KId>
@@ -3504,6 +3506,7 @@
               </InOut>
               <InOut Name="PFa">
                 <Settings>
+                  <UserComment>COSa</UserComment>
                   <AssignedMBA>-1</AssignedMBA>
                   <KId>271</KId>
                   <TransferType>1</TransferType>
@@ -3514,6 +3517,7 @@
               </InOut>
               <InOut Name="PFb">
                 <Settings>
+                  <UserComment>COSb</UserComment>
                   <AssignedMBA>-1</AssignedMBA>
                   <KId>272</KId>
                   <TransferType>1</TransferType>
@@ -3523,6 +3527,7 @@
               </InOut>
               <InOut Name="PFc">
                 <Settings>
+                  <UserComment>COSc</UserComment>
                   <AssignedMBA>-1</AssignedMBA>
                   <KId>273</KId>
                   <TransferType>1</TransferType>
@@ -3532,6 +3537,7 @@
               </InOut>
               <InOut Name="PFs">
                 <Settings>
+                  <UserComment>COS</UserComment>
                   <AssignedMBA>-1</AssignedMBA>
                   <KId>274</KId>
                   <TransferType>1</TransferType>
@@ -3568,6 +3574,7 @@
               </InOut>
               <InOut Name="Ss">
                 <Settings>
+                  <UserComment>S</UserComment>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>ÂÀ</Measure>
                   <KId>278</KId>
@@ -3587,6 +3594,7 @@
               </InOut>
               <InOut Name="EPp">
                 <Settings>
+                  <UserComment>A0+</UserComment>
                   <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Âò</Measure>
@@ -3597,6 +3605,7 @@
               </InOut>
               <InOut Name="EPn">
                 <Settings>
+                  <UserComment>A0-</UserComment>
                   <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Âò</Measure>
@@ -3607,6 +3616,7 @@
               </InOut>
               <InOut Name="EQp">
                 <Settings>
+                  <UserComment>R0+</UserComment>
                   <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Âò</Measure>
@@ -3617,6 +3627,7 @@
               </InOut>
               <InOut Name="WQn">
                 <Settings>
+                  <UserComment>R0-</UserComment>
                   <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Âò</Measure>

@@ -4,9 +4,9 @@ ProjectName=Новый проект
 [Options]
 UseEvents=1
 UseLogging=1
-PollingPeriod=500
+PollingPeriod=50
 ControlTimeOut=5
-ChangeBkColorToPrint=0
+ChangeBkColorToPrint=1
 Default_BestFit=0
 FullScreen=1
 StatusBarVisible=0
@@ -20,13 +20,13 @@ PlaybackPasspHead=$00$00$00$0000
 PlaybackDeltaSec=300
 PlaybackToolBarVisible=0
 LockBottomDock=0
-PlugInsMenuInAdjustOnly=0
+PlugInsMenuInAdjustOnly=1
 ShowMainMenuInNormalMode=0
 FixedBottomDockSiteHeight=0
 WatchModeEvents=1
 MinBottomDockSiteHeight=62
 MaxBottomDockSiteHeight=400
-DisableSomeHotKeysInWorkMode=0
+DisableSomeHotKeysInWorkMode=1
 CheckBackComments=0
 RestoreOnAlarm=0
 DefaultSettingPath=C:\Program Files (x86)\OWEN\TML\Bin\
@@ -46,7 +46,7 @@ AlarmingColor=255
 WarningColor=65535
 NoAlarmColor=65280
 [Misc]
-PicturesInitialDir=C:\Users\naumov\Downloads
+PicturesInitialDir=C:\Users\naumov\Downloads\HMISymbols\Icon_Gallery\Icon_Gallery_V3\gif
 [CustomColors]
 0=FFFFFF
 1=FFE0BB
