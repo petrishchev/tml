@@ -1,0 +1,30 @@
+[Main]
+FileDescription=SCADA list stations
+FileVersion=1
+IgnoreLocalSettings=1
+LocalStationID=1
+QuanStations=1
+DebugReg=0
+[Station_1]
+OS=1
+OS_str=WIN
+ID=1
+Name=Новая станция
+Comments=
+AllowWrite=allow
+T0=1
+T1=1
+T2=5
+T3=10
+UDP_port=0x6543
+K=12
+W=8
+UseReserv=0
+UDP_addr=127.0.0.1
+UDP_addr2=
+ClntIPAdr1=127.0.0.1
+ClntIPAdr2=
+FreeRead=1
+FreeWrite=0
+SubDir=C8F1CDCB-23E9-41D1-A360-94F02FC6119A
+DBEvents={AE66FB6A-550F-4E4B-9260-6CB34BB94A36}

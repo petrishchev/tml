@@ -58,7 +58,7 @@
       <GroupName>ОВЕН КСОД</GroupName>
       <CntrlrCode>20003</CntrlrCode>
       <StaticGUID>{1910EF54-2F21-4664-87D4-6A9546523B47}</StaticGUID>
-      <ParamQuan>274</ParamQuan>
+      <ParamQuan>272</ParamQuan>
       <InitiatorIndex>-1</InitiatorIndex>
       <PeriodicPoll>True</PeriodicPoll>
       <PeriodTCP.value>30</PeriodTCP.value>
@@ -137,7 +137,7 @@
             <Type>120</Type>
             <ChannelCount>0</ChannelCount>
             <Left>65</Left>
-            <Top>41</Top>
+            <Top>39</Top>
           </Settings>
           <InOut Name="Год">
             <Settings>
@@ -1060,251 +1060,16 @@
           <PriorityIndex>3</PriorityIndex>
           <TaskType>0</TaskType>
           <TaskElements>&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1251&quot;?&gt;
-&lt;Elements&gt;&lt;Controls/&gt;&lt;/Elements&gt;
+&lt;Elements&gt;&lt;Controls&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 5.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;672&lt;/X&gt;&lt;Y&gt;398&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;209&lt;/X&gt;&lt;Y&gt;398&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;209&lt;/X&gt;&lt;Y&gt;455&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;455&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 7.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 3&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;673&lt;/X&gt;&lt;Y&gt;584&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;584&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;533&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;533&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 8.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 4&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;681&lt;/X&gt;&lt;Y&gt;706&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;706&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;572&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;572&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 2.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 1.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;435&lt;/X&gt;&lt;Y&gt;141&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;141&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;242&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;242&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;235&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;374&lt;/X&gt;&lt;Y&gt;235&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 2.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 1.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;435&lt;/X&gt;&lt;Y&gt;128&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;128&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;113&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;366&lt;/X&gt;&lt;Y&gt;113&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;366&lt;/X&gt;&lt;Y&gt;110&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;373&lt;/X&gt;&lt;Y&gt;110&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 5.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;672&lt;/X&gt;&lt;Y&gt;385&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;660&lt;/X&gt;&lt;Y&gt;385&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;660&lt;/X&gt;&lt;Y&gt;138&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;484&lt;/X&gt;&lt;Y&gt;138&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;484&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 6.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;675&lt;/X&gt;&lt;Y&gt;479&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;479&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 7.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;673&lt;/X&gt;&lt;Y&gt;571&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;661&lt;/X&gt;&lt;Y&gt;571&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;661&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 8.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;681&lt;/X&gt;&lt;Y&gt;693&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;669&lt;/X&gt;&lt;Y&gt;693&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;669&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 6.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 2&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;675&lt;/X&gt;&lt;Y&gt;492&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;492&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;497&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;159&lt;/X&gt;&lt;Y&gt;497&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;159&lt;/X&gt;&lt;Y&gt;494&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;494&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;Импульсный таймер 2.Старт&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 2.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;1042&lt;/X&gt;&lt;Y&gt;228&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1030&lt;/X&gt;&lt;Y&gt;228&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1030&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;931&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;931&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;955&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;RS-Триггер 2.ВходСброса 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 2.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;893&lt;/X&gt;&lt;Y&gt;206&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;881&lt;/X&gt;&lt;Y&gt;206&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;881&lt;/X&gt;&lt;Y&gt;264&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1098&lt;/X&gt;&lt;Y&gt;264&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1098&lt;/X&gt;&lt;Y&gt;261&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1104&lt;/X&gt;&lt;Y&gt;261&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;Импульсный таймер 3.Старт&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 3.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;1046&lt;/X&gt;&lt;Y&gt;398&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1034&lt;/X&gt;&lt;Y&gt;398&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1034&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;951&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;951&lt;/X&gt;&lt;Y&gt;370&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;959&lt;/X&gt;&lt;Y&gt;370&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;RS-Триггер 3.ВходСброса 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 3.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;897&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;885&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;885&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1093&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1093&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1108&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;RS-Триггер 4.ВходСброса 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 4.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;899&lt;/X&gt;&lt;Y&gt;548&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;887&lt;/X&gt;&lt;Y&gt;548&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;887&lt;/X&gt;&lt;Y&gt;607&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1106&lt;/X&gt;&lt;Y&gt;607&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1106&lt;/X&gt;&lt;Y&gt;603&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1110&lt;/X&gt;&lt;Y&gt;603&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;Импульсный таймер 4.Старт&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 4.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;1048&lt;/X&gt;&lt;Y&gt;570&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;949&lt;/X&gt;&lt;Y&gt;570&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;949&lt;/X&gt;&lt;Y&gt;542&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;961&lt;/X&gt;&lt;Y&gt;542&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;/Controls&gt;&lt;/Elements&gt;
 </TaskElements>
         </Settings>
-        <FB>
-          <Settings>
-            <Name>Насос 1</Name>
-            <Type>93</Type>
-            <ChannelCount>0</ChannelCount>
-            <Left>65</Left>
-            <Top>49</Top>
-          </Settings>
-          <InOut Name="Работа">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>True</InitValue0>
-              <KId>127</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="Включен">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>128</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="Выключен">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>129</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="Включить">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>130</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="Выключить">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>131</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="РежимИмпульс">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>True</InitValue0>
-              <KId>132</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="Готовность">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>True</InitValue0>
-              <KId>133</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="КонтрольФазАвария">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>134</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="ПерегревАвария">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>135</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="СухойХодАвария">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>136</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="ПерегрузкаАвария">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>137</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="ДавлениеВнутрАвария">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>138</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="ДавлениеВыходАвария">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>139</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="Авария">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>140</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="СбросАварии">
-            <Settings>
-              <wKind>1</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>141</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="ВремяПерегрузкаАвария">
-            <Settings>
-              <wKind>3</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>5000</InitValue0>
-              <KId>142</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="ВремяДавлениеВыходАвария">
-            <Settings>
-              <wKind>3</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>5000</InitValue0>
-              <KId>143</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="ВремяАвтоСбросаАварии">
-            <Settings>
-              <wKind>3</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>10000</InitValue0>
-              <KId>144</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="ВремяИмпульсаКоманды">
-            <Settings>
-              <wKind>3</wKind>
-              <Connected></Connected>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>5000</InitValue0>
-              <KId>145</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="КомандаВключить">
-            <Settings>
-              <wKind>0</wKind>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>146</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="КомандаВыключить">
-            <Settings>
-              <wKind>0</wKind>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>147</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="Состояние">
-            <Settings>
-              <wKind>2</wKind>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>0</InitValue0>
-              <KId>167</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="СостояниеАвар">
-            <Settings>
-              <wKind>2</wKind>
-              <AssignedMBA>-1</AssignedMBA>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>0</InitValue0>
-              <KId>168</KId>
-            </Settings>
-          </InOut>
-        </FB>
         <FB>
           <Settings>
             <Name>Импульсный таймер 1</Name>
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
-            <Left>620</Left>
-            <Top>192</Top>
+            <Left>310</Left>
+            <Top>158</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
@@ -1315,7 +1080,7 @@
           <InOut Name="Старт">
             <Settings>
               <wKind>1</wKind>
-              <Connected>Переменные.Насос.Простые типы.пров_пуск_Н1_прям</Connected>
+              <Connected>Переменные.Насос.Простые типы.краткий пуск</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -1325,7 +1090,7 @@
           <InOut Name="Сброс">
             <Settings>
               <wKind>1</wKind>
-              <Connected></Connected>
+              <Connected>Переменные.Насос.Простые типы.ОСТАНОВ</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -1364,7 +1129,7 @@
           <InOut Name="ВыходНО 1">
             <Settings>
               <wKind>0</wKind>
-              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO3</Connected>
+              <Connected>ИЛИ 2.Вход 2</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
@@ -1374,26 +1139,471 @@
         </FB>
         <FB>
           <Settings>
+            <Name>RS-Триггер 1</Name>
+            <Type>76</Type>
+            <ChannelCount>1</ChannelCount>
+            <Left>309</Left>
+            <Top>59</Top>
+          </Settings>
+          <InOut Name="ВходУст 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Переменные.Насос.Простые типы.пуск</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>296</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВходСброса 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Переменные.Насос.Простые типы.ОСТАНОВ</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>297</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход 1">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>ИЛИ 2.Вход 1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>298</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>ИЛИ 2</Name>
+            <Type>87</Type>
+            <ChannelCount>2</ChannelCount>
+            <Left>433</Left>
+            <Top>84</Top>
+          </Settings>
+          <InOut Name="Выход">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>И 5.Вход 1</Connected>
+              <Connected>И 6.Вход 1</Connected>
+              <Connected>И 7.Вход 1</Connected>
+              <Connected>И 8.Вход 1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>130</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>RS-Триггер 1.Выход 1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>131</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 2">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Импульсный таймер 1.ВыходНО 1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>132</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>Сравнение 1</Name>
+            <Type>54</Type>
+            <ChannelCount>4</ChannelCount>
+            <Left>104</Left>
+            <Top>398</Top>
+          </Settings>
+          <InOut Name="Вход 1 1">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>1,00</InitValue0>
+              <KId>396</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 2 1">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Переменные.Насос.Простые типы.режим</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>397</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Нечувствительность 1">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>398</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Меньше 1">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>399</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Равно 1">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>И 5.Вход 2</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>400</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Больше 1">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>401</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 1 2">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>2,00</InitValue0>
+              <KId>402</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 2 2">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Переменные.Насос.Простые типы.режим</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>403</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Нечувствительность 2">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>404</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Меньше 2">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>405</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Равно 2">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>И 6.Вход 2</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>406</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Больше 2">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>407</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 1 3">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>3,00</InitValue0>
+              <KId>408</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 2 3">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Переменные.Насос.Простые типы.режим</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>409</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Нечувствительность 3">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>410</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Меньше 3">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>411</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Равно 3">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>И 7.Вход 2</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>412</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Больше 3">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>413</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 1 4">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>4,00</InitValue0>
+              <KId>414</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 2 4">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected>Переменные.Насос.Простые типы.режим</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>415</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Нечувствительность 4">
+            <Settings>
+              <wKind>5</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0,00</InitValue0>
+              <KId>416</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Меньше 4">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>417</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Равно 4">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>И 8.Вход 2</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>418</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход Больше 4">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>419</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>И 5</Name>
+            <Type>86</Type>
+            <ChannelCount>2</ChannelCount>
+            <Left>670</Left>
+            <Top>341</Top>
+          </Settings>
+          <InOut Name="Выход">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO3</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>370</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>ИЛИ 2.Выход</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>371</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 2">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Сравнение 1.Выход Равно 1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>372</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>И 6</Name>
+            <Type>86</Type>
+            <ChannelCount>2</ChannelCount>
+            <Left>673</Left>
+            <Top>435</Top>
+          </Settings>
+          <InOut Name="Выход">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO4</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>373</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>ИЛИ 2.Выход</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>374</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 2">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Сравнение 1.Выход Равно 2</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>375</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>И 7</Name>
+            <Type>86</Type>
+            <ChannelCount>2</ChannelCount>
+            <Left>671</Left>
+            <Top>527</Top>
+          </Settings>
+          <InOut Name="Выход">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO5</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>376</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>ИЛИ 2.Выход</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>377</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 2">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Сравнение 1.Выход Равно 3</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>420</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>И 8</Name>
+            <Type>86</Type>
+            <ChannelCount>2</ChannelCount>
+            <Left>679</Left>
+            <Top>649</Top>
+          </Settings>
+          <InOut Name="Выход">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO6</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>421</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>ИЛИ 2.Выход</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>422</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Вход 2">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Сравнение 1.Выход Равно 4</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>423</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>RS-Триггер 2</Name>
+            <Type>76</Type>
+            <ChannelCount>1</ChannelCount>
+            <Left>891</Left>
+            <Top>149</Top>
+          </Settings>
+          <InOut Name="ВходУст 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Переменные.Насос.Простые типы.ОСТАНОВ</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>127</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВходСброса 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Импульсный таймер 2.ВыходНО 1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>128</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход 1">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Импульсный таймер 2.Старт</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>129</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
             <Name>Импульсный таймер 2</Name>
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
-            <Left>620</Left>
-            <Top>299</Top>
+            <Left>1040</Left>
+            <Top>184</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
               <AssignedMBA>-1</AssignedMBA>
-              <KId>357</KId>
+              <KId>137</KId>
             </Settings>
           </InOut>
           <InOut Name="Старт">
             <Settings>
               <wKind>1</wKind>
-              <Connected>Переменные.Насос.Простые типы.пров_пуск_Н1_рев</Connected>
+              <Connected>RS-Триггер 2.Выход 1</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>358</KId>
+              <KId>138</KId>
             </Settings>
           </InOut>
           <InOut Name="Сброс">
@@ -1403,7 +1613,7 @@
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>359</KId>
+              <KId>139</KId>
             </Settings>
           </InOut>
           <InOut Name="Состояние">
@@ -1412,7 +1622,7 @@
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>360</KId>
+              <KId>140</KId>
             </Settings>
           </InOut>
           <InOut Name="ВремяСрНО 1">
@@ -1421,8 +1631,8 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>1,00</InitValue0>
-              <KId>361</KId>
+              <InitValue0>0,05</InitValue0>
+              <KId>141</KId>
             </Settings>
           </InOut>
           <InOut Name="ВремяДействНО 1">
@@ -1431,18 +1641,54 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>3,00</InitValue0>
-              <KId>362</KId>
+              <InitValue0>0,05</InitValue0>
+              <KId>142</KId>
             </Settings>
           </InOut>
           <InOut Name="ВыходНО 1">
             <Settings>
               <wKind>0</wKind>
-              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO4</Connected>
+              <Connected>Переменные.Насос.Простые типы.ОСТАНОВ</Connected>
+              <Connected>RS-Триггер 2.ВходСброса 1</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>363</KId>
+              <KId>143</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>RS-Триггер 3</Name>
+            <Type>76</Type>
+            <ChannelCount>1</ChannelCount>
+            <Left>895</Left>
+            <Top>319</Top>
+          </Settings>
+          <InOut Name="ВходУст 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Переменные.Насос.Простые типы.пуск</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>133</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВходСброса 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Импульсный таймер 3.ВыходНО 1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>134</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход 1">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Импульсный таймер 3.Старт</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>135</KId>
             </Settings>
           </InOut>
         </FB>
@@ -1451,23 +1697,23 @@
             <Name>Импульсный таймер 3</Name>
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
-            <Left>619</Left>
-            <Top>417</Top>
+            <Left>1044</Left>
+            <Top>354</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
               <AssignedMBA>-1</AssignedMBA>
-              <KId>364</KId>
+              <KId>136</KId>
             </Settings>
           </InOut>
           <InOut Name="Старт">
             <Settings>
               <wKind>1</wKind>
-              <Connected>Переменные.Насос.Простые типы.пров_пуск_Н2_прям</Connected>
+              <Connected>RS-Триггер 3.Выход 1</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>365</KId>
+              <KId>144</KId>
             </Settings>
           </InOut>
           <InOut Name="Сброс">
@@ -1477,7 +1723,7 @@
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>366</KId>
+              <KId>145</KId>
             </Settings>
           </InOut>
           <InOut Name="Состояние">
@@ -1486,7 +1732,7 @@
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>367</KId>
+              <KId>146</KId>
             </Settings>
           </InOut>
           <InOut Name="ВремяСрНО 1">
@@ -1495,8 +1741,8 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>1,00</InitValue0>
-              <KId>368</KId>
+              <InitValue0>0,05</InitValue0>
+              <KId>147</KId>
             </Settings>
           </InOut>
           <InOut Name="ВремяДействНО 1">
@@ -1505,18 +1751,54 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>3,00</InitValue0>
-              <KId>369</KId>
+              <InitValue0>0,05</InitValue0>
+              <KId>167</KId>
             </Settings>
           </InOut>
           <InOut Name="ВыходНО 1">
             <Settings>
               <wKind>0</wKind>
-              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO5</Connected>
+              <Connected>Переменные.Насос.Простые типы.пуск</Connected>
+              <Connected>RS-Триггер 3.ВходСброса 1</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>370</KId>
+              <KId>168</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>RS-Триггер 4</Name>
+            <Type>76</Type>
+            <ChannelCount>1</ChannelCount>
+            <Left>897</Left>
+            <Top>491</Top>
+          </Settings>
+          <InOut Name="ВходУст 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Переменные.Насос.Простые типы.краткий пуск</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>287</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="ВходСброса 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected>Импульсный таймер 4.ВыходНО 1</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>288</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход 1">
+            <Settings>
+              <wKind>0</wKind>
+              <Connected>Импульсный таймер 4.Старт</Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>289</KId>
             </Settings>
           </InOut>
         </FB>
@@ -1525,23 +1807,23 @@
             <Name>Импульсный таймер 4</Name>
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
-            <Left>619</Left>
-            <Top>516</Top>
+            <Left>1046</Left>
+            <Top>526</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
               <AssignedMBA>-1</AssignedMBA>
-              <KId>371</KId>
+              <KId>290</KId>
             </Settings>
           </InOut>
           <InOut Name="Старт">
             <Settings>
               <wKind>1</wKind>
-              <Connected>Переменные.Насос.Простые типы.пров_пуск_Н2_рев</Connected>
+              <Connected>RS-Триггер 4.Выход 1</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>372</KId>
+              <KId>291</KId>
             </Settings>
           </InOut>
           <InOut Name="Сброс">
@@ -1551,7 +1833,7 @@
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>373</KId>
+              <KId>292</KId>
             </Settings>
           </InOut>
           <InOut Name="Состояние">
@@ -1560,7 +1842,7 @@
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>374</KId>
+              <KId>294</KId>
             </Settings>
           </InOut>
           <InOut Name="ВремяСрНО 1">
@@ -1569,8 +1851,8 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>1,00</InitValue0>
-              <KId>375</KId>
+              <InitValue0>0,05</InitValue0>
+              <KId>295</KId>
             </Settings>
           </InOut>
           <InOut Name="ВремяДействНО 1">
@@ -1579,18 +1861,19 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>3,00</InitValue0>
-              <KId>376</KId>
+              <InitValue0>0,05</InitValue0>
+              <KId>299</KId>
             </Settings>
           </InOut>
           <InOut Name="ВыходНО 1">
             <Settings>
               <wKind>0</wKind>
-              <Connected>Modbus 1.МУ110-8Р (A9).Состояние выходов Запись.DO6</Connected>
+              <Connected>Переменные.Насос.Простые типы.краткий пуск</Connected>
+              <Connected>RS-Триггер 4.ВходСброса 1</Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>377</KId>
+              <KId>300</KId>
             </Settings>
           </InOut>
         </FB>
@@ -1611,7 +1894,7 @@
           <ControlIndex>0</ControlIndex>
           <StopBitsIndex>0</StopBitsIndex>
           <Checksum>True</Checksum>
-          <PropList Id9="0" Id1="4" Id2="8" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="200" Id6="100" Id7="1" Id4="2" Id8="0" Id5="20" Id17="0" Id18="0" Id19="0" Id22="0" Id10="0" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
+          <PropList Id9="0" Id1="4" Id2="8" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="100" Id6="100" Id7="1" Id4="3" Id8="20" Id5="20" Id17="0" Id18="0" Id19="0" Id22="0" Id10="0" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
         </Settings>
         <Module>
           <Settings>
@@ -1655,6 +1938,8 @@
                 <wKind>1</wKind>
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>True</InitValue0>
                 <KId>284</KId>
                 <PropList Adr="3" Func="0" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
@@ -1674,7 +1959,7 @@
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
-                <Naimen>РМ1</Naimen>
+                <Naimen>Расходомер Dn300</Naimen>
                 <Measure>м3/ч</Measure>
                 <KId>13</KId>
                 <TransferType>1</TransferType>
@@ -1689,7 +1974,7 @@
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
-                <Naimen>РМ2</Naimen>
+                <Naimen>Расходомер Dn100</Naimen>
                 <Measure>м3/ч</Measure>
                 <KId>14</KId>
                 <TransferType>1</TransferType>
@@ -1700,11 +1985,11 @@
             </InOut>
             <InOut Name="In3">
               <Settings>
-                <UserComment>РМ2</UserComment>
+                <UserComment>РМ3</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
-                <Naimen>РМ2</Naimen>
+                <Naimen>Расходомер Dn50</Naimen>
                 <Measure>м3/ч</Measure>
                 <KId>15</KId>
                 <TransferType>1</TransferType>
@@ -1719,10 +2004,18 @@
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
-                <Naimen>ДД1</Naimen>
+                <Naimen>Давление на входе насоса</Naimen>
                 <Measure>bar</Measure>
                 <KId>16</KId>
                 <TransferType>1</TransferType>
+                <Multiplier>0,01</Multiplier>
+                <UpBord>5</UpBord>
+                <DownBord>-1</DownBord>
+                <useAM>True</useAM>
+                <AMA>470</AMA>
+                <AMI>-1</AMI>
+                <usePAM>True</usePAM>
+                <PAMA>3,5</PAMA>
                 <PropList Adr="259" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -1732,10 +2025,14 @@
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
-                <Naimen>ДД2</Naimen>
+                <Naimen>Давление на выходе насоса</Naimen>
                 <Measure>bar</Measure>
                 <KId>17</KId>
                 <TransferType>1</TransferType>
+                <Multiplier>10</Multiplier>
+                <UpBord>16</UpBord>
+                <useAM>True</useAM>
+                <AMA>15</AMA>
                 <PropList Adr="260" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -1745,10 +2042,12 @@
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
-                <Naimen>ДД3</Naimen>
+                <Naimen>Разность давлений</Naimen>
                 <Measure>bar</Measure>
                 <KId>18</KId>
                 <TransferType>1</TransferType>
+                <Multiplier>10</Multiplier>
+                <UpBord>16</UpBord>
                 <PropList Adr="261" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -1758,10 +2057,14 @@
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
-                <Naimen>ДД4</Naimen>
+                <Naimen>Давление в баке</Naimen>
                 <Measure>bar</Measure>
                 <KId>19</KId>
                 <TransferType>1</TransferType>
+                <Multiplier>0,01</Multiplier>
+                <UpBord>4</UpBord>
+                <usePAM>True</usePAM>
+                <PAMA>3</PAMA>
                 <PropList Adr="262" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -1771,10 +2074,12 @@
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
-                <Naimen>ДД5</Naimen>
+                <Naimen>Давление на выходе насоса (160бар)</Naimen>
                 <Measure>bar</Measure>
                 <KId>20</KId>
                 <TransferType>1</TransferType>
+                <Multiplier>10</Multiplier>
+                <UpBord>160</UpBord>
                 <PropList Adr="263" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -1822,6 +2127,8 @@
                 <wKind>1</wKind>
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>True</InitValue0>
                 <KId>285</KId>
                 <PropList Adr="3" Func="0" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
@@ -1843,7 +2150,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>КЗР3-положение</Naimen>
-                <Measure>мА</Measure>
+                <Measure>%</Measure>
                 <KId>24</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="256" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1857,7 +2164,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>КЗР2-положение</Naimen>
-                <Measure>мА</Measure>
+                <Measure>%</Measure>
                 <KId>25</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="257" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1871,7 +2178,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>КЗР1-положение</Naimen>
-                <Measure>мА</Measure>
+                <Measure>%</Measure>
                 <KId>26</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="258" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1885,7 +2192,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>ЗД1-положение</Naimen>
-                <Measure>мА</Measure>
+                <Measure>%</Measure>
                 <KId>27</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="259" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1899,7 +2206,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>ЗД2-положение</Naimen>
-                <Measure>мА</Measure>
+                <Measure>%</Measure>
                 <KId>28</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="260" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1913,7 +2220,7 @@
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
                 <Naimen>ЗД3-положение</Naimen>
-                <Measure>мА</Measure>
+                <Measure>%</Measure>
                 <KId>29</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="261" Func="3" DataType="10" K="1,0000" msk="65535"/>
@@ -1921,6 +2228,7 @@
             </InOut>
             <InOut Name="In7">
               <Settings>
+                <UserComment>ДВ1</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>30</KId>
                 <TransferType>1</TransferType>
@@ -1929,6 +2237,7 @@
             </InOut>
             <InOut Name="In8">
               <Settings>
+                <UserComment>ДВ2</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>31</KId>
                 <TransferType>1</TransferType>
@@ -1979,6 +2288,8 @@
                 <wKind>1</wKind>
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>True</InitValue0>
                 <KId>286</KId>
                 <PropList Adr="3" Func="0" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
@@ -1994,6 +2305,7 @@
             </Settings>
             <InOut Name="In1">
               <Settings>
+                <UserComment>ДВ3</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>35</KId>
                 <TransferType>1</TransferType>
@@ -2002,6 +2314,7 @@
             </InOut>
             <InOut Name="In2">
               <Settings>
+                <UserComment>ДВ4</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>36</KId>
                 <TransferType>1</TransferType>
@@ -2010,6 +2323,7 @@
             </InOut>
             <InOut Name="In3">
               <Settings>
+                <UserComment>ДВ5</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
@@ -2020,6 +2334,7 @@
             </InOut>
             <InOut Name="In4">
               <Settings>
+                <UserComment>ДВ6</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
@@ -2030,6 +2345,7 @@
             </InOut>
             <InOut Name="In5">
               <Settings>
+                <UserComment>ДВ7</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
@@ -2040,6 +2356,7 @@
             </InOut>
             <InOut Name="In6">
               <Settings>
+                <UserComment>ДВ8</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
@@ -2050,6 +2367,7 @@
             </InOut>
             <InOut Name="In7">
               <Settings>
+                <UserComment>ДВ9</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
@@ -2060,6 +2378,7 @@
             </InOut>
             <InOut Name="In8">
               <Settings>
+                <UserComment>ДВ10</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
                 <IVDefined0>True</IVDefined0>
                 <InitValue0>0,00</InitValue0>
@@ -2110,6 +2429,8 @@
                 <wKind>1</wKind>
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>True</InitValue0>
                 <KId>45</KId>
                 <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
               </Settings>
@@ -2118,6 +2439,7 @@
           <Group Name="Входа">
             <Settings>
               <Name>Входа</Name>
+              <UserComment>Универсальные аналоговые входы</UserComment>
               <IsHidden>False</IsHidden>
               <GroupType>0</GroupType>
               <GroupSubType>2</GroupSubType>
@@ -2125,7 +2447,10 @@
             </Settings>
             <InOut Name="Вх1">
               <Settings>
+                <UserComment>ДТ1</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
+                <Naimen>Температура воды на входе насоса</Naimen>
+                <Measure>°С</Measure>
                 <KId>46</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="4" Func="3" DataType="23" K="1,0000" msk="65535"/>
@@ -2133,7 +2458,10 @@
             </InOut>
             <InOut Name="Вх2">
               <Settings>
+                <UserComment>ДТ2</UserComment>
                 <AssignedMBA>-1</AssignedMBA>
+                <Naimen>Температура воды на выходе насоса</Naimen>
+                <Measure>°С</Measure>
                 <KId>47</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="10" Func="3" DataType="23" K="1,0000" msk="65535"/>
@@ -2642,6 +2970,8 @@
                 <wKind>1</wKind>
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>True</InitValue0>
                 <KId>91</KId>
                 <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
               </Settings>
@@ -2875,6 +3205,8 @@
                 <wKind>1</wKind>
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>True</InitValue0>
                 <KId>150</KId>
                 <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
               </Settings>
@@ -3103,6 +3435,8 @@
                 <wKind>1</wKind>
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>True</InitValue0>
                 <KId>209</KId>
                 <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
               </Settings>
@@ -3223,7 +3557,7 @@
               <Settings>
                 <UserComment>Н1 пуск</UserComment>
                 <wKind>1</wKind>
-                <Connected>Управление насосом.Импульсный таймер 1.ВыходНО 1</Connected>
+                <Connected>Управление насосом.И 5.Выход</Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>220</KId>
                 <PropList Adr="2" Func="15" DataType="11" K="1,0000" msk="65535"/>
@@ -3233,7 +3567,7 @@
               <Settings>
                 <UserComment>Н1 рев</UserComment>
                 <wKind>1</wKind>
-                <Connected>Управление насосом.Импульсный таймер 2.ВыходНО 1</Connected>
+                <Connected>Управление насосом.И 6.Выход</Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>221</KId>
                 <PropList Adr="3" Func="15" DataType="11" K="1,0000" msk="65535"/>
@@ -3243,7 +3577,7 @@
               <Settings>
                 <UserComment>Н2 пуск</UserComment>
                 <wKind>1</wKind>
-                <Connected>Управление насосом.Импульсный таймер 3.ВыходНО 1</Connected>
+                <Connected>Управление насосом.И 7.Выход</Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>222</KId>
                 <PropList Adr="4" Func="15" DataType="11" K="1,0000" msk="65535"/>
@@ -3253,7 +3587,7 @@
               <Settings>
                 <UserComment>Н2 рев</UserComment>
                 <wKind>1</wKind>
-                <Connected>Управление насосом.Импульсный таймер 4.ВыходНО 1</Connected>
+                <Connected>Управление насосом.И 8.Выход</Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>223</KId>
                 <PropList Adr="5" Func="15" DataType="11" K="1,0000" msk="65535"/>
@@ -3319,6 +3653,8 @@
                 <wKind>1</wKind>
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
                 <KId>239</KId>
                 <PropList Adr="0x3" Func="0x0" DataType="11" K="1,0000" msk="0xFFFF"/>
               </Settings>
@@ -3594,7 +3930,7 @@
               </InOut>
               <InOut Name="EPp">
                 <Settings>
-                  <UserComment>A0+</UserComment>
+                  <UserComment>A0+ со сброса</UserComment>
                   <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Вт</Measure>
@@ -3605,7 +3941,7 @@
               </InOut>
               <InOut Name="EPn">
                 <Settings>
-                  <UserComment>A0-</UserComment>
+                  <UserComment>A0- со сброса</UserComment>
                   <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Вт</Measure>
@@ -3616,7 +3952,7 @@
               </InOut>
               <InOut Name="EQp">
                 <Settings>
-                  <UserComment>R0+</UserComment>
+                  <UserComment>R0+ со сброса</UserComment>
                   <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Вт</Measure>
@@ -3627,7 +3963,7 @@
               </InOut>
               <InOut Name="WQn">
                 <Settings>
-                  <UserComment>R0-</UserComment>
+                  <UserComment>R0- со сброса</UserComment>
                   <wKind>2</wKind>
                   <AssignedMBA>-1</AssignedMBA>
                   <Measure>Вт</Measure>
@@ -4037,104 +4373,64 @@
           <TaskElements></TaskElements>
         </Settings>
         <VarSimple>
-          <InOut Name="пров_пуск_Н1_прям">
+          <InOut Name="ОСТАНОВ">
             <Settings>
-              <UserComment>пров_пуск_Н1_прям</UserComment>
+              <UserComment>ОСТАНОВ</UserComment>
               <IsGlobVar>1</IsGlobVar>
               <wKind>0</wKind>
-              <Connected>Управление насосом.Импульсный таймер 1.Старт</Connected>
-              <VariableSource></VariableSource>
+              <Connected>Управление насосом.RS-Триггер 1.ВходСброса 1</Connected>
+              <Connected>Управление насосом.Импульсный таймер 1.Сброс</Connected>
+              <Connected>Управление насосом.RS-Триггер 2.ВходУст 1</Connected>
+              <VariableSource>Управление насосом.Импульсный таймер 2.ВыходНО 1</VariableSource>
               <Description></Description>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
-              <KId>342</KId>
+              <KId>293</KId>
+              <TransferType>1</TransferType>
             </Settings>
           </InOut>
-          <InOut Name="пров_пуск_Н1_рев">
+          <InOut Name="режим">
             <Settings>
-              <UserComment>пров_пуск_Н1_рев</UserComment>
+              <UserComment>режим</UserComment>
+              <IsGlobVar>1</IsGlobVar>
+              <wKind>2</wKind>
+              <Connected>Управление насосом.Сравнение 1.Вход 2 1</Connected>
+              <Connected>Управление насосом.Сравнение 1.Вход 2 2</Connected>
+              <Connected>Управление насосом.Сравнение 1.Вход 2 3</Connected>
+              <Connected>Управление насосом.Сравнение 1.Вход 2 4</Connected>
+              <VariableSource></VariableSource>
+              <Description></Description>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>0</InitValue0>
+              <KId>395</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="краткий пуск">
+            <Settings>
+              <UserComment>краткий пуск</UserComment>
               <IsGlobVar>1</IsGlobVar>
               <wKind>0</wKind>
-              <Connected>Управление насосом.Импульсный таймер 2.Старт</Connected>
-              <VariableSource></VariableSource>
+              <Connected>Управление насосом.Импульсный таймер 1.Старт</Connected>
+              <Connected>Управление насосом.RS-Триггер 4.ВходУст 1</Connected>
+              <VariableSource>Управление насосом.Импульсный таймер 4.ВыходНО 1</VariableSource>
               <Description></Description>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
               <KId>343</KId>
             </Settings>
           </InOut>
-          <InOut Name="пров_пуск_Н2_прям">
+          <InOut Name="пуск">
             <Settings>
-              <UserComment>пров_пуск_Н2_прям</UserComment>
+              <UserComment>пуск</UserComment>
               <IsGlobVar>1</IsGlobVar>
               <wKind>0</wKind>
-              <Connected>Управление насосом.Импульсный таймер 3.Старт</Connected>
-              <VariableSource></VariableSource>
+              <Connected>Управление насосом.RS-Триггер 1.ВходУст 1</Connected>
+              <Connected>Управление насосом.RS-Триггер 3.ВходУст 1</Connected>
+              <VariableSource>Управление насосом.Импульсный таймер 3.ВыходНО 1</VariableSource>
               <Description></Description>
               <IVDefined0>True</IVDefined0>
               <InitValue0>False</InitValue0>
               <KId>344</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="пров_пуск_Н2_рев">
-            <Settings>
-              <UserComment>пров_пуск_Н2_рев</UserComment>
-              <IsGlobVar>1</IsGlobVar>
-              <wKind>0</wKind>
-              <Connected>Управление насосом.Импульсный таймер 4.Старт</Connected>
-              <VariableSource></VariableSource>
-              <Description></Description>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>345</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="пуск_Н1_прям">
-            <Settings>
-              <UserComment>пуск_Н1_прям</UserComment>
-              <IsGlobVar>1</IsGlobVar>
-              <wKind>0</wKind>
-              <VariableSource></VariableSource>
-              <Description></Description>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>353</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="пуск_Н1_рев">
-            <Settings>
-              <UserComment>пуск_Н1_рев</UserComment>
-              <IsGlobVar>1</IsGlobVar>
-              <wKind>0</wKind>
-              <VariableSource></VariableSource>
-              <Description></Description>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>355</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="пуск_Н2_прям">
-            <Settings>
-              <UserComment>пуск_Н2_прям</UserComment>
-              <IsGlobVar>1</IsGlobVar>
-              <wKind>0</wKind>
-              <VariableSource></VariableSource>
-              <Description></Description>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>354</KId>
-            </Settings>
-          </InOut>
-          <InOut Name="пуск_Н2_рев">
-            <Settings>
-              <UserComment>пуск_Н2_рев</UserComment>
-              <IsGlobVar>1</IsGlobVar>
-              <wKind>0</wKind>
-              <VariableSource></VariableSource>
-              <Description></Description>
-              <IVDefined0>True</IVDefined0>
-              <InitValue0>False</InitValue0>
-              <KId>356</KId>
             </Settings>
           </InOut>
         </VarSimple>
