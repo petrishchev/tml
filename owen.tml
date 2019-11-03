@@ -4,8 +4,8 @@ ProjectName=Новый проект
 [Options]
 UseEvents=1
 UseLogging=1
-PollingPeriod=500
-ControlTimeOut=3
+PollingPeriod=200
+ControlTimeOut=5
 ChangeBkColorToPrint=1
 Default_BestFit=0
 FullScreen=1
