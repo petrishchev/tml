@@ -58,9 +58,9 @@
       <GroupName>ОВЕН КСОД</GroupName>
       <CntrlrCode>20003</CntrlrCode>
       <StaticGUID>{1910EF54-2F21-4664-87D4-6A9546523B47}</StaticGUID>
-      <ParamQuan>272</ParamQuan>
+      <ParamQuan>278</ParamQuan>
       <InitiatorIndex>-1</InitiatorIndex>
-      <PeriodicPoll>True</PeriodicPoll>
+      <PeriodicPoll>False</PeriodicPoll>
       <PeriodTCP.value>30</PeriodTCP.value>
       <PeriodTCP.type>1</PeriodTCP.type>
       <PeriodCOM.value>30</PeriodCOM.value>
@@ -128,7 +128,7 @@
           <PriorityIndex>3</PriorityIndex>
           <TaskType>0</TaskType>
           <TaskElements>&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1251&quot;?&gt;
-&lt;Elements&gt;&lt;Controls/&gt;&lt;/Elements&gt;
+&lt;Elements&gt;&lt;Controls&gt;&lt;Trand&gt;&lt;Left&gt;435&lt;/Left&gt;&lt;Top&gt;105&lt;/Top&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;Height&gt;150&lt;/Height&gt;&lt;BasicProperties&gt;&lt;BkColor&gt;16744576&lt;/BkColor&gt;&lt;LegendVisiable&gt;False&lt;/LegendVisiable&gt;&lt;Title&gt;Отладочный режим&lt;/Title&gt;&lt;TitleUse&gt;True&lt;/TitleUse&gt;&lt;AxisValues&gt;&lt;ShowAxisAndGrid&gt;True&lt;/ShowAxisAndGrid&gt;&lt;AutoParams&gt;True&lt;/AutoParams&gt;&lt;AutoMax&gt;True&lt;/AutoMax&gt;&lt;AutoMin&gt;True&lt;/AutoMin&gt;&lt;MaxValue&gt;1&lt;/MaxValue&gt;&lt;MinValue&gt;-1&lt;/MinValue&gt;&lt;Step&gt;1&lt;/Step&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Logarithmic&gt;False&lt;/Logarithmic&gt;&lt;Inverted&gt;False&lt;/Inverted&gt;&lt;/AxisValues&gt;&lt;AxisTime&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;/AxisTime&gt;&lt;/BasicProperties&gt;&lt;Graphics&gt;&lt;ParamName&gt;\\Мультивибратор 1.Выход 1&lt;/ParamName&gt;&lt;Color&gt;255&lt;/Color&gt;&lt;ImageIndex&gt;18&lt;/ImageIndex&gt;&lt;Checked&gt;True&lt;/Checked&gt;&lt;LineWidth&gt;1&lt;/LineWidth&gt;&lt;Stairs&gt;True&lt;/Stairs&gt;&lt;/Graphics&gt;&lt;/Trand&gt;&lt;/Controls&gt;&lt;/Elements&gt;
 </TaskElements>
         </Settings>
         <FB>
@@ -137,7 +137,7 @@
             <Type>120</Type>
             <ChannelCount>0</ChannelCount>
             <Left>65</Left>
-            <Top>39</Top>
+            <Top>37</Top>
           </Settings>
           <InOut Name="Год">
             <Settings>
@@ -203,6 +203,69 @@
               <IVDefined0>True</IVDefined0>
               <InitValue0>True</InitValue0>
               <KId>9</KId>
+            </Settings>
+          </InOut>
+        </FB>
+        <FB>
+          <Settings>
+            <Name>Мультивибратор 1</Name>
+            <Type>88</Type>
+            <ChannelCount>1</ChannelCount>
+            <Left>303</Left>
+            <Top>135</Top>
+          </Settings>
+          <InOut Name="Пуск 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>True</InitValue0>
+              <KId>301</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Сброс 1">
+            <Settings>
+              <wKind>1</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
+              <KId>302</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Ти 1">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>100</InitValue0>
+              <KId>303</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Тп 1">
+            <Settings>
+              <wKind>3</wKind>
+              <Connected></Connected>
+              <AssignedMBA>-1</AssignedMBA>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>100</InitValue0>
+              <KId>304</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Выход 1">
+            <Settings>
+              <wKind>0</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>305</KId>
+            </Settings>
+          </InOut>
+          <InOut Name="Тв 1">
+            <Settings>
+              <wKind>2</wKind>
+              <AssignedMBA>-1</AssignedMBA>
+              <KId>306</KId>
             </Settings>
           </InOut>
         </FB>
@@ -1060,7 +1123,7 @@
           <PriorityIndex>3</PriorityIndex>
           <TaskType>0</TaskType>
           <TaskElements>&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1251&quot;?&gt;
-&lt;Elements&gt;&lt;Controls&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 5.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;672&lt;/X&gt;&lt;Y&gt;398&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;209&lt;/X&gt;&lt;Y&gt;398&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;209&lt;/X&gt;&lt;Y&gt;455&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;455&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 7.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 3&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;673&lt;/X&gt;&lt;Y&gt;584&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;584&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;533&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;533&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 8.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 4&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;681&lt;/X&gt;&lt;Y&gt;706&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;706&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;572&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;572&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 2.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 1.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;435&lt;/X&gt;&lt;Y&gt;141&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;141&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;242&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;242&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;235&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;374&lt;/X&gt;&lt;Y&gt;235&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 2.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 1.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;435&lt;/X&gt;&lt;Y&gt;128&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;128&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;113&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;366&lt;/X&gt;&lt;Y&gt;113&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;366&lt;/X&gt;&lt;Y&gt;110&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;373&lt;/X&gt;&lt;Y&gt;110&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 5.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;672&lt;/X&gt;&lt;Y&gt;385&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;660&lt;/X&gt;&lt;Y&gt;385&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;660&lt;/X&gt;&lt;Y&gt;138&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;484&lt;/X&gt;&lt;Y&gt;138&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;484&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 6.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;675&lt;/X&gt;&lt;Y&gt;479&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;479&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 7.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;673&lt;/X&gt;&lt;Y&gt;571&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;661&lt;/X&gt;&lt;Y&gt;571&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;661&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 8.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;681&lt;/X&gt;&lt;Y&gt;693&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;669&lt;/X&gt;&lt;Y&gt;693&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;669&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;135&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 6.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 2&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;675&lt;/X&gt;&lt;Y&gt;492&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;492&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;497&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;159&lt;/X&gt;&lt;Y&gt;497&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;159&lt;/X&gt;&lt;Y&gt;494&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;494&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;Импульсный таймер 2.Старт&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 2.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;1042&lt;/X&gt;&lt;Y&gt;228&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1030&lt;/X&gt;&lt;Y&gt;228&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1030&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;931&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;931&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;955&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;RS-Триггер 2.ВходСброса 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 2.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;893&lt;/X&gt;&lt;Y&gt;206&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;881&lt;/X&gt;&lt;Y&gt;206&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;881&lt;/X&gt;&lt;Y&gt;264&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1098&lt;/X&gt;&lt;Y&gt;264&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1098&lt;/X&gt;&lt;Y&gt;261&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1104&lt;/X&gt;&lt;Y&gt;261&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;Импульсный таймер 3.Старт&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 3.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;1046&lt;/X&gt;&lt;Y&gt;398&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1034&lt;/X&gt;&lt;Y&gt;398&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1034&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;951&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;951&lt;/X&gt;&lt;Y&gt;370&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;959&lt;/X&gt;&lt;Y&gt;370&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;RS-Триггер 3.ВходСброса 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 3.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;897&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;885&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;885&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1093&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1093&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1108&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;RS-Триггер 4.ВходСброса 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 4.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;899&lt;/X&gt;&lt;Y&gt;548&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;887&lt;/X&gt;&lt;Y&gt;548&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;887&lt;/X&gt;&lt;Y&gt;607&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1106&lt;/X&gt;&lt;Y&gt;607&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1106&lt;/X&gt;&lt;Y&gt;603&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1110&lt;/X&gt;&lt;Y&gt;603&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;Импульсный таймер 4.Старт&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 4.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;1048&lt;/X&gt;&lt;Y&gt;570&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;949&lt;/X&gt;&lt;Y&gt;570&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;949&lt;/X&gt;&lt;Y&gt;542&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;961&lt;/X&gt;&lt;Y&gt;542&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;/Controls&gt;&lt;/Elements&gt;
+&lt;Elements&gt;&lt;Controls&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 5.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;672&lt;/X&gt;&lt;Y&gt;395&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;209&lt;/X&gt;&lt;Y&gt;395&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;209&lt;/X&gt;&lt;Y&gt;452&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;452&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 7.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 3&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;673&lt;/X&gt;&lt;Y&gt;581&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;581&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;530&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;530&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 8.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 4&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;681&lt;/X&gt;&lt;Y&gt;703&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;703&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;238&lt;/X&gt;&lt;Y&gt;569&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;569&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 2.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 1.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;435&lt;/X&gt;&lt;Y&gt;138&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;138&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;242&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;242&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;232&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;374&lt;/X&gt;&lt;Y&gt;232&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 2.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 1.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;435&lt;/X&gt;&lt;Y&gt;125&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;125&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;423&lt;/X&gt;&lt;Y&gt;113&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;366&lt;/X&gt;&lt;Y&gt;113&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;366&lt;/X&gt;&lt;Y&gt;107&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;373&lt;/X&gt;&lt;Y&gt;107&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 5.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;672&lt;/X&gt;&lt;Y&gt;382&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;660&lt;/X&gt;&lt;Y&gt;382&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;660&lt;/X&gt;&lt;Y&gt;138&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;484&lt;/X&gt;&lt;Y&gt;138&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;484&lt;/X&gt;&lt;Y&gt;132&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;132&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 6.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;675&lt;/X&gt;&lt;Y&gt;476&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;476&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;132&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;132&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 7.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;673&lt;/X&gt;&lt;Y&gt;568&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;661&lt;/X&gt;&lt;Y&gt;568&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;661&lt;/X&gt;&lt;Y&gt;132&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;132&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 8.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;681&lt;/X&gt;&lt;Y&gt;690&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;669&lt;/X&gt;&lt;Y&gt;690&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;669&lt;/X&gt;&lt;Y&gt;132&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;497&lt;/X&gt;&lt;Y&gt;132&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;И 6.Вход 2&lt;/sInFullName&gt;&lt;sOutFullName&gt;Сравнение 1.Выход Равно 2&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;675&lt;/X&gt;&lt;Y&gt;489&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;489&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;663&lt;/X&gt;&lt;Y&gt;497&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;159&lt;/X&gt;&lt;Y&gt;497&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;159&lt;/X&gt;&lt;Y&gt;491&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;168&lt;/X&gt;&lt;Y&gt;491&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;Импульсный таймер 2.Старт&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 2.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;1042&lt;/X&gt;&lt;Y&gt;225&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1030&lt;/X&gt;&lt;Y&gt;225&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1030&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;931&lt;/X&gt;&lt;Y&gt;200&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;931&lt;/X&gt;&lt;Y&gt;197&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;955&lt;/X&gt;&lt;Y&gt;197&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;RS-Триггер 2.ВходСброса 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 2.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;893&lt;/X&gt;&lt;Y&gt;203&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;881&lt;/X&gt;&lt;Y&gt;203&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;881&lt;/X&gt;&lt;Y&gt;264&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1098&lt;/X&gt;&lt;Y&gt;264&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1098&lt;/X&gt;&lt;Y&gt;258&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1104&lt;/X&gt;&lt;Y&gt;258&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;Импульсный таймер 3.Старт&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 3.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;1046&lt;/X&gt;&lt;Y&gt;395&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1034&lt;/X&gt;&lt;Y&gt;395&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1034&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;951&lt;/X&gt;&lt;Y&gt;376&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;951&lt;/X&gt;&lt;Y&gt;367&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;959&lt;/X&gt;&lt;Y&gt;367&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;RS-Триггер 3.ВходСброса 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 3.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;897&lt;/X&gt;&lt;Y&gt;373&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;885&lt;/X&gt;&lt;Y&gt;373&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;885&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1093&lt;/X&gt;&lt;Y&gt;431&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1093&lt;/X&gt;&lt;Y&gt;428&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1108&lt;/X&gt;&lt;Y&gt;428&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;RS-Триггер 4.ВходСброса 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;Импульсный таймер 4.ВыходНО 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;899&lt;/X&gt;&lt;Y&gt;545&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;887&lt;/X&gt;&lt;Y&gt;545&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;887&lt;/X&gt;&lt;Y&gt;607&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1106&lt;/X&gt;&lt;Y&gt;607&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1106&lt;/X&gt;&lt;Y&gt;600&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;1110&lt;/X&gt;&lt;Y&gt;600&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;Импульсный таймер 4.Старт&lt;/sInFullName&gt;&lt;sOutFullName&gt;RS-Триггер 4.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;1048&lt;/X&gt;&lt;Y&gt;567&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;949&lt;/X&gt;&lt;Y&gt;567&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;949&lt;/X&gt;&lt;Y&gt;539&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;961&lt;/X&gt;&lt;Y&gt;539&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;/Controls&gt;&lt;/Elements&gt;
 </TaskElements>
         </Settings>
         <FB>
@@ -1069,7 +1132,7 @@
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
             <Left>310</Left>
-            <Top>158</Top>
+            <Top>155</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
@@ -1143,7 +1206,7 @@
             <Type>76</Type>
             <ChannelCount>1</ChannelCount>
             <Left>309</Left>
-            <Top>59</Top>
+            <Top>56</Top>
           </Settings>
           <InOut Name="ВходУст 1">
             <Settings>
@@ -1176,7 +1239,7 @@
             <Type>87</Type>
             <ChannelCount>2</ChannelCount>
             <Left>433</Left>
-            <Top>84</Top>
+            <Top>81</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1212,7 +1275,7 @@
             <Type>54</Type>
             <ChannelCount>4</ChannelCount>
             <Left>104</Left>
-            <Top>398</Top>
+            <Top>395</Top>
           </Settings>
           <InOut Name="Вход 1 1">
             <Settings>
@@ -1421,7 +1484,7 @@
             <Type>86</Type>
             <ChannelCount>2</ChannelCount>
             <Left>670</Left>
-            <Top>341</Top>
+            <Top>338</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1454,7 +1517,7 @@
             <Type>86</Type>
             <ChannelCount>2</ChannelCount>
             <Left>673</Left>
-            <Top>435</Top>
+            <Top>432</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1487,7 +1550,7 @@
             <Type>86</Type>
             <ChannelCount>2</ChannelCount>
             <Left>671</Left>
-            <Top>527</Top>
+            <Top>524</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1520,7 +1583,7 @@
             <Type>86</Type>
             <ChannelCount>2</ChannelCount>
             <Left>679</Left>
-            <Top>649</Top>
+            <Top>646</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1553,7 +1616,7 @@
             <Type>76</Type>
             <ChannelCount>1</ChannelCount>
             <Left>891</Left>
-            <Top>149</Top>
+            <Top>146</Top>
           </Settings>
           <InOut Name="ВходУст 1">
             <Settings>
@@ -1588,7 +1651,7 @@
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
             <Left>1040</Left>
-            <Top>184</Top>
+            <Top>181</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
@@ -1663,7 +1726,7 @@
             <Type>76</Type>
             <ChannelCount>1</ChannelCount>
             <Left>895</Left>
-            <Top>319</Top>
+            <Top>316</Top>
           </Settings>
           <InOut Name="ВходУст 1">
             <Settings>
@@ -1698,7 +1761,7 @@
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
             <Left>1044</Left>
-            <Top>354</Top>
+            <Top>351</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
@@ -1773,7 +1836,7 @@
             <Type>76</Type>
             <ChannelCount>1</ChannelCount>
             <Left>897</Left>
-            <Top>491</Top>
+            <Top>488</Top>
           </Settings>
           <InOut Name="ВходУст 1">
             <Settings>
@@ -1808,7 +1871,7 @@
             <Type>96</Type>
             <ChannelCount>1</ChannelCount>
             <Left>1046</Left>
-            <Top>526</Top>
+            <Top>523</Top>
           </Settings>
           <InOut Name="ВремяТек">
             <Settings>
@@ -2557,6 +2620,8 @@
                 <wKind>1</wKind>
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>True</InitValue0>
                 <KId>56</KId>
                 <PropList Adr="3" Func="0" DataType="11" K="1,0000" msk="65535"/>
               </Settings>
@@ -3559,7 +3624,10 @@
                 <wKind>1</wKind>
                 <Connected>Управление насосом.И 5.Выход</Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
                 <KId>220</KId>
+                <TransferType>2</TransferType>
                 <PropList Adr="2" Func="15" DataType="11" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -3569,7 +3637,10 @@
                 <wKind>1</wKind>
                 <Connected>Управление насосом.И 6.Выход</Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
                 <KId>221</KId>
+                <TransferType>2</TransferType>
                 <PropList Adr="3" Func="15" DataType="11" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -3579,7 +3650,10 @@
                 <wKind>1</wKind>
                 <Connected>Управление насосом.И 7.Выход</Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
                 <KId>222</KId>
+                <TransferType>2</TransferType>
                 <PropList Adr="4" Func="15" DataType="11" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -3589,7 +3663,10 @@
                 <wKind>1</wKind>
                 <Connected>Управление насосом.И 8.Выход</Connected>
                 <AssignedMBA>-1</AssignedMBA>
+                <IVDefined0>True</IVDefined0>
+                <InitValue0>False</InitValue0>
                 <KId>223</KId>
+                <TransferType>2</TransferType>
                 <PropList Adr="5" Func="15" DataType="11" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>

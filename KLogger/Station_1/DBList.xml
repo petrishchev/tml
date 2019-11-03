@@ -8,7 +8,7 @@
     <IBMainCfg>
       <ServerIsStation>True</ServerIsStation>
       <ServerStationId>1</ServerStationId>
-      <FileName>C:\Users\naumov\Documents\опнейр рлк\Base\kdb.fdb</FileName>
+      <FileName>C:\PHM_teststand_db\Base\kdb.fdb</FileName>
       <UserName>sysdba</UserName>
       <Password>эпбетцзтх</Password>
     </IBMainCfg>
