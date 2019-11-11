@@ -1,6 +1,6 @@
 OWEN project file
 [Info]
-ProjectName=Новый проект
+ProjectName=Проект стенда
 [Options]
 UseEvents=1
 UseLogging=1
@@ -11,8 +11,8 @@ Default_BestFit=0
 FullScreen=1
 StatusBarVisible=0
 MainToolBarVisible=0
-AdjustToolBarVisible=1
-MainMenuToolBarVisible=1
+AdjustToolBarVisible=0
+MainMenuToolBarVisible=0
 MagnifierToolBarVisible=0
 DisablePlayback=1
 PlaybackAny=1
@@ -28,7 +28,7 @@ MinBottomDockSiteHeight=62
 MaxBottomDockSiteHeight=400
 DisableSomeHotKeysInWorkMode=1
 CheckBackComments=0
-RestoreOnAlarm=0
+RestoreOnAlarm=1
 DefaultSettingPath=C:\Program Files (x86)\OWEN\TML\Bin\
 ExtendPanel=0
 PasspTypeView=0

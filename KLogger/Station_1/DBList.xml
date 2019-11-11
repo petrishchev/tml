@@ -2,7 +2,7 @@
 <DBList>
   <DB>
     <GUID>{9DCC4453-22CA-451D-9305-38428829C8A4}</GUID>
-    <Name>БД стенда ПГМ</Name>
+    <Name>БД стенда</Name>
     <Type>0</Type>
     <DBMSType>0</DBMSType>
     <IBMainCfg>
