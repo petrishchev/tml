@@ -6590,6 +6590,17 @@
               <KId>485</KId>
             </Settings>
           </InOut>
+          <InOut Name="наименование_насоса">
+            <Settings>
+              <UserComment>наименование_насоса</UserComment>
+              <IsGlobVar>1</IsGlobVar>
+              <wKind>10</wKind>
+              <VariableSource></VariableSource>
+              <Description></Description>
+              <KId>535</KId>
+              <TransferType>2</TransferType>
+            </Settings>
+          </InOut>
         </VarSimple>
         <VarArrays/>
       </Group>
