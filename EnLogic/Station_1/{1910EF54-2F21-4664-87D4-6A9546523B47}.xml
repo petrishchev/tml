@@ -5772,6 +5772,150 @@
             </Group>
           </Group>
         </Module>
+        <Module>
+          <Settings>
+            <Name>SE Altivar ATV630 (ЩС-А1)</Name>
+            <ModuleID>9088</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id4="255.255.255.255" Id5="502" Id1="90" Id2="0" Id3="0" Id240="C:\Projects\modules\mb-SE_ATV630D37N4.xlsx" Id241="Таблица параметров"/>
+          </Settings>
+          <Group Name="Служебные">
+            <Settings>
+              <Name>Служебные</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="Связь">
+              <Settings>
+                <wKind>0</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>496</KId>
+                <TransferType>2</TransferType>
+                <PropList Adr="0x1" Func="0x0" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Время">
+              <Settings>
+                <wKind>6</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>497</KId>
+                <PropList Adr="0x2" Func="0x0" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="Приостанов">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>499</KId>
+                <PropList Adr="0x3" Func="0x0" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="ПринудЗапись">
+              <Settings>
+                <wKind>1</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>500</KId>
+                <PropList Adr="0x5" Func="0x0" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+          </Group>
+          <Group Name="ATV630D37N4">
+            <Settings>
+              <Name>ATV630D37N4</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="CMD">
+              <Settings>
+                <wKind>3</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>501</KId>
+                <PropList Adr="0x8501" Func="0x6" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="RCMD">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>502</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x8501" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="LFR">
+              <Settings>
+                <wKind>3</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>503</KId>
+                <PropList Adr="0x8502" Func="0x6" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="RLFR">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>504</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x8502" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="RFR">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>505</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x3202" Func="0x3" DataType="10" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="RCR">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>506</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x3204" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="ETA">
+              <Settings>
+                <wKind>3</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>507</KId>
+                <PropList Adr="0x3201" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="UOP">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>508</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x3208" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="OPR">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>509</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x3211" Func="0x3" DataType="10" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
       </Protocol>
     </TasksGroup1>
     <GlobVarGroups>
