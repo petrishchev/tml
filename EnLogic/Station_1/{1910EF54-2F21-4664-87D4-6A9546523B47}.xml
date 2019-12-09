@@ -58,7 +58,7 @@
       <GroupName>ОВЕН КСОД</GroupName>
       <CntrlrCode>20003</CntrlrCode>
       <StaticGUID>{1910EF54-2F21-4664-87D4-6A9546523B47}</StaticGUID>
-      <ParamQuan>386</ParamQuan>
+      <ParamQuan>378</ParamQuan>
       <InitiatorIndex>-1</InitiatorIndex>
       <PeriodicPoll>True</PeriodicPoll>
       <PeriodTCP.value>25</PeriodTCP.value>
@@ -292,7 +292,7 @@
           <PriorityIndex>2</PriorityIndex>
           <TaskType>0</TaskType>
           <TaskElements>&lt;?xml version=&quot;1.0&quot; encoding=&quot;windows-1251&quot;?&gt;
-&lt;Elements&gt;&lt;Controls&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР3 Dn50.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 1.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;371&lt;/X&gt;&lt;Y&gt;1042&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;1042&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;1103&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;358&lt;/X&gt;&lt;Y&gt;1103&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ЗД3 Dn50.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 6.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;848&lt;/X&gt;&lt;Y&gt;1040&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;836&lt;/X&gt;&lt;Y&gt;1040&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;836&lt;/X&gt;&lt;Y&gt;1110&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;782&lt;/X&gt;&lt;Y&gt;1110&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;782&lt;/X&gt;&lt;Y&gt;1091&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;796&lt;/X&gt;&lt;Y&gt;1091&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ЗД2 Dn100.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 5.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;846&lt;/X&gt;&lt;Y&gt;792&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;834&lt;/X&gt;&lt;Y&gt;792&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;834&lt;/X&gt;&lt;Y&gt;850&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;761&lt;/X&gt;&lt;Y&gt;850&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;761&lt;/X&gt;&lt;Y&gt;839&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;785&lt;/X&gt;&lt;Y&gt;839&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ЗД1 Dn300.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 4.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;838&lt;/X&gt;&lt;Y&gt;209&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;826&lt;/X&gt;&lt;Y&gt;209&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;826&lt;/X&gt;&lt;Y&gt;266&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;776&lt;/X&gt;&lt;Y&gt;266&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;776&lt;/X&gt;&lt;Y&gt;257&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;784&lt;/X&gt;&lt;Y&gt;257&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР1 Dn300.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 3.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;408&lt;/X&gt;&lt;Y&gt;233&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;233&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;297&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;297&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;282&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;369&lt;/X&gt;&lt;Y&gt;282&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР2 Dn100.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 2.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;372&lt;/X&gt;&lt;Y&gt;803&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;803&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;852&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;310&lt;/X&gt;&lt;Y&gt;852&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР1 Dn300.Открыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 5.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;408&lt;/X&gt;&lt;Y&gt;168&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;168&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;181&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;268&lt;/X&gt;&lt;Y&gt;181&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;268&lt;/X&gt;&lt;Y&gt;167&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;282&lt;/X&gt;&lt;Y&gt;167&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР1 Dn300.Закрыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 6.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;408&lt;/X&gt;&lt;Y&gt;181&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;181&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;251&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;269&lt;/X&gt;&lt;Y&gt;251&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;269&lt;/X&gt;&lt;Y&gt;239&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;281&lt;/X&gt;&lt;Y&gt;239&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР2 Dn100.Открыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 3.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;372&lt;/X&gt;&lt;Y&gt;738&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;738&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;720&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;235&lt;/X&gt;&lt;Y&gt;720&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;235&lt;/X&gt;&lt;Y&gt;713&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;246&lt;/X&gt;&lt;Y&gt;713&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР2 Dn100.Закрыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 4.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;372&lt;/X&gt;&lt;Y&gt;751&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;751&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;797&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;229&lt;/X&gt;&lt;Y&gt;797&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;229&lt;/X&gt;&lt;Y&gt;785&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;245&lt;/X&gt;&lt;Y&gt;785&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР3 Dn50.Открыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 1.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;371&lt;/X&gt;&lt;Y&gt;977&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;977&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;981&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;242&lt;/X&gt;&lt;Y&gt;981&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;242&lt;/X&gt;&lt;Y&gt;965&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;248&lt;/X&gt;&lt;Y&gt;965&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР3 Dn50.Закрыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;371&lt;/X&gt;&lt;Y&gt;990&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;990&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;1050&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;233&lt;/X&gt;&lt;Y&gt;1050&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;233&lt;/X&gt;&lt;Y&gt;1037&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;247&lt;/X&gt;&lt;Y&gt;1037&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 5.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 1.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;220&lt;/X&gt;&lt;Y&gt;160&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;208&lt;/X&gt;&lt;Y&gt;160&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;208&lt;/X&gt;&lt;Y&gt;157&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;210&lt;/X&gt;&lt;Y&gt;157&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 6.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 2.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;219&lt;/X&gt;&lt;Y&gt;232&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;207&lt;/X&gt;&lt;Y&gt;232&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;207&lt;/X&gt;&lt;Y&gt;231&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;194&lt;/X&gt;&lt;Y&gt;231&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;194&lt;/X&gt;&lt;Y&gt;230&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;205&lt;/X&gt;&lt;Y&gt;230&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 3.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 3.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;184&lt;/X&gt;&lt;Y&gt;706&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;172&lt;/X&gt;&lt;Y&gt;706&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;172&lt;/X&gt;&lt;Y&gt;703&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;170&lt;/X&gt;&lt;Y&gt;703&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 4.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 4.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;183&lt;/X&gt;&lt;Y&gt;778&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;171&lt;/X&gt;&lt;Y&gt;778&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;171&lt;/X&gt;&lt;Y&gt;775&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;156&lt;/X&gt;&lt;Y&gt;775&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;156&lt;/X&gt;&lt;Y&gt;771&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;167&lt;/X&gt;&lt;Y&gt;771&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 1.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 5.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;186&lt;/X&gt;&lt;Y&gt;958&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;174&lt;/X&gt;&lt;Y&gt;958&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;174&lt;/X&gt;&lt;Y&gt;951&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;158&lt;/X&gt;&lt;Y&gt;951&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 2.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 6.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;185&lt;/X&gt;&lt;Y&gt;1030&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;173&lt;/X&gt;&lt;Y&gt;1030&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;173&lt;/X&gt;&lt;Y&gt;1024&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;133&lt;/X&gt;&lt;Y&gt;1024&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;133&lt;/X&gt;&lt;Y&gt;1024&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;158&lt;/X&gt;&lt;Y&gt;1024&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;/Controls&gt;&lt;/Elements&gt;
+&lt;Elements&gt;&lt;Controls&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР3 Dn50.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 1.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;371&lt;/X&gt;&lt;Y&gt;1041&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;1041&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;1102&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;358&lt;/X&gt;&lt;Y&gt;1102&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ЗД3 Dn50.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 6.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;848&lt;/X&gt;&lt;Y&gt;1039&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;836&lt;/X&gt;&lt;Y&gt;1039&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;836&lt;/X&gt;&lt;Y&gt;1110&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;782&lt;/X&gt;&lt;Y&gt;1110&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;782&lt;/X&gt;&lt;Y&gt;1090&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;796&lt;/X&gt;&lt;Y&gt;1090&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ЗД2 Dn100.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 5.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;846&lt;/X&gt;&lt;Y&gt;791&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;834&lt;/X&gt;&lt;Y&gt;791&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;834&lt;/X&gt;&lt;Y&gt;850&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;761&lt;/X&gt;&lt;Y&gt;850&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;761&lt;/X&gt;&lt;Y&gt;838&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;785&lt;/X&gt;&lt;Y&gt;838&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ЗД1 Dn300.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 4.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;838&lt;/X&gt;&lt;Y&gt;208&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;826&lt;/X&gt;&lt;Y&gt;208&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;826&lt;/X&gt;&lt;Y&gt;266&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;776&lt;/X&gt;&lt;Y&gt;266&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;776&lt;/X&gt;&lt;Y&gt;256&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;784&lt;/X&gt;&lt;Y&gt;256&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР1 Dn300.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 3.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;408&lt;/X&gt;&lt;Y&gt;232&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;232&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;297&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;297&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;281&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;369&lt;/X&gt;&lt;Y&gt;281&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР2 Dn100.Положение&lt;/sInFullName&gt;&lt;sOutFullName&gt;ДелЧисла10 2.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;372&lt;/X&gt;&lt;Y&gt;802&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;802&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;851&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;310&lt;/X&gt;&lt;Y&gt;851&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР1 Dn300.Открыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 5.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;408&lt;/X&gt;&lt;Y&gt;167&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;167&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;181&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;268&lt;/X&gt;&lt;Y&gt;181&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;268&lt;/X&gt;&lt;Y&gt;166&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;282&lt;/X&gt;&lt;Y&gt;166&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР1 Dn300.Закрыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 6.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;408&lt;/X&gt;&lt;Y&gt;180&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;180&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;396&lt;/X&gt;&lt;Y&gt;251&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;269&lt;/X&gt;&lt;Y&gt;251&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;269&lt;/X&gt;&lt;Y&gt;238&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;281&lt;/X&gt;&lt;Y&gt;238&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР2 Dn100.Открыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 3.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;372&lt;/X&gt;&lt;Y&gt;737&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;737&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;720&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;235&lt;/X&gt;&lt;Y&gt;720&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;235&lt;/X&gt;&lt;Y&gt;712&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;246&lt;/X&gt;&lt;Y&gt;712&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР2 Dn100.Закрыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 4.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;372&lt;/X&gt;&lt;Y&gt;750&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;750&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;360&lt;/X&gt;&lt;Y&gt;797&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;229&lt;/X&gt;&lt;Y&gt;797&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;229&lt;/X&gt;&lt;Y&gt;784&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;245&lt;/X&gt;&lt;Y&gt;784&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР3 Dn50.Открыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 1.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;371&lt;/X&gt;&lt;Y&gt;976&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;976&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;981&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;242&lt;/X&gt;&lt;Y&gt;981&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;242&lt;/X&gt;&lt;Y&gt;964&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;248&lt;/X&gt;&lt;Y&gt;964&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;КЗР3 Dn50.Закрыт&lt;/sInFullName&gt;&lt;sOutFullName&gt;ИЛИ 2.Выход&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;371&lt;/X&gt;&lt;Y&gt;989&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;989&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;359&lt;/X&gt;&lt;Y&gt;1050&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;233&lt;/X&gt;&lt;Y&gt;1050&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;233&lt;/X&gt;&lt;Y&gt;1036&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;247&lt;/X&gt;&lt;Y&gt;1036&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 5.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 1.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;220&lt;/X&gt;&lt;Y&gt;159&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;208&lt;/X&gt;&lt;Y&gt;159&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;208&lt;/X&gt;&lt;Y&gt;156&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;210&lt;/X&gt;&lt;Y&gt;156&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 6.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 2.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;219&lt;/X&gt;&lt;Y&gt;231&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;207&lt;/X&gt;&lt;Y&gt;231&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;207&lt;/X&gt;&lt;Y&gt;231&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;194&lt;/X&gt;&lt;Y&gt;231&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;194&lt;/X&gt;&lt;Y&gt;229&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;205&lt;/X&gt;&lt;Y&gt;229&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 3.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 3.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;184&lt;/X&gt;&lt;Y&gt;705&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;172&lt;/X&gt;&lt;Y&gt;705&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;172&lt;/X&gt;&lt;Y&gt;702&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;170&lt;/X&gt;&lt;Y&gt;702&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 4.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 4.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;183&lt;/X&gt;&lt;Y&gt;777&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;171&lt;/X&gt;&lt;Y&gt;777&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;171&lt;/X&gt;&lt;Y&gt;775&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;156&lt;/X&gt;&lt;Y&gt;775&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;156&lt;/X&gt;&lt;Y&gt;770&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;167&lt;/X&gt;&lt;Y&gt;770&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 1.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 5.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;186&lt;/X&gt;&lt;Y&gt;957&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;174&lt;/X&gt;&lt;Y&gt;957&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;174&lt;/X&gt;&lt;Y&gt;950&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;158&lt;/X&gt;&lt;Y&gt;950&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;LinkLine&gt;&lt;sInFullName&gt;ИЛИ 2.Вход 1&lt;/sInFullName&gt;&lt;sOutFullName&gt;НЕ 6.Выход 1&lt;/sOutFullName&gt;&lt;Point&gt;&lt;X&gt;185&lt;/X&gt;&lt;Y&gt;1029&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;173&lt;/X&gt;&lt;Y&gt;1029&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;173&lt;/X&gt;&lt;Y&gt;1024&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;133&lt;/X&gt;&lt;Y&gt;1024&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;133&lt;/X&gt;&lt;Y&gt;1023&lt;/Y&gt;&lt;/Point&gt;&lt;Point&gt;&lt;X&gt;158&lt;/X&gt;&lt;Y&gt;1023&lt;/Y&gt;&lt;/Point&gt;&lt;/LinkLine&gt;&lt;/Controls&gt;&lt;/Elements&gt;
 </TaskElements>
         </Settings>
         <FB>
@@ -301,7 +301,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>406</Left>
-            <Top>104</Top>
+            <Top>103</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -398,7 +398,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>60,00</InitValue0>
+              <InitValue0>1,00</InitValue0>
               <KId>262</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -409,7 +409,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>0,50</InitValue0>
+              <InitValue0>1,00</InitValue0>
               <KId>263</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -454,7 +454,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>370</Left>
-            <Top>674</Top>
+            <Top>673</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -550,7 +550,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>4,00</InitValue0>
+              <InitValue0>1,00</InitValue0>
               <KId>113</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -561,7 +561,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>1,00</InitValue0>
+              <InitValue0>1,50</InitValue0>
               <KId>114</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -606,7 +606,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>369</Left>
-            <Top>913</Top>
+            <Top>912</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -713,7 +713,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>1,00</InitValue0>
+              <InitValue0>2,00</InitValue0>
               <KId>169</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -758,7 +758,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>836</Left>
-            <Top>80</Top>
+            <Top>79</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -854,7 +854,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>60,00</InitValue0>
+              <InitValue0>5,00</InitValue0>
               <KId>181</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -865,7 +865,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>1,00</InitValue0>
+              <InitValue0>2,00</InitValue0>
               <KId>182</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -910,7 +910,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>844</Left>
-            <Top>663</Top>
+            <Top>662</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -1006,7 +1006,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>2,00</InitValue0>
+              <InitValue0>1,00</InitValue0>
               <KId>194</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -1017,7 +1017,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>1,00</InitValue0>
+              <InitValue0>2,00</InitValue0>
               <KId>195</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -1062,7 +1062,7 @@
             <Type>92</Type>
             <ChannelCount>0</ChannelCount>
             <Left>846</Left>
-            <Top>911</Top>
+            <Top>910</Top>
           </Settings>
           <InOut Name="Работа">
             <Settings>
@@ -1158,7 +1158,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>60,00</InitValue0>
+              <InitValue0>0,50</InitValue0>
               <KId>226</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -1169,7 +1169,7 @@
               <Connected></Connected>
               <AssignedMBA>-1</AssignedMBA>
               <IVDefined0>True</IVDefined0>
-              <InitValue0>1,00</InitValue0>
+              <InitValue0>2,00</InitValue0>
               <KId>227</KId>
               <TransferType>2</TransferType>
             </Settings>
@@ -1214,7 +1214,7 @@
             <Type>67</Type>
             <ChannelCount>1</ChannelCount>
             <Left>294</Left>
-            <Top>1058</Top>
+            <Top>1057</Top>
           </Settings>
           <InOut Name="Порядок">
             <Settings>
@@ -1248,7 +1248,7 @@
             <Type>67</Type>
             <ChannelCount>1</ChannelCount>
             <Left>246</Left>
-            <Top>807</Top>
+            <Top>806</Top>
           </Settings>
           <InOut Name="Порядок">
             <Settings>
@@ -1282,7 +1282,7 @@
             <Type>67</Type>
             <ChannelCount>1</ChannelCount>
             <Left>305</Left>
-            <Top>237</Top>
+            <Top>236</Top>
           </Settings>
           <InOut Name="Порядок">
             <Settings>
@@ -1316,7 +1316,7 @@
             <Type>67</Type>
             <ChannelCount>1</ChannelCount>
             <Left>720</Left>
-            <Top>212</Top>
+            <Top>211</Top>
           </Settings>
           <InOut Name="Порядок">
             <Settings>
@@ -1350,7 +1350,7 @@
             <Type>67</Type>
             <ChannelCount>1</ChannelCount>
             <Left>721</Left>
-            <Top>794</Top>
+            <Top>793</Top>
           </Settings>
           <InOut Name="Порядок">
             <Settings>
@@ -1384,7 +1384,7 @@
             <Type>67</Type>
             <ChannelCount>1</ChannelCount>
             <Left>732</Left>
-            <Top>1046</Top>
+            <Top>1045</Top>
           </Settings>
           <InOut Name="Порядок">
             <Settings>
@@ -1418,7 +1418,7 @@
             <Type>87</Type>
             <ChannelCount>2</ChannelCount>
             <Left>184</Left>
-            <Top>920</Top>
+            <Top>919</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1451,7 +1451,7 @@
             <Type>87</Type>
             <ChannelCount>2</ChannelCount>
             <Left>183</Left>
-            <Top>992</Top>
+            <Top>991</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1484,7 +1484,7 @@
             <Type>87</Type>
             <ChannelCount>2</ChannelCount>
             <Left>182</Left>
-            <Top>668</Top>
+            <Top>667</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1517,7 +1517,7 @@
             <Type>87</Type>
             <ChannelCount>2</ChannelCount>
             <Left>181</Left>
-            <Top>740</Top>
+            <Top>739</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1550,7 +1550,7 @@
             <Type>87</Type>
             <ChannelCount>2</ChannelCount>
             <Left>218</Left>
-            <Top>122</Top>
+            <Top>121</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1583,7 +1583,7 @@
             <Type>87</Type>
             <ChannelCount>2</ChannelCount>
             <Left>217</Left>
-            <Top>194</Top>
+            <Top>193</Top>
           </Settings>
           <InOut Name="Выход">
             <Settings>
@@ -1616,7 +1616,7 @@
             <Type>227</Type>
             <ChannelCount>1</ChannelCount>
             <Left>146</Left>
-            <Top>119</Top>
+            <Top>118</Top>
           </Settings>
           <InOut Name="Вход 1">
             <Settings>
@@ -1645,7 +1645,7 @@
             <Type>227</Type>
             <ChannelCount>1</ChannelCount>
             <Left>141</Left>
-            <Top>192</Top>
+            <Top>191</Top>
           </Settings>
           <InOut Name="Вход 1">
             <Settings>
@@ -1674,7 +1674,7 @@
             <Type>227</Type>
             <ChannelCount>1</ChannelCount>
             <Left>106</Left>
-            <Top>665</Top>
+            <Top>664</Top>
           </Settings>
           <InOut Name="Вход 1">
             <Settings>
@@ -1703,7 +1703,7 @@
             <Type>227</Type>
             <ChannelCount>1</ChannelCount>
             <Left>103</Left>
-            <Top>733</Top>
+            <Top>732</Top>
           </Settings>
           <InOut Name="Вход 1">
             <Settings>
@@ -1732,7 +1732,7 @@
             <Type>227</Type>
             <ChannelCount>1</ChannelCount>
             <Left>94</Left>
-            <Top>913</Top>
+            <Top>912</Top>
           </Settings>
           <InOut Name="Вход 1">
             <Settings>
@@ -1761,7 +1761,7 @@
             <Type>227</Type>
             <ChannelCount>1</ChannelCount>
             <Left>94</Left>
-            <Top>986</Top>
+            <Top>985</Top>
           </Settings>
           <InOut Name="Вход 1">
             <Settings>
@@ -3513,6 +3513,8 @@
                 <KId>27</KId>
                 <TransferType>2</TransferType>
                 <Multiplier>0,1</Multiplier>
+                <useNech>True</useNech>
+                <NechTo>1,5</NechTo>
                 <PropList Adr="259" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -3528,6 +3530,8 @@
                 <KId>28</KId>
                 <TransferType>2</TransferType>
                 <Multiplier>0,1</Multiplier>
+                <useNech>True</useNech>
+                <NechTo>1,5</NechTo>
                 <PropList Adr="260" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -3543,6 +3547,8 @@
                 <KId>29</KId>
                 <TransferType>2</TransferType>
                 <Multiplier>0,1</Multiplier>
+                <useNech>True</useNech>
+                <NechTo>1,5</NechTo>
                 <PropList Adr="261" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -6317,6 +6323,8 @@
               <Connected>Управление задвижками.ЗД3 Dn50.Закрыть</Connected>
               <VariableSource></VariableSource>
               <Description></Description>
+              <IVDefined0>True</IVDefined0>
+              <InitValue0>False</InitValue0>
               <KId>335</KId>
               <TransferType>2</TransferType>
             </Settings>
