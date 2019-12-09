@@ -5890,10 +5890,10 @@
             </InOut>
             <InOut Name="ETA">
               <Settings>
-                <wKind>3</wKind>
-                <Connected></Connected>
+                <wKind>2</wKind>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>507</KId>
+                <TransferType>1</TransferType>
                 <PropList Adr="0x3201" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
               </Settings>
             </InOut>
