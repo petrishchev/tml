@@ -5845,6 +5845,7 @@
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>501</KId>
+                <TransferType>2</TransferType>
                 <PropList Adr="0x8501" Func="0x6" DataType="11" K="1,0000" msk="0xFFFF"/>
               </Settings>
             </InOut>
@@ -5853,7 +5854,7 @@
                 <wKind>2</wKind>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>502</KId>
-                <TransferType>1</TransferType>
+                <TransferType>2</TransferType>
                 <PropList Adr="0x8501" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
               </Settings>
             </InOut>
@@ -5863,6 +5864,7 @@
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>503</KId>
+                <TransferType>2</TransferType>
                 <PropList Adr="0x8502" Func="0x6" DataType="11" K="1,0000" msk="0xFFFF"/>
               </Settings>
             </InOut>
