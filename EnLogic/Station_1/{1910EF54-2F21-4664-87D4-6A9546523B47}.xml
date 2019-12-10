@@ -58,7 +58,7 @@
       <GroupName>нбем йянд</GroupName>
       <CntrlrCode>20003</CntrlrCode>
       <StaticGUID>{1910EF54-2F21-4664-87D4-6A9546523B47}</StaticGUID>
-      <ParamQuan>378</ParamQuan>
+      <ParamQuan>387</ParamQuan>
       <InitiatorIndex>-1</InitiatorIndex>
       <PeriodicPoll>True</PeriodicPoll>
       <PeriodTCP.value>25</PeriodTCP.value>
@@ -3282,6 +3282,8 @@
                 <TransferType>2</TransferType>
                 <Multiplier>0,1</Multiplier>
                 <UpBord>2547</UpBord>
+                <useNech>True</useNech>
+                <NechTo>10</NechTo>
                 <PropList Adr="256" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -3297,6 +3299,8 @@
                 <TransferType>2</TransferType>
                 <Multiplier>0,1</Multiplier>
                 <UpBord>284</UpBord>
+                <useNech>True</useNech>
+                <NechTo>2,8</NechTo>
                 <PropList Adr="257" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -3514,7 +3518,7 @@
                 <TransferType>2</TransferType>
                 <Multiplier>0,1</Multiplier>
                 <useNech>True</useNech>
-                <NechTo>15</NechTo>
+                <NechTo>2</NechTo>
                 <PropList Adr="259" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -3531,7 +3535,7 @@
                 <TransferType>2</TransferType>
                 <Multiplier>0,1</Multiplier>
                 <useNech>True</useNech>
-                <NechTo>15</NechTo>
+                <NechTo>1</NechTo>
                 <PropList Adr="260" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
@@ -3548,7 +3552,7 @@
                 <TransferType>2</TransferType>
                 <Multiplier>0,1</Multiplier>
                 <useNech>True</useNech>
-                <NechTo>15</NechTo>
+                <NechTo>1</NechTo>
                 <PropList Adr="261" Func="3" DataType="10" K="1,0000" msk="65535"/>
               </Settings>
             </InOut>
