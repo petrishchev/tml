@@ -3209,7 +3209,7 @@
           <ControlIndex>0</ControlIndex>
           <StopBitsIndex>0</StopBitsIndex>
           <Checksum>True</Checksum>
-          <PropList Id9="0" Id1="4" Id2="8" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="45" Id6="2" Id7="1" Id4="3" Id8="5" Id5="100" Id17="0" Id18="0" Id19="0" Id22="0" Id10="2" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
+          <PropList Id9="0" Id1="4" Id2="8" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="45" Id6="2" Id7="1" Id4="3" Id8="5" Id5="60" Id17="0" Id18="0" Id19="0" Id22="0" Id10="2" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
         </Settings>
         <Module>
           <Settings>
@@ -5917,6 +5917,106 @@
               <Settings>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>509</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x3211" Func="0x3" DataType="10" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+          </Group>
+        </Module>
+        <Module>
+          <Settings>
+            <Name>Modbus-Xls 1</Name>
+            <ModuleID>9088</ModuleID>
+            <Address>1</Address>
+            <CntMask>0</CntMask>
+            <Security>UnAvailable</Security>
+            <SerialNum></SerialNum>
+            <PropList Id4="192.168.127.254" Id5="502" Id1="90" Id2="0" Id3="0" Id240="C:\Projects\modules\mb-SE_ATV630D37N4.xlsx" Id241="Таблица параметров"/>
+          </Settings>
+          <Group Name="ATV630D37N4">
+            <Settings>
+              <Name>ATV630D37N4</Name>
+              <IsHidden>False</IsHidden>
+              <GroupType>0</GroupType>
+              <GroupSubType>2</GroupSubType>
+              <TaskElements></TaskElements>
+            </Settings>
+            <InOut Name="CMD">
+              <Settings>
+                <wKind>3</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>510</KId>
+                <PropList Adr="0x8502" Func="0x6" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="RCMD">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>511</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x8502" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="LFR">
+              <Settings>
+                <wKind>3</wKind>
+                <Connected></Connected>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>512</KId>
+                <PropList Adr="0x8503" Func="0x6" DataType="11" K="0,1000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="RLFR">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>513</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x8503" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="RFR">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>514</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x3203" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="RCR">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>515</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x3205" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="ETA">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>516</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x3202" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="UOP">
+              <Settings>
+                <wKind>2</wKind>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>519</KId>
+                <TransferType>1</TransferType>
+                <PropList Adr="0x3208" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
+              </Settings>
+            </InOut>
+            <InOut Name="OPR">
+              <Settings>
+                <AssignedMBA>-1</AssignedMBA>
+                <KId>520</KId>
                 <TransferType>1</TransferType>
                 <PropList Adr="0x3211" Func="0x3" DataType="10" K="1,0000" msk="0xFFFF"/>
               </Settings>

@@ -3209,7 +3209,7 @@
           <ControlIndex>0</ControlIndex>
           <StopBitsIndex>0</StopBitsIndex>
           <Checksum>True</Checksum>
-          <PropList Id9="0" Id1="4" Id2="8" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="45" Id6="2" Id7="1" Id4="3" Id8="5" Id5="100" Id17="0" Id18="0" Id19="0" Id22="0" Id10="2" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
+          <PropList Id9="0" Id1="4" Id2="8" Id15="0" Id16="0" Id13="127.0.0.1" Id14="502" Id12="False" Id3="45" Id6="2" Id7="1" Id4="3" Id8="5" Id5="60" Id17="0" Id18="0" Id19="0" Id22="0" Id10="2" Id99="False" Id20="" Id21="False" Id102="False" Id103="False" Id104="False" Id105="False"/>
         </Settings>
         <Module>
           <Settings>
@@ -5845,6 +5845,7 @@
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>501</KId>
+                <TransferType>2</TransferType>
                 <PropList Adr="0x8501" Func="0x6" DataType="11" K="1,0000" msk="0xFFFF"/>
               </Settings>
             </InOut>
@@ -5853,7 +5854,7 @@
                 <wKind>2</wKind>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>502</KId>
-                <TransferType>1</TransferType>
+                <TransferType>2</TransferType>
                 <PropList Adr="0x8501" Func="0x3" DataType="11" K="1,0000" msk="0xFFFF"/>
               </Settings>
             </InOut>
@@ -5863,6 +5864,7 @@
                 <Connected></Connected>
                 <AssignedMBA>-1</AssignedMBA>
                 <KId>503</KId>
+                <TransferType>2</TransferType>
                 <PropList Adr="0x8502" Func="0x6" DataType="11" K="1,0000" msk="0xFFFF"/>
               </Settings>
             </InOut>
