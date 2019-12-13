@@ -5582,7 +5582,7 @@
                   <Measure>A</Measure>
                   <KId>247</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x2B" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5592,7 +5592,7 @@
                   <Measure>A</Measure>
                   <KId>248</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x2C" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5602,7 +5602,7 @@
                   <Measure>A</Measure>
                   <KId>249</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x2D" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5612,7 +5612,7 @@
                   <Measure>êÂò</Measure>
                   <KId>250</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x2E" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5622,7 +5622,7 @@
                   <Measure>êÂò</Measure>
                   <KId>251</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x2F" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5632,7 +5632,7 @@
                   <Measure>êÂò</Measure>
                   <KId>252</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x30" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5643,7 +5643,7 @@
                   <Measure>êÂò</Measure>
                   <KId>253</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x31" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5653,7 +5653,7 @@
                   <Measure>ÂÀð</Measure>
                   <KId>267</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x32" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5663,7 +5663,7 @@
                   <Measure>ÂÀð</Measure>
                   <KId>268</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x33" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5673,7 +5673,7 @@
                   <Measure>ÂÀð</Measure>
                   <KId>269</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x34" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
@@ -5684,7 +5684,7 @@
                   <Measure>ÂÀð</Measure>
                   <KId>270</KId>
                   <TransferType>2</TransferType>
-                  <Multiplier>0,01</Multiplier>
+                  <Multiplier>0,1</Multiplier>
                   <PropList Adr="0x35" Func="0x3" DataType="10" K="0,1000" msk="0xFFFF"/>
                 </Settings>
               </InOut>
