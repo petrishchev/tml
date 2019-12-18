@@ -1,4 +1,4 @@
-<Report ID="{80A5C969-6B0A-49E7-8E9C-0A9A333D9A7D}" Name="Рапорт параметров" Comments="" LinkToPsp="True" isUseKP="False" NeedAffirmInt="True" AskStep="True"><Interval PredefInt="False"><Beg TypeBorder="2" Monthes="0" Days="0" Hours="0" Mins="1" Secs="0"/><End TypeBorder="1" TypeRel="0" Displace="False" CurTime="True"/></Interval><Algoritms><Algoritm ClassName="TValueList" AlgName="ТаблицаЗнач2" InheritDBAl="True" InheritIntrv="True" Period="False" UseSimplePeriod="True" SimplePeriod="1" StepType="0"><DBParams><DBParam StnId="1" GrpId="1" PspId="57" PasType="222" PasCipherName="КЗР3 М откр" PasFullName="КЗР3 М откр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="58" PasType="222" PasCipherName="КЗР3 М закр" PasFullName="КЗР3 М закр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="59" PasType="222" PasCipherName="КЗР3 открыт" PasFullName="КЗР3 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="60" PasType="222" PasCipherName="КЗР3 закрыт" PasFullName="КЗР3 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="61" PasType="222" PasCipherName="КЗР2 М откр" PasFullName="КЗР2 М откр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="62" PasType="222" PasCipherName="КЗР2 М закр" PasFullName="КЗР2 М закр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="63" PasType="222" PasCipherName="КЗР2 открыт" PasFullName="КЗР2 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="64" PasType="222" PasCipherName="КЗР2 закрыт" PasFullName="КЗР2 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="65" PasType="222" PasCipherName="КЗР1 М откр" PasFullName="КЗР1 М откр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="66" PasType="222" PasCipherName="КЗР1 М закр" PasFullName="КЗР1 М закр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="67" PasType="222" PasCipherName="КЗР1 открыт" PasFullName="КЗР1 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="68" PasType="222" PasCipherName="КЗР1 закрыт" PasFullName="КЗР1 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="69" PasType="222" PasCipherName="ЗД1 М выкл" PasFullName="ЗД1 М выкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="70" PasType="222" PasCipherName="ЗД1 открыт" PasFullName="ЗД1 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="71" PasType="222" PasCipherName="ЗД1 закрыт" PasFullName="ЗД1 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="72" PasType="222" PasCipherName="ЗД1 перегрев" PasFullName="ЗД1 перегрев" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="73" PasType="222" PasCipherName="ЗД2 М выкл" PasFullName="ЗД2 М выкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="74" PasType="222" PasCipherName="ЗД2 открыт" PasFullName="ЗД2 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="75" PasType="222" PasCipherName="ЗД2 закрыт" PasFullName="ЗД2 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="76" PasType="222" PasCipherName="ЗД2 перегрев" PasFullName="ЗД2 перегрев" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="77" PasType="222" PasCipherName="ЗД3 М выкл" PasFullName="ЗД3 М выкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="78" PasType="222" PasCipherName="ЗД3 окрыт" PasFullName="ЗД3 окрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="79" PasType="222" PasCipherName="ЗД3 закрыт" PasFullName="ЗД3 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="80" PasType="222" PasCipherName="ЗД3 перегрев" PasFullName="ЗД3 перегрев" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="81" PasType="222" PasCipherName="ШС QF1 вкл" PasFullName="ШС QF1 вкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="82" PasType="222" PasCipherName="ШС QF3 вкл" PasFullName="ШС QF3 вкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/></DBParams><VisOuts><Out>НомерСтр</Out><Out>МоментВрем</Out></VisOuts><VisCommonOuts/></Algoritm><Algoritm ClassName="TValueList" AlgName="ТаблицаЗнач1" InheritDBAl="True" InheritIntrv="True" Period="False" UseSimplePeriod="True" SimplePeriod="1" StepType="0"><DBParams><DBParam StnId="1" GrpId="1" PspId="13" PasType="222" PasCipherName="РМ1" PasFullName="Расходомер Dn300" UpValue="0" DownValue="0" UpDeadBand="25,47" DownDeadBand="25,47"/><DBParam StnId="1" GrpId="1" PspId="14" PasType="222" PasCipherName="РМ2" PasFullName="Расходомер Dn100" UpValue="0" DownValue="0" UpDeadBand="2,84" DownDeadBand="2,84"/><DBParam StnId="1" GrpId="1" PspId="15" PasType="222" PasCipherName="РМ3" PasFullName="Расходомер Dn50" UpValue="0" DownValue="0" UpDeadBand="0,72" DownDeadBand="0,72"/><DBParam StnId="1" GrpId="1" PspId="16" PasType="222" PasCipherName="ДД1" PasFullName="Давление на входе насоса" UpValue="3,5" DownValue="0" UpDeadBand="0,06" DownDeadBand="0,06"/><DBParam StnId="1" GrpId="1" PspId="17" PasType="222" PasCipherName="ДД2" PasFullName="Давление на выходе насоса" UpValue="0" DownValue="0" UpDeadBand="0,16" DownDeadBand="0,16"/><DBParam StnId="1" GrpId="1" PspId="18" PasType="222" PasCipherName="ДД3" PasFullName="Давление в баке" UpValue="0" DownValue="0" UpDeadBand="0,04" DownDeadBand="0,04"/><DBParam StnId="1" GrpId="1" PspId="19" PasType="222" PasCipherName="ДРД1" PasFullName="Разность давлений" UpValue="0" DownValue="0" UpDeadBand="0,16" DownDeadBand="0,16"/><DBParam StnId="1" GrpId="1" PspId="20" PasType="222" PasCipherName="ДД1(2)" PasFullName="Давление на выходе насоса (160бар)" UpValue="0" DownValue="0" UpDeadBand="1,6" DownDeadBand="1,6"/><DBParam StnId="1" GrpId="1" PspId="24" PasType="222" PasCipherName="КЗР3-положение" PasFullName="КЗР3-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="25" PasType="222" PasCipherName="КЗР2-положение" PasFullName="КЗР2-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="26" PasType="222" PasCipherName="КЗР1-положение" PasFullName="КЗР1-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="27" PasType="222" PasCipherName="ЗД1-положение" PasFullName="ЗД1-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="28" PasType="222" PasCipherName="ЗД2-положение" PasFullName="ЗД2-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="29" PasType="222" PasCipherName="ЗД3-положение" PasFullName="ЗД3-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="30" PasType="222" PasCipherName="ДВ1" PasFullName="Вход 7, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="31" PasType="222" PasCipherName="ДВ2" PasFullName="Вход 8, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="35" PasType="222" PasCipherName="ДВ3" PasFullName="Вход 1, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="36" PasType="222" PasCipherName="ДВ4" PasFullName="Вход 2, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="37" PasType="222" PasCipherName="ДВ5" PasFullName="Вход 3, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="38" PasType="222" PasCipherName="ДВ6" PasFullName="Вход 4, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="39" PasType="222" PasCipherName="ДВ7" PasFullName="Вход 5, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="40" PasType="222" PasCipherName="ДВ8" PasFullName="Вход 6, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="41" PasType="222" PasCipherName="ДВ9" PasFullName="Вход 7, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="42" PasType="222" PasCipherName="ДВ10" PasFullName="Вход 8, 0..1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="46" PasType="222" PasCipherName="ДТ1" PasFullName="Температура воды на входе насоса" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="47" PasType="222" PasCipherName="ДТ2" PasFullName="Температура воды на выходе насоса" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="57" PasType="222" PasCipherName="КЗР3 М откр" PasFullName="КЗР3 М откр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="58" PasType="222" PasCipherName="КЗР3 М закр" PasFullName="КЗР3 М закр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="59" PasType="222" PasCipherName="КЗР3 открыт" PasFullName="КЗР3 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="60" PasType="222" PasCipherName="КЗР3 закрыт" PasFullName="КЗР3 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="61" PasType="222" PasCipherName="КЗР2 М откр" PasFullName="КЗР2 М откр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="62" PasType="222" PasCipherName="КЗР2 М закр" PasFullName="КЗР2 М закр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="63" PasType="222" PasCipherName="КЗР2 открыт" PasFullName="КЗР2 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="64" PasType="222" PasCipherName="КЗР2 закрыт" PasFullName="КЗР2 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="65" PasType="222" PasCipherName="КЗР1 М откр" PasFullName="КЗР1 М откр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="66" PasType="222" PasCipherName="КЗР1 М закр" PasFullName="КЗР1 М закр" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="67" PasType="222" PasCipherName="КЗР1 открыт" PasFullName="КЗР1 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="68" PasType="222" PasCipherName="КЗР1 закрыт" PasFullName="КЗР1 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="69" PasType="222" PasCipherName="ЗД1 М выкл" PasFullName="ЗД1 М выкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="70" PasType="222" PasCipherName="ЗД1 открыт" PasFullName="ЗД1 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="71" PasType="222" PasCipherName="ЗД1 закрыт" PasFullName="ЗД1 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="72" PasType="222" PasCipherName="ЗД1 перегрев" PasFullName="ЗД1 перегрев" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="73" PasType="222" PasCipherName="ЗД2 М выкл" PasFullName="ЗД2 М выкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="74" PasType="222" PasCipherName="ЗД2 открыт" PasFullName="ЗД2 открыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="10" PasType="222" PasCipherName="Связь" PasFullName="Наличие связи с устройством" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="21" PasType="222" PasCipherName="Связь" PasFullName="Наличие связи с устройством" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="32" PasType="222" PasCipherName="Связь" PasFullName="Наличие связи с устройством" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="43" PasType="222" PasCipherName="Связь" PasFullName="Наличие связи с устройством" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="54" PasType="222" PasCipherName="Связь" PasFullName="Наличие связи с устройством" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="89" PasType="222" PasCipherName="Связь" PasFullName="Наличие связи с устройством" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="148" PasType="222" PasCipherName="Связь" PasFullName="Наличие связи с устройством" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="207" PasType="222" PasCipherName="Связь" PasFullName="Наличие связи с устройством" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="237" PasType="222" PasCipherName="Связь" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).Служебные.Связь" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="382" PasType="222" PasCipherName="Связь" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).Служебные.Связь" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="4" PasType="223" PasCipherName="Связь с контроллером" PasFullName="Наличие связи с контроллером" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="370" PasType="222" PasCipherName="Выход" PasFullName="Выход" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="373" PasType="222" PasCipherName="Выход" PasFullName="Выход" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="376" PasType="222" PasCipherName="Выход" PasFullName="Выход" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="421" PasType="222" PasCipherName="Выход" PasFullName="Выход" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="75" PasType="222" PasCipherName="ЗД2 закрыт" PasFullName="ЗД2 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="76" PasType="222" PasCipherName="ЗД2 перегрев" PasFullName="ЗД2 перегрев" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="77" PasType="222" PasCipherName="ЗД3 М выкл" PasFullName="ЗД3 М выкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="78" PasType="222" PasCipherName="ЗД3 окрыт" PasFullName="ЗД3 окрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="79" PasType="222" PasCipherName="ЗД3 закрыт" PasFullName="ЗД3 закрыт" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="80" PasType="222" PasCipherName="ЗД3 перегрев" PasFullName="ЗД3 перегрев" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="81" PasType="222" PasCipherName="ШС QF1 вкл" PasFullName="ШС QF1 вкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="82" PasType="222" PasCipherName="ШС QF3 вкл" PasFullName="ШС QF3 вкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="100" PasType="222" PasCipherName="КЗР3-вкл" PasFullName="КЗР3-вкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="101" PasType="222" PasCipherName="КЗР3-больше" PasFullName="КЗР3-больше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="102" PasType="222" PasCipherName="КЗР3-меньше" PasFullName="КЗР3-меньше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="103" PasType="222" PasCipherName="КЗР2 вкл" PasFullName="КЗР2 вкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="104" PasType="222" PasCipherName="КЗР2-больше" PasFullName="КЗР2-больше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="105" PasType="222" PasCipherName="КЗР2-меньше" PasFullName="КЗР2-меньше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="106" PasType="222" PasCipherName="КЗР1-больше" PasFullName="КЗР1-больше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="107" PasType="222" PasCipherName="КЗР1-меньше" PasFullName="КЗР1-меньше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="159" PasType="222" PasCipherName="КЗР1 вкл" PasFullName="Выход 1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="160" PasType="222" PasCipherName="ЗД1 вкл" PasFullName="Выход 2" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="161" PasType="222" PasCipherName="ЗД1 больше" PasFullName="ЗД1 больше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="162" PasType="222" PasCipherName="ЗД1 меньше" PasFullName="ЗД1 меньше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="163" PasType="222" PasCipherName="ЗД2 вкл" PasFullName="Выход 5" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="164" PasType="222" PasCipherName="ЗД2 больше" PasFullName="ЗД2 больше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="165" PasType="222" PasCipherName="ЗД2 меньше" PasFullName="ЗД2-меньше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="166" PasType="222" PasCipherName="ЗД3 вкл" PasFullName="Выход 8" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="218" PasType="222" PasCipherName="ЗД3-больше" PasFullName="ЗД3-больше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="219" PasType="222" PasCipherName="ЗД3-меньше" PasFullName="ЗД3-меньше" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="241" PasType="222" PasCipherName="Ua" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Ua" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="242" PasType="222" PasCipherName="Ub" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Ub" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="243" PasType="222" PasCipherName="Uc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Uc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="244" PasType="222" PasCipherName="Uab" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Uab" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="245" PasType="222" PasCipherName="Ubc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Ubc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="246" PasType="222" PasCipherName="Uca" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Uca" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="247" PasType="222" PasCipherName="Ia" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Ia" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="248" PasType="222" PasCipherName="Ib" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Ib" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="249" PasType="222" PasCipherName="Ic" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Ic" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="250" PasType="222" PasCipherName="Pa" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Pa" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="251" PasType="222" PasCipherName="Pb" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Pb" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="252" PasType="222" PasCipherName="Pc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Pc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="253" PasType="222" PasCipherName="P" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Ps" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="267" PasType="222" PasCipherName="Qa" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Qa" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="268" PasType="222" PasCipherName="Qb" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Qb" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="269" PasType="222" PasCipherName="Qc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Qc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="270" PasType="222" PasCipherName="Q" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Qs" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="271" PasType="222" PasCipherName="COSa" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.PFa" UpValue="0" DownValue="0" UpDeadBand="0,01" DownDeadBand="0,01"/><DBParam StnId="1" GrpId="1" PspId="272" PasType="222" PasCipherName="COSb" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.PFb" UpValue="0" DownValue="0" UpDeadBand="0,01" DownDeadBand="0,01"/><DBParam StnId="1" GrpId="1" PspId="273" PasType="222" PasCipherName="COSc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.PFc" UpValue="0" DownValue="0" UpDeadBand="0,01" DownDeadBand="0,01"/><DBParam StnId="1" GrpId="1" PspId="274" PasType="222" PasCipherName="COS" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.PFs" UpValue="0" DownValue="0" UpDeadBand="0,01" DownDeadBand="0,01"/><DBParam StnId="1" GrpId="1" PspId="275" PasType="222" PasCipherName="Sa" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Sa" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="276" PasType="222" PasCipherName="Sb" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Sb" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="277" PasType="222" PasCipherName="Sc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Sc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="278" PasType="222" PasCipherName="S" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.Ss" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="279" PasType="222" PasCipherName="F" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.F" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="280" PasType="222" PasCipherName="A0+ со сброса" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.EPp" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="281" PasType="222" PasCipherName="A0- со сброса" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.EPn" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="282" PasType="222" PasCipherName="R0+ со сброса" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.EQp" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="283" PasType="222" PasCipherName="R0- со сброса" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-А2).OMIX P99 MLA.Параметры.WQn" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="386" PasType="222" PasCipherName="Ua" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Ua" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="387" PasType="222" PasCipherName="Ub" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Ub" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="388" PasType="222" PasCipherName="Uc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Uc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="389" PasType="222" PasCipherName="Uab" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Uab" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="390" PasType="222" PasCipherName="Ubc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Ubc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="391" PasType="222" PasCipherName="Uca" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Uca" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="392" PasType="222" PasCipherName="Ia" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Ia" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="393" PasType="222" PasCipherName="Ib" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Ib" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="394" PasType="222" PasCipherName="Ic" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Ic" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="424" PasType="222" PasCipherName="Pa" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Pa" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="425" PasType="222" PasCipherName="Pb" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Pb" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="426" PasType="222" PasCipherName="Pc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Pc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="427" PasType="222" PasCipherName="P" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Ps" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="428" PasType="222" PasCipherName="Qa" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Qa" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="429" PasType="222" PasCipherName="Qb" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Qb" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="430" PasType="222" PasCipherName="Qc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Qc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="431" PasType="222" PasCipherName="Q" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Qs" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="432" PasType="222" PasCipherName="COSa" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.PFa" UpValue="0" DownValue="0" UpDeadBand="0,01" DownDeadBand="0,01"/><DBParam StnId="1" GrpId="1" PspId="433" PasType="222" PasCipherName="COSb" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.PFb" UpValue="0" DownValue="0" UpDeadBand="0,01" DownDeadBand="0,01"/><DBParam StnId="1" GrpId="1" PspId="434" PasType="222" PasCipherName="COSc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.PFc" UpValue="0" DownValue="0" UpDeadBand="0,01" DownDeadBand="0,01"/><DBParam StnId="1" GrpId="1" PspId="435" PasType="222" PasCipherName="COS" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.PFs" UpValue="0" DownValue="0" UpDeadBand="0,01" DownDeadBand="0,01"/><DBParam StnId="1" GrpId="1" PspId="436" PasType="222" PasCipherName="Sa" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Sa" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="231" PasType="222" PasCipherName="КЗР1-задание" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР1-задание" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="232" PasType="222" PasCipherName="КЗР2-задание" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР2-задание" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="233" PasType="222" PasCipherName="КЗР3-задание" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР3-задание" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="234" PasType="222" PasCipherName="ЗД1-задание" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД1-задание" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="235" PasType="222" PasCipherName="ЗД2-задание" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД2-задание" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="236" PasType="222" PasCipherName="ЗД3-задание" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД3-задание" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="318" PasType="222" PasCipherName="КЗР1-авто" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР1-авто" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="319" PasType="222" PasCipherName="КЗР2-авто" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР2-авто" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="320" PasType="222" PasCipherName="КЗР3-авто" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР3-авто" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="321" PasType="222" PasCipherName="ЗД1-авто" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД1-авто" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="322" PasType="222" PasCipherName="ЗД2-авто" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД2-авто" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="323" PasType="222" PasCipherName="ЗД3-авто" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД3-авто" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="324" PasType="222" PasCipherName="КЗР1-открыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР1-открыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="325" PasType="222" PasCipherName="КЗР2-открыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР2-открыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="326" PasType="222" PasCipherName="КЗР3-открыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР3-открыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="327" PasType="222" PasCipherName="КЗР1-закрыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР1-закрыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="328" PasType="222" PasCipherName="КЗР2-закрыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР2-закрыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="329" PasType="222" PasCipherName="КЗР3-закрыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР3-закрыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="330" PasType="222" PasCipherName="ЗД1-открыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД1-открыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="331" PasType="222" PasCipherName="ЗД2-открыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД2-открыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="332" PasType="222" PasCipherName="ЗД3-открыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД3-открыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="333" PasType="222" PasCipherName="ЗД1-закрыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД1-закрыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="334" PasType="222" PasCipherName="ЗД2-закрыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД2-закрыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="335" PasType="222" PasCipherName="ЗД3-закрыть" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД3-закрыть" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="336" PasType="222" PasCipherName="КЗР1-ошибка" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР1-ошибка" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="337" PasType="222" PasCipherName="КЗР2-ошибка" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР2-ошибка" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="338" PasType="222" PasCipherName="КЗР3-ошибка" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.КЗР3-ошибка" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="339" PasType="222" PasCipherName="ЗД1-ошибка" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД1-ошибка" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="340" PasType="222" PasCipherName="ЗД2-ошибка" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД2-ошибка" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="341" PasType="222" PasCipherName="ЗД3-ошибка" PasFullName="Контроллер КСОД (A1).Переменные.Задвижки.Простые типы.ЗД3-ошибка" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="293" PasType="222" PasCipherName="ОСТАНОВ" PasFullName="Контроллер КСОД (A1).Переменные.Насос.Простые типы.ОСТАНОВ" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="343" PasType="222" PasCipherName="краткий пуск" PasFullName="Контроллер КСОД (A1).Переменные.Насос.Простые типы.краткий пуск" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="344" PasType="222" PasCipherName="пуск" PasFullName="Контроллер КСОД (A1).Переменные.Насос.Простые типы.пуск" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="395" PasType="222" PasCipherName="режим" PasFullName="Контроллер КСОД (A1).Переменные.Насос.Простые типы.режим" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="437" PasType="222" PasCipherName="Sb" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Sb" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="438" PasType="222" PasCipherName="Sc" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Sc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="439" PasType="222" PasCipherName="S" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.Ss" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="440" PasType="222" PasCipherName="F" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.F" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="441" PasType="222" PasCipherName="A0+ со сброса" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.EPp" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="442" PasType="222" PasCipherName="A0- со сброса" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.EPn" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="443" PasType="222" PasCipherName="R0+ со сброса" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.EQp" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="444" PasType="222" PasCipherName="R0- со сброса" PasFullName="Контроллер КСОД (A1).Modbus 1.OMIX P99 ML3 (ЩС-A3).OMIX P99 MLA.Параметры.WQn" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/></DBParams><VisOuts><Out>НомерСтр</Out><Out>МоментВрем</Out></VisOuts><VisCommonOuts/></Algoritm><Algoritm ClassName="TCommonInfo" AlgName="ОбщаяИнфо"/></Algoritms><Template>object vgrReportTemplate: TvgrReportTemplate
+<Report ID="{80A5C969-6B0A-49E7-8E9C-0A9A333D9A7D}" Name="Рапорт параметров" Comments="" LinkToPsp="True" isUseKP="False" NeedAffirmInt="True" AskStep="True"><Interval PredefInt="False"><Beg TypeBorder="2" Monthes="0" Days="0" Hours="0" Mins="1" Secs="0"/><End TypeBorder="1" TypeRel="0" Displace="False" CurTime="True"/></Interval><Algoritms><Algoritm ClassName="TValueList" AlgName="ТаблицаЗнач1" InheritDBAl="True" InheritIntrv="True" Period="False" UseSimplePeriod="True" SimplePeriod="1" StepType="0"><DBParams><DBParam StnId="1" GrpId="1" PspId="13" PasType="222" PasCipherName="РМ1" PasFullName="Расходомер Dn300" UpValue="0" DownValue="0" UpDeadBand="25,47" DownDeadBand="25,47"/><DBParam StnId="1" GrpId="1" PspId="14" PasType="222" PasCipherName="РМ2" PasFullName="Расходомер Dn100" UpValue="0" DownValue="0" UpDeadBand="2,84" DownDeadBand="2,84"/><DBParam StnId="1" GrpId="1" PspId="15" PasType="222" PasCipherName="РМ3" PasFullName="Расходомер Dn50" UpValue="0" DownValue="0" UpDeadBand="0,72" DownDeadBand="0,72"/><DBParam StnId="1" GrpId="1" PspId="16" PasType="222" PasCipherName="ДД1" PasFullName="Давление на входе насоса" UpValue="3,5" DownValue="0" UpDeadBand="0,06" DownDeadBand="0,06"/><DBParam StnId="1" GrpId="1" PspId="17" PasType="222" PasCipherName="ДД2" PasFullName="Давление на выходе насоса" UpValue="0" DownValue="0" UpDeadBand="0,16" DownDeadBand="0,16"/><DBParam StnId="1" GrpId="1" PspId="18" PasType="222" PasCipherName="ДД3" PasFullName="Давление в баке" UpValue="0" DownValue="0" UpDeadBand="0,04" DownDeadBand="0,04"/><DBParam StnId="1" GrpId="1" PspId="19" PasType="222" PasCipherName="ДРД1" PasFullName="Разность давлений" UpValue="0" DownValue="0" UpDeadBand="0,16" DownDeadBand="0,16"/><DBParam StnId="1" GrpId="1" PspId="20" PasType="222" PasCipherName="ДД2(160)" PasFullName="Давление на выходе насоса (160бар)" UpValue="0" DownValue="0" UpDeadBand="1,6" DownDeadBand="1,6"/><DBParam StnId="1" GrpId="1" PspId="24" PasType="222" PasCipherName="КЗР3-положение" PasFullName="КЗР3-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="25" PasType="222" PasCipherName="КЗР2-положение" PasFullName="КЗР2-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="26" PasType="222" PasCipherName="КЗР1-положение" PasFullName="КЗР1-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="27" PasType="222" PasCipherName="ЗД1-положение" PasFullName="ЗД1-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="28" PasType="222" PasCipherName="ЗД2-положение" PasFullName="ЗД2-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="29" PasType="222" PasCipherName="ЗД3-положение" PasFullName="ЗД3-положение" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="46" PasType="222" PasCipherName="ДТ1" PasFullName="Температура воды на входе насоса" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="47" PasType="222" PasCipherName="ДТ2" PasFullName="Температура воды на выходе насоса" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="81" PasType="222" PasCipherName="ШС QF1 вкл" PasFullName="ШС QF1 вкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="82" PasType="222" PasCipherName="ШС QF3 вкл" PasFullName="ШС QF3 вкл" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="220" PasType="222" PasCipherName="Н1 пуск" PasFullName="Выход 3" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="221" PasType="222" PasCipherName="Н1 рев" PasFullName="Выход 4" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="222" PasType="222" PasCipherName="Н2 пуск" PasFullName="Выход 5" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="223" PasType="222" PasCipherName="Н2 рев" PasFullName="Выход 6" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="533" PasType="222" PasCipherName="CMD" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.CMD" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="534" PasType="222" PasCipherName="LFR" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.LFR" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="546" PasType="222" PasCipherName="NPR" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.NPR" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="547" PasType="222" PasCipherName="COS" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.COS" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="548" PasType="222" PasCipherName="UNS" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.UNS" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="549" PasType="222" PasCipherName="NCR" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.NCR" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="550" PasType="222" PasCipherName="FRS" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.FRS" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="584" PasType="222" PasCipherName="NSP" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.NSP" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="585" PasType="222" PasCipherName="TFR" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.TFR" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="586" PasType="222" PasCipherName="TUS" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.TUS" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="620" PasType="222" PasCipherName="ETA" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.ETA" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="621" PasType="222" PasCipherName="RFR" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.RFR" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="622" PasType="222" PasCipherName="RCR" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.RCR" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="623" PasType="222" PasCipherName="UOP" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.UOP" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="624" PasType="222" PasCipherName="OPR" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.OPR" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="625" PasType="222" PasCipherName="RTH" PasFullName="Контроллер КСОД (A1).Modbus 1.SE ATV630D37N4 (ШС-А1).ATV630D37N4.Чтение.RTH" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="660" PasType="222" PasCipherName="XS1" PasFullName="Выбор типа цепи" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="661" PasType="222" PasCipherName="PT" PasFullName="Коэффициент трансформации по напряжению" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="662" PasType="222" PasCipherName="CT" PasFullName="Коэффициент трансформации по току" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="663" PasType="222" PasCipherName="DPT/DCT" PasFullName="Положение точки для напряжения/тока" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="664" PasType="222" PasCipherName="DPQ/SIGN" PasFullName="Положение точки для мощности/знак для мощности" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="665" PasType="222" PasCipherName="Ua" PasFullName="Напряжение, фаза A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="666" PasType="222" PasCipherName="Ub" PasFullName="Напряжение, фаза B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="667" PasType="222" PasCipherName="Uc" PasFullName="Напряжение, фаза C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="668" PasType="222" PasCipherName="Uab" PasFullName="Напряжение между фазами A и B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="669" PasType="222" PasCipherName="Ubc" PasFullName="Напряжение между фазами B и C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="670" PasType="222" PasCipherName="Uca" PasFullName="Напряжение между фазами C и A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="671" PasType="222" PasCipherName="Ia" PasFullName="Ток, фаза A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="672" PasType="222" PasCipherName="Ib" PasFullName="Ток, фаза B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="673" PasType="222" PasCipherName="Ic" PasFullName="Ток, фаза C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="674" PasType="222" PasCipherName="Pa" PasFullName="Активная мощность, фаза A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="675" PasType="222" PasCipherName="Pb" PasFullName="Активная мощность, фаза B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="676" PasType="222" PasCipherName="Pc" PasFullName="Активная мощность, фаза C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="677" PasType="222" PasCipherName="P" PasFullName="Суммарная активная мощность" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="682" PasType="222" PasCipherName="COSa" PasFullName="Коэффициент мощности, фаза A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="683" PasType="222" PasCipherName="COSb" PasFullName="Коэффициент мощности, фаза B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="684" PasType="222" PasCipherName="COSc" PasFullName="Коэффициент мощности, фаза C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="685" PasType="222" PasCipherName="COS" PasFullName="Суммарный коэффициент мощности L/C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="695" PasType="222" PasCipherName="DPT" PasFullName="Положение точки для напряжения" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="696" PasType="222" PasCipherName="DCT" PasFullName="Положение точки для тока" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="697" PasType="222" PasCipherName="DPQ" PasFullName="Положение точки для мощности" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="797" PasType="222" PasCipherName="SIGN" PasFullName="Знак для мощности" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1128" PasType="222" PasCipherName="Ua" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Ua" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1129" PasType="222" PasCipherName="Ub" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Ub" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1130" PasType="222" PasCipherName="Uc" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Uc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1131" PasType="222" PasCipherName="Uab" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Uab" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1132" PasType="222" PasCipherName="Ubc" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Ubc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1133" PasType="222" PasCipherName="Uca" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Uca" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1134" PasType="222" PasCipherName="Ia" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Ia" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1135" PasType="222" PasCipherName="Ib" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Ib" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1136" PasType="222" PasCipherName="Ic" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Ic" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1137" PasType="222" PasCipherName="Pa" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Pa" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1138" PasType="222" PasCipherName="Pb" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Pb" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1139" PasType="222" PasCipherName="Pc" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.Pc" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1140" PasType="222" PasCipherName="P" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А2).Простые типы.P" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="504" PasType="222" PasCipherName="XS1" PasFullName="Выбор типа цепи" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="505" PasType="222" PasCipherName="PT" PasFullName="Коэффициент трансформации по напряжению" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="506" PasType="222" PasCipherName="CT" PasFullName="Коэффициент трансформации по току" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="507" PasType="222" PasCipherName="DPT/DCT" PasFullName="Положение точки для напряжения/тока" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="508" PasType="222" PasCipherName="DPQ/SIGN" PasFullName="Положение точки для мощности/знак для мощности" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="509" PasType="222" PasCipherName="Ua" PasFullName="Напряжение, фаза A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="510" PasType="222" PasCipherName="Ub" PasFullName="Напряжение, фаза B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="511" PasType="222" PasCipherName="Uc" PasFullName="Напряжение, фаза C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="512" PasType="222" PasCipherName="Uab" PasFullName="Напряжение между фазами A и B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="513" PasType="222" PasCipherName="Ubc" PasFullName="Напряжение между фазами B и C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="514" PasType="222" PasCipherName="Uca" PasFullName="Напряжение между фазами C и A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="515" PasType="222" PasCipherName="Ia" PasFullName="Ток, фаза A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="516" PasType="222" PasCipherName="Ib" PasFullName="Ток, фаза B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="519" PasType="222" PasCipherName="Ic" PasFullName="Ток, фаза C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="520" PasType="222" PasCipherName="Pa" PasFullName="Активная мощность, фаза A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="521" PasType="222" PasCipherName="Pb" PasFullName="Активная мощность, фаза B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="522" PasType="222" PasCipherName="Pc" PasFullName="Активная мощность, фаза C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="523" PasType="222" PasCipherName="P" PasFullName="Суммарная активная мощность" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="528" PasType="222" PasCipherName="COSa" PasFullName="Коэффициент мощности, фаза A" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="634" PasType="222" PasCipherName="COSb" PasFullName="Коэффициент мощности, фаза B" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="635" PasType="222" PasCipherName="COSc" PasFullName="Коэффициент мощности, фаза C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="636" PasType="222" PasCipherName="COS" PasFullName="Суммарный коэффициент мощности L/C" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1095" PasType="222" PasCipherName="DPT_1" PasFullName="Положение точки для напряжения" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1096" PasType="222" PasCipherName="DCT_1" PasFullName="Положение точки для тока" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1097" PasType="222" PasCipherName="DPQ_1" PasFullName="Положение точки для мощности" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1098" PasType="222" PasCipherName="SIGN_1" PasFullName="Знак для мощности" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1141" PasType="222" PasCipherName="Ua_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Ua_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1142" PasType="222" PasCipherName="Ub_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Ub_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1143" PasType="222" PasCipherName="Uc_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Uc_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1144" PasType="222" PasCipherName="Uab_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Uab_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1145" PasType="222" PasCipherName="Ubc_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Ubc_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1146" PasType="222" PasCipherName="Uca_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Uca_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1147" PasType="222" PasCipherName="Ia_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Ia_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1148" PasType="222" PasCipherName="Ib_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Ib_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1149" PasType="222" PasCipherName="Ic_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Ic_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1150" PasType="222" PasCipherName="Pa_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Pa_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1151" PasType="222" PasCipherName="Pb_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Pb_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1152" PasType="222" PasCipherName="Pc_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.Pc_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/><DBParam StnId="1" GrpId="1" PspId="1153" PasType="222" PasCipherName="P_1" PasFullName="Контроллер КСОД (A1).Переменные.OMIX P99-ML-3 (ШС-А3).Простые типы.P_1" UpValue="0" DownValue="0" UpDeadBand="1" DownDeadBand="1"/></DBParams><VisOuts><Out>НомерСтр</Out><Out>МоментВрем</Out></VisOuts><VisCommonOuts/></Algoritm><Algoritm ClassName="TCommonInfo" AlgName="ОбщаяИнфо"/></Algoritms><Template>object vgrReportTemplate: TvgrReportTemplate
   Script.Language = 'VBScript'
   Script.AliasManager = frmRpMain.vgrAliasManager
   Left = 56
@@ -16,7 +16,7 @@
     'DataStorage version: 1'
     'GridReport version: 1.2.3')
   RangeStylesData = {
-    060000003E00000083020000D10D9C0400000A00000000000105417269616C03
+    060000003E00000083020000D10DC10400000A00000000000105417269616C03
     B439F00700000000000000002000CC00000000007CC40B402008000080FFFFFF
     1F000000000000000000000000000100E50F010000000A000000000001054172
     69616C03B439F00700000000000000002000CC00000000007CC40B4020080000
@@ -56,9 +56,9 @@
     69616C03B439F00700000000000000002000CC00000000007CC40B4020080000
     80FFFFFF1F00000000016E000000010100000000F589010000000A0000000000
     0105417269616C03B439F00700000000000000002000CC00000000007CC40B40
-    2008000080FFFFFF1F000000000184060000010100000000E7E9010000000A00
+    2008000080FFFFFF1F000000000184060000010100000000F10D090000000A00
     000000000105417269616C03B439F00700000000000000002000CC0000000000
-    7CC40B402008000080FFFFFF1F000000000117060000010100000000EDE90100
+    7CC40B402008000080FFFFFF1F000000000000000000000000000000EDE90100
     00000A00000000000105417269616C03B439F00700000000000000002000CC00
     000000007CC40B402008000080FFFFFF1F000000000147060000010100000000
     EFE9010000000A00000000000105417269616C03B439F0070000000000000000
@@ -137,19 +137,19 @@
     00000000000000002000CC00000000007CC40B402008000080FFFFFF1F000000
     000131050000000000000000F50D1B0000000A00000000000105417269616C03
     B439F00700000000000000002000CC00000000007CC40B402008000080FFFFFF
-    1F000000000100000000000000000000F40C000000000A000000000001054172
+    1F000000000100000000000000000000F86A010000000A000000000001054172
     69616C03B439F00700000000000000002000CC00000000007CC40B4020080000
-    80FFFFFF1F000000000028010000000000000000F44C000000000A0000000000
+    80FFFFFF1F00000000004B070000000000000000F8AA010000000A0000000000
     0105417269616C03B439F00700000000000000002000CC00000000007CC40B40
-    2008000080FFFFFF1F00000000002A010000000000000000F48C000000000A00
+    2008000080FFFFFF1F00000000004D070000000000000000FA0A010000000A00
     000000000105417269616C03B439F00700000000000000002000CC0000000000
-    7CC40B402008000080FFFFFF1F00000000002C010000000000000000F4CC0000
+    7CC40B402008000080FFFFFF1F000000000058070000000000000000FA4A0100
     00000A00000000000105417269616C03B439F00700000000000000002000CC00
-    000000007CC40B402008000080FFFFFF1F00000000002E010000000000000000
-    F70C000000000A00000000000105417269616C03B439F0070000000000000000
-    2000CC00000000007CC40B402008000080FFFFFF1F0000000000300100000000
-    00000000F74C000000000A00000000000105417269616C03B439F00700000000
-    000000002000CC00000000007CC40B402008000080FFFFFF1F00000000003201
+    000000007CC40B402008000080FFFFFF1F00000000005A070000000000000000
+    FA8A010000000A00000000000105417269616C03B439F0070000000000000000
+    2000CC00000000007CC40B402008000080FFFFFF1F00000000005C0700000000
+    00000000FACA010000000A00000000000105417269616C03B439F00700000000
+    000000002000CC00000000007CC40B402008000080FFFFFF1F00000000005E07
     0000000000000000F78C000000000A00000000000105417269616C03B439F007
     00000000000000002000CC00000000007CC40B402008000080FFFFFF1F000000
     000034010000000000000000F7CC000000000A00000000000105417269616C03
@@ -1370,22 +1370,22 @@
     7CC40B402008000080FFFFFF1F00000000017D060000010100000000EAC90100
     00000A00000000000105417269616C03B439F00700000000000000002000CC00
     000000007CC40B402008000080FFFFFF1F00000000017E060000010100000000
-    F5A9010000000A00000000000105417269616C03B439F0070000000000000000
+    F5A9000000000A00000000000105417269616C03B439F0070000000000000000
     2000CC00000000007CC40B402008000080FFFFFF1F0000000001850600000101
-    00000000E50F010000000A00000000000105417269616C03B439F00700000000
+    00000000E50F000000000A00000000000105417269616C03B439F00700000000
     000000002000CC00000000007CC40B402008000080FFFFFF1F00000000010000
-    0000010100000000E50F030000000A00000000000105417269616C03B439F007
+    0000010100000000E50F000000000A00000000000105417269616C03B439F007
     00000000000000002000CC00000000007CC40B402008000080FFFFFF1F000000
-    000100000000010100000000E50F020000000A00000000000105417269616C03
+    000100000000010100000000E50F000000000A00000000000105417269616C03
     B439F00700000000000000002000CC00000000007CC40B402008000080FFFFFF
-    1F000000000100000000010100000000E50FAE0000000A000000000001054172
+    1F000000000100000000010100000000E50F000000000A000000000001054172
     69616C03B439F00700000000000000002000CC00000000007CC40B4020080000
     80FFFFFF1F000000000100000000010100000000C10F000000000A0000000000
     0105417269616C03B439F00700000000000000002000CC00000000007CC40B40
     2008000080FFFFFF1F000000000000000000010100000100}
   BorderStylesData = {060000000900000001000000000001000000000000000000000000}
   StringsData = {
-    3B07000001000000000000000000000000000000000000000000000000000000
+    6A07000001000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     00000000000000000000000000000000000000000100000001000000B9010000
     0005000000C2F0E5ECFF00000000000000000000000000000000000000000000
@@ -1436,89 +1436,92 @@
     EEECE5F0D1F2F07D5D010000001B0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
     CCEEECE5EDF2C2F0E5EC7D5D0000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
-    000000000000000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0
-    F7312ED131D2323232C331C83234377D5D010000001D0000005B7BD2E0E1EBE8
-    F6E0C7EDE0F7312ED131D2323232C331C83234387D5D010000001D0000005B7B
-    D2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83234397D5D010000001D
-    0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83234347D5D
+    000000000000000000000000010000001E0000005B7BD2E0E1EBE8F6E0C7EDE0
+    F7312ED131D2323232C331C8313133347D5D010000001E0000005B7BD2E0E1EB
+    E8F6E0C7EDE0F7312ED131D2323232C331C8313133357D5D010000001E000000
+    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8313133367D5D0100
+    00001E0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83131
+    33317D5D010000001E0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
+    32C331C8313133327D5D010000001E0000005B7BD2E0E1EBE8F6E0C7EDE0F731
+    2ED131D2323232C331C8313133337D5D010000001E0000005B7BD2E0E1EBE8F6
+    E0C7EDE0F7312ED131D2323232C331C8313133377D5D010000001E0000005B7B
+    D2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8313133387D5D01000000
+    1E0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831313339
+    7D5D010000001E0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C3
+    31C8313134307D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
+    31D2323232C331C83638327D5D010000001D0000005B7BD2E0E1EBE8F6E0C7ED
+    E0F7312ED131D2323232C331C83638337D5D010000001D0000005B7BD2E0E1EB
+    E8F6E0C7EDE0F7312ED131D2323232C331C83638347D5D010000001D0000005B
+    7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83638357D5D01000000
+    0200000049610100000002000000496201000000020000004963010000000300
+    0000556162010000000300000055626301000000030000005563610100000002
+    0000005061010000000200000050620100000002000000506301000000010000
+    00500100000004000000434F53610100000004000000434F5362010000000400
+    0000434F53630100000003000000434F53010000000200000049610100000002
+    0000004962010000000200000049630100000003000000556162010000000300
+    0000556263010000000300000055636101000000020000005061010000000200
+    0000506201000000020000005063010000000100000050010000000400000043
+    4F53610100000004000000434F53620100000004000000434F53630100000003
+    000000434F530100000000000000010000000200000049610100000000000000
+    0100000002000000496201000000000000000100000002000000496301000000
+    0000000001000000030000005561620100000000000000010000000300000055
+    6263010000000000000001000000030000005563610100000000000000010000
+    0002000000506101000000000000000100000002000000506201000000000000
+    0001000000020000005063010000000000000001000000010000005001000000
+    000000000100000004000000434F536101000000000000000100000004000000
+    434F536201000000000000000100000004000000434F53630100000000000000
+    0100000003000000434F53010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7
+    312ED131D2323232C331C83339327D5D010000001D0000005B7BD2E0E1EBE8F6
+    E0C7EDE0F7312ED131D2323232C331C83339337D5D010000001D0000005B7BD2
+    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83339347D5D010000001D00
+    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83432347D5D01
+    0000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834
+    32357D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
+    32C331C83432367D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C83432377D5D010000001D0000005B7BD2E0E1EBE8F6E0C7
+    EDE0F7312ED131D2323232C331C83338397D5D010000001D0000005B7BD2E0E1
+    EBE8F6E0C7EDE0F7312ED131D2323232C331C83339307D5D010000001D000000
+    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83339317D5D010000
+    001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8343332
+    7D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C3
+    31C83433337D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131
+    D2323232C331C83433347D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0
+    F7312ED131D2323232C331C83433357D5D000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000001000000060000
+    00CFD0DFCCCEC900000000000000000000000000000000000000000000000001
+    00000006000000CFD0DFCCCEC901000000000000000100000002000000496101
+    0000000000000001000000020000004962010000000000000001000000020000
+    0049630100000000000000010000000300000055616201000000000000000100
+    0000030000005562630100000000000000010000000300000055636101000000
+    0000000001000000020000005061010000000000000001000000020000005062
+    0100000000000000010000000200000050630100000000000000010000000100
+    00005001000000000000000100000004000000434F5361010000000000000001
+    00000004000000434F536201000000000000000100000004000000434F536301
+    000000000000000100000003000000434F530100000000000000010000001E00
+    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8313134377D5D
+    0100000000000000010000001E0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
+    31D2323232C331C8313134387D5D0100000000000000010000001E0000005B7B
+    D2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8313134397D5D01000000
+    00000000010000001E0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
+    32C331C8313134347D5D0100000000000000010000001E0000005B7BD2E0E1EB
+    E8F6E0C7EDE0F7312ED131D2323232C331C8313134357D5D0100000000000000
+    010000001E0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
+    313134367D5D0100000000000000010000001E0000005B7BD2E0E1EBE8F6E0C7
+    EDE0F7312ED131D2323232C331C8313135307D5D010000000000000001000000
+    1E0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831313531
+    7D5D0100000000000000010000001E0000005B7BD2E0E1EBE8F6E0C7EDE0F731
+    2ED131D2323232C331C8313135327D5D0100000000000000010000001E000000
+    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8313135337D5D0100
+    000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2
+    323232C331C83532387D5D0100000000000000010000001D0000005B7BD2E0E1
+    EBE8F6E0C7EDE0F7312ED131D2323232C331C83633347D5D0100000000000000
     010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
-    3234357D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
-    3232C331C83234367D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F731
-    2ED131D2323232C331C83235307D5D010000001D0000005B7BD2E0E1EBE8F6E0
-    C7EDE0F7312ED131D2323232C331C83235317D5D010000001D0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83235327D5D010000001D0000
-    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83235337D5D0100
-    00001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83237
-    317D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232
-    C331C83237327D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
-    31D2323232C331C83237337D5D010000001D0000005B7BD2E0E1EBE8F6E0C7ED
-    E0F7312ED131D2323232C331C83237347D5D0100000002000000496101000000
-    0200000049620100000002000000496301000000030000005561620100000003
-    0000005562630100000003000000556361010000000200000050610100000002
-    0000005062010000000200000050630100000001000000500100000004000000
-    434F53610100000004000000434F53620100000004000000434F536301000000
-    03000000434F5301000000020000004961010000000200000049620100000002
-    0000004963010000000300000055616201000000030000005562630100000003
-    0000005563610100000002000000506101000000020000005062010000000200
-    000050630100000001000000500100000004000000434F536101000000040000
-    00434F53620100000004000000434F53630100000003000000434F5301000000
-    0000000001000000020000004961010000000000000001000000020000004962
-    0100000000000000010000000200000049630100000000000000010000000300
-    0000556162010000000000000001000000030000005562630100000000000000
-    0100000003000000556361010000000000000001000000020000005061010000
-    0000000000010000000200000050620100000000000000010000000200000050
-    6301000000000000000100000001000000500100000000000000010000000400
-    0000434F536101000000000000000100000004000000434F5362010000000000
-    00000100000004000000434F536301000000000000000100000003000000434F
-    53010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331
-    C83339327D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2
-    323232C331C83339337D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7
-    312ED131D2323232C331C83339347D5D010000001D0000005B7BD2E0E1EBE8F6
-    E0C7EDE0F7312ED131D2323232C331C83432347D5D010000001D0000005B7BD2
-    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83432357D5D010000001D00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83432367D5D01
-    0000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834
-    32377D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C83338397D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
-    D131D2323232C331C83339307D5D010000001D0000005B7BD2E0E1EBE8F6E0C7
-    EDE0F7312ED131D2323232C331C83339317D5D010000001D0000005B7BD2E0E1
-    EBE8F6E0C7EDE0F7312ED131D2323232C331C83433327D5D010000001D000000
-    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83433337D5D010000
-    001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8343334
-    7D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C3
-    31C83433357D5D00000000000000000000000000000000000000000000000000
+    3633357D5D0100000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7ED
+    E0F7312ED131D2323232C331C83633367D5D0000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000100000006000000CFD0DFCCCEC9000000
-    0000000000000000000000000000000000000000000100000006000000CFD0DF
-    CCCEC90100000000000000010000000200000049610100000000000000010000
-    0002000000496201000000000000000100000002000000496301000000000000
-    0001000000030000005561620100000000000000010000000300000055626301
-    0000000000000001000000030000005563610100000000000000010000000200
-    0000506101000000000000000100000002000000506201000000000000000100
-    0000020000005063010000000000000001000000010000005001000000000000
-    000100000004000000434F536101000000000000000100000004000000434F53
-    6201000000000000000100000004000000434F53630100000000000000010000
-    0003000000434F530100000000000000010000001D0000005B7BD2E0E1EBE8F6
-    E0C7EDE0F7312ED131D2323232C331C83339327D5D0100000000000000010000
-    001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8333933
-    7D5D0100000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F731
-    2ED131D2323232C331C83339347D5D0100000000000000010000001D0000005B
-    7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83338397D5D01000000
-    00000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C83339307D5D0100000000000000010000001D0000005B7BD2E0E1EBE8
-    F6E0C7EDE0F7312ED131D2323232C331C83339317D5D01000000000000000100
-    00001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83432
-    347D5D0100000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7
-    312ED131D2323232C331C83432357D5D0100000000000000010000001D000000
-    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83432367D5D010000
-    0000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
-    3232C331C83432377D5D0100000000000000010000001D0000005B7BD2E0E1EB
-    E8F6E0C7EDE0F7312ED131D2323232C331C83433327D5D010000000000000001
-    0000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834
-    33337D5D0100000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0
-    F7312ED131D2323232C331C83433347D5D0100000000000000010000001D0000
-    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83433357D5D0000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
@@ -1776,36 +1779,35 @@
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
+    0000010000000000000001000000000000000100000000000000010000000000
+    00000100000006000000D0C5C2C5D0D1010000001D0000005B7BD2E0E1EBE8F6
+    E0C7EDE0F7312ED131D2323232C331C83337307D5D010000001D0000005B7BD2
+    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83337337D5D010000000000
+    00000100000006000000D0C0C1CED2C001000000000000000100000006000000
+    D0C5C2C5D0D10100000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7
+    EDE0F7312ED131D2323232C331C83232307D5D0100000000000000010000001D
+    0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83232317D5D
+    0100000000000000010000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000010000000000000001000000000000000100
-    00000000000001000000000000000100000006000000D0C5C2C5D0D101000000
-    1D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83337307D
-    5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331
-    C83337337D5D01000000000000000100000006000000D0C0C1CED2C001000000
-    000000000100000006000000D0C5C2C5D0D10100000000000000010000001D00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83337307D5D01
-    00000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131
-    D2323232C331C83337337D5D0100000000000000010000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000001000000000000000100000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000001000000
-    0000000001000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
+    0100000006000000D0C5C2C5D0D1010000001D0000005B7BD2E0E1EBE8F6E0C7
+    EDE0F7312ED131D2323232C331C83337367D5D010000001D0000005B7BD2E0E1
+    EBE8F6E0C7EDE0F7312ED131D2323232C331C83432317D5D0100000000000000
+    0100000006000000D0C0C1CED2C001000000000000000100000006000000D0C5
+    C2C5D0D10100000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0
+    F7312ED131D2323232C331C83232327D5D0100000000000000010000001D0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83232337D5D0000
+    0000000000000000000000000000010000001C0000005B7BD2E0E1EBE8F6E0C7
+    EDE0F7312ED131D2323232C331C831337D5D010000000D000000CFEEEBEEE6E5
+    EDE8E520C7C431010000000D000000CFEEEBEEE6E5EDE8E520C7C43201000000
+    0D000000CFEEEBEEE6E5EDE8E520C7C433000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000100000006000000D0C5C2C5D0D1010000001D00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83337367D5D01
-    0000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834
-    32317D5D01000000000000000100000006000000D0C0C1CED2C0010000000000
-    00000100000006000000D0C5C2C5D0D10100000000000000010000001D000000
-    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83337367D5D010000
-    0000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
-    3232C331C83432317D5D00000000000000000000000000000000010000001C00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831337D5D0100
-    00000D000000CFEEEBEEE6E5EDE8E520C7C431010000000D000000CFEEEBEEE6
-    E5EDE8E520C7C432010000000D000000CFEEEBEEE6E5EDE8E520C7C433000000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
@@ -1825,243 +1827,189 @@
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
-    000000000000000000000000000100000001000000B90100000005000000C2F0
-    E5ECFF01000000190000005B7BD2E0E1EBE8F6E0C7EDE0F7312ECDEEECE5F0D1
-    F2F07D5D010000001B0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ECCEEECE5ED
-    F2C2F0E5EC7D5D010000001B0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131
-    D2323233C331C8347D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F731
-    2ED131D2323232C331C831307D5D010000001C0000005B7BD2E0E1EBE8F6E0C7
-    EDE0F7312ED131D2323232C331C832317D5D010000001C0000005B7BD2E0E1EB
-    E8F6E0C7EDE0F7312ED131D2323232C331C833327D5D010000001C0000005B7B
-    D2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834337D5D010000001C00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C835347D5D0100
-    00001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83839
-    7D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C3
-    31C83134387D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131
-    D2323232C331C83230377D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0
-    F7312ED131D2323232C331C83233377D5D010000001D0000005B7BD2E0E1EBE8
-    F6E0C7EDE0F7312ED131D2323232C331C83338327D5D010000001C0000005B7B
-    D2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C835377D5D010000001C00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C835387D5D0100
-    00001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83539
-    7D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C3
-    31C836307D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2
-    323232C331C836317D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F731
-    2ED131D2323232C331C836327D5D010000001C0000005B7BD2E0E1EBE8F6E0C7
-    EDE0F7312ED131D2323232C331C836337D5D010000001C0000005B7BD2E0E1EB
-    E8F6E0C7EDE0F7312ED131D2323232C331C836347D5D010000001C0000005B7B
-    D2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C836357D5D010000001C00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C836367D5D0100
-    00001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83637
-    7D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C3
-    31C836387D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2
-    323232C331C836397D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F731
-    2ED131D2323232C331C837307D5D010000001C0000005B7BD2E0E1EBE8F6E0C7
-    EDE0F7312ED131D2323232C331C837317D5D010000001C0000005B7BD2E0E1EB
-    E8F6E0C7EDE0F7312ED131D2323232C331C837327D5D010000001C0000005B7B
-    D2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C837337D5D010000001C00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C837347D5D0100
-    00001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83735
-    7D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C3
-    31C837367D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2
-    323232C331C837377D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F731
-    2ED131D2323232C331C837387D5D010000001C0000005B7BD2E0E1EBE8F6E0C7
-    EDE0F7312ED131D2323232C331C837397D5D010000001C0000005B7BD2E0E1EB
-    E8F6E0C7EDE0F7312ED131D2323232C331C838307D5D010000001C0000005B7B
-    D2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C838317D5D010000001C00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C838327D5D0100
-    00001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83130
-    307D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232
-    C331C83130317D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
-    31D2323232C331C83130327D5D010000001D0000005B7BD2E0E1EBE8F6E0C7ED
-    E0F7312ED131D2323232C331C83130337D5D010000001D0000005B7BD2E0E1EB
-    E8F6E0C7EDE0F7312ED131D2323232C331C83130347D5D010000001D0000005B
-    7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83130357D5D01000000
-    1D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83130367D
-    5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331
-    C83130377D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2
-    323232C331C83135397D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7
-    312ED131D2323232C331C83136307D5D010000001D0000005B7BD2E0E1EBE8F6
-    E0C7EDE0F7312ED131D2323232C331C83136317D5D010000001D0000005B7BD2
-    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83136327D5D010000001D00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83136337D5D01
-    0000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831
-    36347D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C83136357D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
-    D131D2323232C331C83136367D5D010000001D0000005B7BD2E0E1EBE8F6E0C7
-    EDE0F7312ED131D2323232C331C83231387D5D010000001D0000005B7BD2E0E1
-    EBE8F6E0C7EDE0F7312ED131D2323232C331C83231397D5D010000001D000000
-    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83233317D5D010000
-    001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8323332
-    7D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C3
-    31C83233337D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131
-    D2323232C331C83233347D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0
-    F7312ED131D2323232C331C83233357D5D010000001D0000005B7BD2E0E1EBE8
-    F6E0C7EDE0F7312ED131D2323232C331C83233367D5D010000001D0000005B7B
-    D2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83331387D5D010000001D
-    0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83331397D5D
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000010000001C0000005B7BD2E0E1EBE8
+    F6E0C7EDE0F7312ED131D2323232C331C831347D5D010000001C0000005B7BD2
+    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831357D5D010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831367D5D010000
+    001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831397D
+    5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331
+    C831377D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
+    3232C331C831387D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C832307D5D010000001C0000005B7BD2E0E1EBE8F6E0C7ED
+    E0F7312ED131D2323232C331C834367D5D010000001C0000005B7BD2E0E1EBE8
+    F6E0C7EDE0F7312ED131D2323232C331C834377D5D010000001C0000005B7BD2
+    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832367D5D010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832357D5D010000
+    001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832347D
+    5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331
+    C832377D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
+    3232C331C832387D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C832397D5D0000000000000000010000001C0000005B7BD2
+    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831337D5D00000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    00010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331
+    C831347D5D0100000004000000302E3030010000001C0000005B7BD2E0E1EBE8
+    F6E0C7EDE0F7312ED131D2323232C331C831337D5D010000001C0000005B7BD2
+    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831357D5D010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831367D5D010000
+    001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831397D
+    5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331
+    C831377D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
+    3232C331C831387D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C832307D5D010000001C0000005B7BD2E0E1EBE8F6E0C7ED
+    E0F7312ED131D2323232C331C834367D5D010000001C0000005B7BD2E0E1EBE8
+    F6E0C7EDE0F7312ED131D2323232C331C834377D5D010000001C0000005B7BD2
+    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832367D5D010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832357D5D010000
+    001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832347D
+    5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331
+    C832377D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
+    3232C331C832387D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C832397D5D0100000004000000302E3030010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831347D5D010000
+    0004000000302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C831357D5D0100000004000000302E3030010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831367D5D010000
+    0004000000302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C831397D5D0100000004000000302E3030010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831377D5D010000
+    0004000000302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C831387D5D0100000004000000302E3030010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832307D5D010000
+    0004000000302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C834367D5D0100000004000000302E3030010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834377D5D010000
+    0004000000302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C832367D5D0100000004000000302E3030010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832357D5D010000
+    0004000000302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C832347D5D0100000004000000302E3030010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832377D5D010000
+    0004000000302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C832387D5D0100000004000000302E3030010000001C0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832397D5D010000
+    0004000000302E30300100000004000000302E30300100000004000000302E30
+    300100000004000000302E30300100000004000000302E303001000000040000
+    00302E30300100000004000000302E30300100000004000000302E3030010000
+    0004000000302E30300100000004000000302E30300100000004000000302E30
+    300100000004000000302E30300100000004000000302E303001000000040000
+    00302E30300100000004000000302E3030010000000100000030000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    00000000000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F731
+    2ED131D2323232C331C83632317D5D0100000007000000D7E0F1F2EEF2E00100
+    000003000000D2EEEA010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
+    D131D2323232C331C83632327D5D010000000A000000CDE0EFF0FFE6E5EDE8E5
     010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
-    3332307D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
-    3232C331C83332317D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F731
-    2ED131D2323232C331C83332327D5D010000001D0000005B7BD2E0E1EBE8F6E0
-    C7EDE0F7312ED131D2323232C331C83332337D5D010000001D0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83332347D5D010000001D0000
-    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83332357D5D0100
-    00001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83332
-    367D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232
-    C331C83332377D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
-    31D2323232C331C83332387D5D010000001D0000005B7BD2E0E1EBE8F6E0C7ED
-    E0F7312ED131D2323232C331C83332397D5D010000001D0000005B7BD2E0E1EB
-    E8F6E0C7EDE0F7312ED131D2323232C331C83333307D5D010000001D0000005B
-    7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83333317D5D01000000
-    1D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83333327D
-    5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331
-    C83333337D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2
-    323232C331C83333347D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7
-    312ED131D2323232C331C83333357D5D010000001D0000005B7BD2E0E1EBE8F6
-    E0C7EDE0F7312ED131D2323232C331C83333367D5D010000001D0000005B7BD2
-    E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83333377D5D010000001D00
-    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83333387D5D01
-    0000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C833
-    33397D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C83334307D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312E
-    D131D2323232C331C83334317D5D010000001D0000005B7BD2E0E1EBE8F6E0C7
-    EDE0F7312ED131D2323232C331C83239337D5D010000001D0000005B7BD2E0E1
-    EBE8F6E0C7EDE0F7312ED131D2323232C331C83334337D5D010000001D000000
-    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83334347D5D010000
-    001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8333935
-    7D5D010000001200000064642F6D6D2F7979797920683A6E6E3A737301000000
-    1C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831347D5D
-    010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
-    31357D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C831367D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
-    31D2323232C331C831397D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0
-    F7312ED131D2323232C331C831377D5D010000001C0000005B7BD2E0E1EBE8F6
-    E0C7EDE0F7312ED131D2323232C331C831387D5D010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832307D5D010000001C000000
-    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834367D5D01000000
-    1C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834377D5D
-    010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
-    32367D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C832357D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
-    31D2323232C331C832347D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0
-    F7312ED131D2323232C331C832377D5D010000001C0000005B7BD2E0E1EBE8F6
-    E0C7EDE0F7312ED131D2323232C331C832387D5D010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832397D5D0000000000000000
-    010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
-    31337D5D00000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    000000000000000000000000010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0
-    F7312ED131D2323232C331C831347D5D0100000004000000302E303001000000
-    1C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831337D5D
-    010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
-    31357D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C831367D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
-    31D2323232C331C831397D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0
-    F7312ED131D2323232C331C831377D5D010000001C0000005B7BD2E0E1EBE8F6
-    E0C7EDE0F7312ED131D2323232C331C831387D5D010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832307D5D010000001C000000
-    5B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834367D5D01000000
-    1C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834377D5D
-    010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
-    32367D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C832357D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
-    31D2323232C331C832347D5D010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0
-    F7312ED131D2323232C331C832377D5D010000001C0000005B7BD2E0E1EBE8F6
-    E0C7EDE0F7312ED131D2323232C331C832387D5D010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832397D5D0100000004000000
-    302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C831347D5D0100000004000000302E3030010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831357D5D0100000004000000
-    302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C831367D5D0100000004000000302E3030010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831397D5D0100000004000000
-    302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C831377D5D0100000004000000302E3030010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C831387D5D0100000004000000
-    302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C832307D5D0100000004000000302E3030010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C834367D5D0100000004000000
-    302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C834377D5D0100000004000000302E3030010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832367D5D0100000004000000
-    302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C832357D5D0100000004000000302E3030010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832347D5D0100000004000000
-    302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C832377D5D0100000004000000302E3030010000001C0000005B7BD2E0
-    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C832387D5D0100000004000000
-    302E3030010000001C0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D23232
-    32C331C832397D5D0100000004000000302E30300100000004000000302E3030
-    0100000004000000302E30300100000004000000302E30300100000004000000
-    302E30300100000004000000302E30300100000004000000302E303001000000
-    04000000302E30300100000004000000302E30300100000004000000302E3030
-    0100000004000000302E30300100000004000000302E30300100000004000000
-    302E30300100000004000000302E30300100000004000000302E303001000000
-    0100000030010000000100000030000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    0000000000000000000000000000000000000000000000000000000000000000
-    00000000000000000000000000000000000000000000}
+    3632337D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
+    3232C331C83632357D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F731
+    2ED131D2323232C331C83632347D5D010000000B000000CCEEF9EDEEF1F2FC2C
+    2025010000000B000000F1E5EA20F120EFF3F1EAE00100000003000000455441
+    010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
+    3632307D5D010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D232
+    3232C331C83639357D5D00000000000000000100000003000000444354010000
+    0003000000445051010000000000000001000000030000004443540100000000
+    00000001000000030000004450510100000003000000445054010000001D0000
+    005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83639367D5D0100
+    00001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C83639
+    377D5D01000000040000005349474E010000001D0000005B7BD2E0E1EBE8F6E0
+    C7EDE0F7312ED131D2323232C331C83739377D5D010000000300000044505401
+    0000000300000044435401000000030000004450510100000004000000534947
+    4E01000000000000000100000003000000445054010000000000000001000000
+    0300000044435401000000000000000100000003000000445051010000000000
+    000001000000040000005349474E010000001E0000005B7BD2E0E1EBE8F6E0C7
+    EDE0F7312ED131D2323232C331C8313039357D5D010000001E0000005B7BD2E0
+    E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8313039367D5D010000001E00
+    00005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8313039377D5D
+    010000001E0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED131D2323232C331C8
+    313039387D5D0000000000000000000000000000000001000000020000004354
+    0000000000000000010000001D0000005B7BD2E0E1EBE8F6E0C7EDE0F7312ED1
+    31D2323232C331C83530367D5D0000000000000000}
   object vgrReportTemplatevgrReportTemplateWorksheet1: TvgrReportTemplateWorksheet
     Title = #1044#1072#1090#1095#1080#1082#1080
     PageProperties.Height = 16838
     PageProperties.Width = 11906
     PageProperties.MeasurementSystem = vgrmsMetric
     ColsData = {
-      0B000000120000000000000054030000010000010000004C0E00000100000200
-      0000500700000100000300000050070000010000040000005007000001000005
-      0000005007000001000006000000500700000100000700000050070000010000
-      080000005007000001000009000000500700000100000A000000500700000100
-      000B000000500700000100000C000000500700000100000D0000005007000001
-      00000E000000500700000100000F000000500700000100001000000050070000
-      0100001100000050070000010000}
+      0B00000014000000000000004803000001000001000000100E00000100000200
+      0000C003000001000003000000C003000001000004000000C003000001000005
+      000000C003000001000006000000C003000001000007000000C0030000010000
+      08000000C003000001000009000000C00300000100000A000000C00300000100
+      000B000000C00300000100000C000000C00300000100000D000000C003000001
+      00000E000000C00300000100000F000000C003000001000010000000C0030000
+      01000011000000C003000001000012000000C003000001000013000000C00300
+      00010000}
     RowsData = {0B0000000200000000000000FF00000001000001000000FF000000010000}
     HorzSectionsData = {}
     RangesData = {
@@ -2323,17 +2271,18 @@
     end
   end
   object vgrReportTemplatevgrReportTemplateWorksheet2: TvgrReportTemplateWorksheet
-    Title = #1069#1083#1077#1082#1090#1088#1080#1095#1077#1089#1082#1080#1077'1'
+    Title = #1069#1083#1077#1082#1090#1088#1080#1095#1077#1089#1082#1080#1077' (37'#1082#1042#1090')'
     PageProperties.Height = 16838
     PageProperties.Width = 11906
     PageProperties.MeasurementSystem = vgrmsMetric
     ColsData = {
-      0B0000000400000000000000C003000001000001000000400E00000100000200
-      0000C003000001000003000000C0030000010000}
+      0B00000006000000000000004803000001000001000000100E00000100000200
+      0000C003000001000003000000C003000001000013000000C003000001000014
+      000000C0030000010000}
     RowsData = {0B0000000200000000000000FF00000001000001000000FF000000010000}
     HorzSectionsData = {}
     RangesData = {
-      2400000024000000000000000000000000000000000000000600000003540000
+      240000002C000000000000000000000000000000000000000600000003540000
       00000000000000FFFFFFFF020100000000000000010000000000000007000000
       0356000000B2D302000000FFFFFFFF0202000000000000000200000000000000
       360000000330050000B2D302000000FFFFFFFF02030000000000000003000000
@@ -2353,27 +2302,36 @@
       FFFFFF020F000000000000000F00000000000000380000000395000000B2D302
       000000FFFFFFFF02100000000000000010000000000000003800000003960000
       00B2D302000000FFFFFFFF021100000000000000110000000000000038000000
-      0397000000B2D302000000FFFFFFFF0200000000010000000000000001000000
-      080000000358000000B2D302000000FFFFFFFF02010000000100000001000000
-      0100000009000000035A000000010000000100FFFFFFFF020200000001000000
-      0200000001000000340000000334050000000000000000FFFFFFFF0203000000
-      010000000300000001000000350000000336050000000000000000FFFFFFFF02
-      0400000001000000040000000100000038000000037C000000000000000000FF
-      FFFFFF020500000001000000050000000100000038000000037D000000000000
-      000000FFFFFFFF020600000001000000060000000100000038000000037E0000
-      00000000000000FFFFFFFF020700000001000000070000000100000038000000
-      037F000000000000000000FFFFFFFF0208000000010000000800000001000000
-      380000000380000000000000000000FFFFFFFF02090000000100000009000000
-      01000000380000000381000000000000000000FFFFFFFF020A00000001000000
-      0A00000001000000380000000382000000000000000000FFFFFFFF020B000000
-      010000000B00000001000000380000000383000000000000000000FFFFFFFF02
-      0C000000010000000C00000001000000380000000384000000000000000000FF
-      FFFFFF020D000000010000000D00000001000000380000000385000000000000
-      000000FFFFFFFF020E000000010000000E000000010000003800000003860000
-      00000000000000FFFFFFFF020F000000010000000F0000000100000038000000
-      0387000000000000000000FFFFFFFF0210000000010000001000000001000000
-      380000000388000000000000780000FFFFFFFF02110000000100000011000000
-      01000000030000000389000000000000000000FFFFFFFF02}
+      0397000000B2D302000000FFFFFFFF0212000000000000001200000000000000
+      13000000034F070000B2D302000000FFFFFFFF02130000000000000013000000
+      0000000039000000034C070000B2D302000000FFFFFFFF021400000000000000
+      14000000000000003A000000034E070000B2D302000000FFFFFFFF0215000000
+      000000001500000000000000130000000352070000B2D302000000FFFFFFFF02
+      00000000010000000000000001000000080000000358000000B2D302000000FF
+      FFFFFF020100000001000000010000000100000009000000035A000000010000
+      000100FFFFFFFF02020000000100000002000000010000003400000003340500
+      00000000000000FFFFFFFF020300000001000000030000000100000035000000
+      0336050000000000000000FFFFFFFF0204000000010000000400000001000000
+      38000000037C000000000000000000FFFFFFFF02050000000100000005000000
+      0100000038000000037D000000000000000000FFFFFFFF020600000001000000
+      060000000100000038000000037E000000000000000000FFFFFFFF0207000000
+      01000000070000000100000038000000037F000000000000000000FFFFFFFF02
+      08000000010000000800000001000000380000000380000000000000000000FF
+      FFFFFF0209000000010000000900000001000000380000000381000000000000
+      000000FFFFFFFF020A000000010000000A000000010000003800000003820000
+      00000000000000FFFFFFFF020B000000010000000B0000000100000038000000
+      0383000000000000000000FFFFFFFF020C000000010000000C00000001000000
+      380000000384000000000000000000FFFFFFFF020D000000010000000D000000
+      01000000380000000385000000000000000000FFFFFFFF020E00000001000000
+      0E00000001000000380000000386000000000000000000FFFFFFFF020F000000
+      010000000F00000001000000380000000387000000000000000000FFFFFFFF02
+      10000000010000001000000001000000380000000388000000000000780000FF
+      FFFFFF0211000000010000001100000001000000030000000389000000000000
+      000000FFFFFFFF02120000000100000012000000010000000000000003470700
+      00000000000000FFFFFFFF021300000001000000130000000100000000000000
+      0350070000000000000000FFFFFFFF0214000000010000001400000001000000
+      000000000351070000000000000000FFFFFFFF02150000000100000015000000
+      01000000000000000353070000000000000000FFFFFFFF02}
     object vgrDetailBand2: TvgrDetailBand
       StartPos = 1
       EndPos = 1
@@ -2387,22 +2345,23 @@
     end
   end
   object vgrReportTemplatevgrReportTemplateWorksheet3: TvgrReportTemplateWorksheet
-    Title = #1069#1083#1077#1082#1090#1088#1080#1095#1077#1089#1080#1082#1077'2'
+    Title = #1069#1083#1077#1082#1090#1088#1080#1095#1077#1089#1082#1080#1077' (6'#1082#1042#1090')'
     PageProperties.Height = 16838
     PageProperties.Width = 11906
     PageProperties.MeasurementSystem = vgrmsMetric
     ColsData = {
-      0B0000001200000000000000E004000001000001000000C40B00000100000200
+      0B00000016000000000000004803000001000001000000100E00000100000200
       0000C003000001000003000000C003000001000004000000C003000001000005
       000000C003000001000006000000C003000001000007000000C0030000010000
       08000000C003000001000009000000C00300000100000A000000C00300000100
       000B000000C00300000100000C000000C00300000100000D000000C003000001
       00000E000000C00300000100000F000000C003000001000010000000C0030000
-      01000011000000C0030000010000}
+      01000011000000C003000001000012000000C003000001000013000000C00300
+      0001000014000000C003000001000015000000C0030000010000}
     RowsData = {0B0000000200000000000000FF00000001000001000000FF000000010000}
     HorzSectionsData = {}
     RangesData = {
-      2400000024000000000000000000000000000000000000000A000000035E0000
+      240000002F000000000000000000000000000000000000000A000000035E0000
       00B1D302000000FFFFFFFF02010000000000000001000000000000000B000000
       0360000000B1D302000000FFFFFFFF0202000000000000000200000000000000
       4E020000035F050000B1D302000000FFFFFFFF02030000000000000003000000
@@ -2422,27 +2381,40 @@
       FFFFFF020F000000000000000F000000000000002100000003F9000000000000
       000000FFFFFFFF02100000000000000010000000000000002200000003FB0000
       00000000000000FFFFFFFF021100000000000000110000000000000023000000
-      03FD000000000000000000FFFFFFFF0200000000010000000000000001000000
-      0C0000000362000000000000000000FFFFFFFF02010000000100000001000000
-      010000000D0000000364000000000000000000FFFFFFFF020200000001000000
-      0200000001000000320000000363050000000000000000FFFFFFFF0203000000
-      010000000300000001000000330000000365050000000000000000FFFFFFFF02
-      040000000100000004000000010000002400000003FF000000000000000000FF
-      FFFFFF0205000000010000000500000001000000250000000301010000000000
-      000000FFFFFFFF02060000000100000006000000010000002600000003030100
-      00000000000000FFFFFFFF020700000001000000070000000100000027000000
-      0305010000000000000000FFFFFFFF0208000000010000000800000001000000
-      280000000307010000000000000000FFFFFFFF02090000000100000009000000
-      01000000290000000309010000000000000000FFFFFFFF020A00000001000000
-      0A000000010000002A000000030B010000000000000000FFFFFFFF020B000000
-      010000000B000000010000002B000000030D010000000000000000FFFFFFFF02
-      0C000000010000000C000000010000002C000000030F010000000000000000FF
-      FFFFFF020D000000010000000D000000010000002D0000000311010000000000
-      000000FFFFFFFF020E000000010000000E000000010000002E00000003130100
-      00000000000000FFFFFFFF020F000000010000000F000000010000002F000000
-      0315010000000000000000FFFFFFFF0210000000010000001000000001000000
-      300000000317010000000000000000FFFFFFFF02110000000100000011000000
-      01000000310000000319010000000000000000FFFFFFFF02}
+      03FD000000000000000000FFFFFFFF0212000000000000001200000000000000
+      3B0000000359070000000000000000FFFFFFFF02130000000000000013000000
+      000000003C000000035B070000000000000000FFFFFFFF021400000000000000
+      14000000000000003D000000035D070000000000000000FFFFFFFF0215000000
+      0000000015000000000000003E000000035F070000000000000000FFFFFFFF02
+      16000000000000001600000000000000130000000366070000000000000000FF
+      FFFFFF02000000000100000000000000010000000C0000000362000000000000
+      000000FFFFFFFF02010000000100000001000000010000000D00000003640000
+      00000000000000FFFFFFFF020200000001000000020000000100000032000000
+      0363050000000000000000FFFFFFFF0203000000010000000300000001000000
+      330000000365050000000000000000FFFFFFFF02040000000100000004000000
+      010000002400000003FF000000000000000000FFFFFFFF020500000001000000
+      0500000001000000250000000301010000000000000000FFFFFFFF0206000000
+      010000000600000001000000260000000303010000000000000000FFFFFFFF02
+      07000000010000000700000001000000270000000305010000000000000000FF
+      FFFFFF0208000000010000000800000001000000280000000307010000000000
+      000000FFFFFFFF02090000000100000009000000010000002900000003090100
+      00000000000000FFFFFFFF020A000000010000000A000000010000002A000000
+      030B010000000000000000FFFFFFFF020B000000010000000B00000001000000
+      2B000000030D010000000000000000FFFFFFFF020C000000010000000C000000
+      010000002C000000030F010000000000000000FFFFFFFF020D00000001000000
+      0D000000010000002D0000000311010000000000000000FFFFFFFF020E000000
+      010000000E000000010000002E0000000313010000000000000000FFFFFFFF02
+      0F000000010000000F000000010000002F0000000315010000000000000000FF
+      FFFFFF0210000000010000001000000001000000300000000317010000000000
+      000000FFFFFFFF02110000000100000011000000010000003100000003190100
+      00000000000000FFFFFFFF021200000001000000120000000100000000000000
+      0360070000000000000000FFFFFFFF0213000000010000001300000001000000
+      000000000361070000000000000000FFFFFFFF02140000000100000014000000
+      01000000000000000362070000000000000000FFFFFFFF021500000001000000
+      1500000001000000000000000363070000000000000000FFFFFFFF0216000000
+      010000001600000001000000000000000368070000000000000000FFFFFFFF02
+      17000000010000001700000001000000000000000069070000000000000000FF
+      FFFFFF02}
     object vgrDetailBand3: TvgrDetailBand
       StartPos = 1
       EndPos = 1
@@ -2460,260 +2432,40 @@
     PageProperties.Height = 16838
     PageProperties.Width = 11906
     PageProperties.MeasurementSystem = vgrmsMetric
-    ColsData = {0B00000002000000000000005805000001000001000000000F0000010000}
+    ColsData = {0B00000002000000000000004803000001000001000000100E0000010000}
     RowsData = {0B0000000200000000000000FF00000001000001000000FF000000010000}
+    HorzSectionsData = {}
     RangesData = {
-      2400000004000000000000000000000000000000000000000E00000003690000
+      2400000010000000000000000000000000000000000000000E00000003690000
       00000000000000FFFFFFFF02010000000000000001000000000000000F000000
-      036B000000000000090000FFFFFFFF0200000000010000000000000001000000
-      10000000036D000000000000060000FFFFFFFF02010000000100000001000000
-      0100000011000000036F000000000000000000FFFFFFFF02}
-  end
-  object vgrReportTemplatevgrReportTemplateWorksheet5: TvgrReportTemplateWorksheet
-    Title = #1057#1077#1088#1074#1080#1089#1085#1099#1077
-    PageProperties.Height = 16838
-    PageProperties.Width = 11906
-    PageProperties.MeasurementSystem = vgrmsMetric
-    ColsData = {
-      0B0000005B00000000000000C003000001000001000000240F00000100000200
-      0000C003000001000003000000C003000001000004000000C003000001000005
-      000000C003000001000006000000C003000001000007000000C0030000010000
-      08000000C003000001000009000000C00300000100000A000000C00300000100
-      000B000000C00300000100000C000000C00300000100000D000000C003000001
-      00000E000000C00300000100000F000000C003000001000010000000C0030000
-      01000011000000C003000001000012000000C003000001000013000000C00300
-      0001000014000000C003000001000015000000C003000001000016000000C003
-      000001000017000000C003000001000018000000C003000001000019000000C0
-      0300000100001A000000C00300000100001B000000C00300000100001C000000
-      C00300000100001D000000C00300000100001E000000C00300000100001F0000
-      00C003000001000020000000C003000001000021000000C00300000100002200
-      0000C003000001000023000000C003000001000024000000C003000001000025
-      000000C003000001000026000000C003000001000027000000C0030000010000
-      28000000C003000001000029000000C00300000100002A000000C00300000100
-      002B000000C00300000100002C000000C00300000100002D000000C003000001
-      00002E000000C00300000100002F000000C003000001000030000000C0030000
-      01000031000000C003000001000032000000C003000001000033000000C00300
-      0001000034000000C003000001000035000000C003000001000036000000C003
-      000001000037000000C003000001000038000000C003000001000039000000C0
-      0300000100003A000000C00300000100003B000000C00300000100003C000000
-      C00300000100003D000000C00300000100003E000000C00300000100003F0000
-      00C003000001000040000000C003000001000041000000C00300000100004200
-      0000C003000001000043000000C003000001000044000000C003000001000045
-      000000C003000001000046000000C003000001000047000000C0030000010000
-      48000000C003000001000049000000C00300000100004A000000C00300000100
-      004B000000C00300000100004C000000C00300000100004D000000C003000001
-      00004E000000C00300000100004F000000C003000001000050000000C0030000
-      01000051000000C003000001000052000000C003000001000053000000C00300
-      0001000054000000C003000001000055000000C003000001000056000000C003
-      000001000057000000C003000001000058000000C003000001000059000000C0
-      0300000100005A000000C0030000010000}
-    RowsData = {0B0000000200000000000000FF00000001000001000000FF000000010000}
-    RangesData = {
-      24000000B6000000000000000000000000000000000000008102000003BA0500
-      00000000000000FFFFFFFF020100000000000000010000000000000081020000
-      03BB05000077297C2A2E67FFFFFFFFE202000000000000000200000000000000
-      810200000000000000202E67727701FFFFFFFF02030000000000000003000000
-      00000000810200000000000000000000000000FFFFFFFF020400000000000000
-      0400000000000000810200000000000000000000000000FFFFFFFF0205000000
-      000000000500000000000000810200000000000000000000506D02FFFFFFFF02
-      060000000000000006000000000000008102000000000000003238392C0000FF
-      FFFFFF0207000000000000000700000000000000810200000000000000000000
-      000000FFFFFFFF02080000000000000008000000000000008102000000000000
-      00000000000000FFFFFFFF020900000000000000090000000000000081020000
-      000000000000000000000FFFFFFFFF020A000000000000000A00000000000000
-      810200000000000000000000030000FFFFFFFF020B000000000000000B000000
-      00000000810200000000000000010000000100FFFFFFFF020C00000000000000
-      0C00000000000000810200000000000000000000000000FFFFFFFF020D000000
-      000000000D00000000000000810200000000000000000000000000FFFFFFFF02
-      0E000000000000000E00000000000000810200000000000000010000000000FF
-      FFFFFF020F000000000000000F00000000000000810200000000000000323632
-      2C0000FFFFFFFF02100000000000000010000000000000008102000000000000
-      00000000000000FFFFFFFF021100000000000000110000000000000081020000
-      000000000000000028B80BFFFFFFFF0212000000000000001200000000000000
-      810200000000000000000000010000FFFFFFFF02130000000000000013000000
-      00000000810200000000000000000000000000FFFFFFFF021400000000000000
-      1400000000000000810200000000000000000000010000FFFFFFFF0215000000
-      000000001500000000000000810200000000000000000000000000FFFFFFFF02
-      16000000000000001600000000000000810200000000000000000000010000FF
-      FFFFFF0217000000000000001700000000000000810200000000000000000000
-      000000FFFFFFFF02180000000000000018000000000000008102000000000000
-      00000000010000FFFFFFFF031900000000000000190000000000000081020000
-      0000000000000000000000FFFFFFFF021A000000000000001A00000000000000
-      810200000000000000B60B03010000FFFFFFFF021B000000000000001B000000
-      00000000810200000000000000000000000000FFFFFFFF021C00000000000000
-      1C00000000000000810200000000000000000000010000FFFFFFFF021D000000
-      000000001D00000000000000810200000000000000000000000000FFFFFFFF02
-      1E000000000000001E00000000000000810200000000000000000000010000FF
-      FFFFFF021F000000000000001F00000000000000810200000000000000000000
-      000000FFFFFFFF02200000000000000020000000000000008102000000000000
-      00000000000000FFFFFFFF022100000000000000210000000000000081020000
-      0000000000000000000000FFFFFFFF0222000000000000002200000000000000
-      810200000000000000000000000000FFFFFFFF02230000000000000023000000
-      00000000810200000000000000000000000000FFFFFFFF022400000000000000
-      2400000000000000810200000000000000000000010000FFFFFFFF0225000000
-      000000002500000000000000810200000000000000000000000000FFFFFFFF02
-      26000000000000002600000000000000810200000000000000000000010000FF
-      FFFFFF0227000000000000002700000000000000810200000000000000000000
-      000000FFFFFFFF02280000000000000028000000000000008102000000000000
-      00000000010000FFFFFFFF062900000000000000290000000000000081020000
-      0000000000000000000000FFFFFFFF022A000000000000002A00000000000000
-      810200000000000000C90406010000FFFFFFFF022B000000000000002B000000
-      00000000810200000000000000000000000000FFFFFFFF022C00000000000000
-      2C00000000000000810200000000000000000000010000FFFFFFFF022D000000
-      000000002D00000000000000810200000000000000000000000000FFFFFFFF02
-      2E000000000000002E00000000000000810200000000000000000000010000FF
-      FFFFFF022F000000000000002F00000000000000810200000000000000000000
-      000000FFFFFFFF02300000000000000030000000000000008102000000000000
-      00000000010000FFFFFFFF023100000000000000310000000000000081020000
-      0000000000000000A8C204FFFFFFFF0232000000000000003200000000000000
-      810200000000000000000000010000FFFFFFFF02330000000000000033000000
-      00000000810200000000000000000000000000FFFFFFFF023400000000000000
-      3400000000000000810200000000000000000000010000FFFFFFFF0235000000
-      000000003500000000000000810200000000000000000000000000FFFFFFFF02
-      36000000000000003600000000000000810200000000000000000000010000FF
-      FFFFFF0237000000000000003700000000000000810200000000000000000000
-      000000FFFFFFFF02380000000000000038000000000000008102000000000000
-      00000000010000FFFFFFFF063900000000000000390000000000000081020000
-      0000000000000000000000FFFFFFFF023A000000000000003A00000000000000
-      810200000000000000C40406010000FFFFFFFF023B000000000000003B000000
-      00000000810200000000000000000000000000FFFFFFFF023C00000000000000
-      3C00000000000000810200000000000000000000010000FFFFFFFF023D000000
-      000000003D00000000000000810200000000000000000000000000FFFFFFFF02
-      3E000000000000003E00000000000000810200000000000000000000010000FF
-      FFFFFF023F000000000000003F00000000000000810200000000000000000000
-      000000FFFFFFFF02400000000000000040000000000000008102000000000000
-      00000000000000FFFFFFFF324100000000000000410000000000000081020000
-      0000000000000000070000FFFFFFFF0242000000000000004200000000000000
-      810200000000000000000000000000FFFFFFFF02430000000000000043000000
-      00000000810200000000000000000000000000FFFFFFFF024400000000000000
-      4400000000000000810200000000000000000000000000FFFFFFFF0245000000
-      000000004500000000000000810200000000000000000000000000FFFFFFFF02
-      46000000000000004600000000000000810200000000000000060000890000FF
-      FFFFFF0247000000000000004700000000000000810200000000000000000000
-      000000FFFFFFFF02480000000000000048000000000000008102000000000000
-      00000000010000FFFFFFFF024900000000000000490000000000000081020000
-      0000000000000000000000FFFFFFFF024A000000000000004A00000000000000
-      810200000000000000000000010000FFFFFFFF024B000000000000004B000000
-      00000000810200000000000000000000000000FFFFFFFF024C00000000000000
-      4C00000000000000810200000000000000000000010000FFFFFFFF024D000000
-      000000004D00000000000000810200000000000000000000000000FFFFFFFF02
-      4E000000000000004E00000000000000810200000000000000000000010000FF
-      FFFFFF024F000000000000004F00000000000000810200000000000000000000
-      000000FFFFFFFF02500000000000000050000000000000008102000000000000
-      00000000010000FFFFFFFF025100000000000000510000000000000081020000
-      0000000000000000000000FFFFFFFF0252000000000000005200000000000000
-      810200000000000000000000010000FFFFFFFF02530000000000000053000000
-      00000000810200000000000000000000000000FFFFFFFF025400000000000000
-      5400000000000000810200000000000000000000010000FFFFFFFF0255000000
-      000000005500000000000000810200000000000000000000000000FFFFFFFF02
-      56000000000000005600000000000000810200000000000000000000010000FF
-      FFFFFF0257000000000000005700000000000000810200000000000000000000
-      000000FFFFFFFF02580000000000000058000000000000008002000000000000
-      00000000010000FFFFFFFF02590000000000000059000000000000007F020000
-      0000000000000000000000FFFFFFFF025A000000000000005A00000000000000
-      7F0200000000000000000000010000FFFFFFFF02000000000100000000000000
-      010000007D02000003BC050000000000010000FFFFFFFF020100000001000000
-      01000000010000001300000003BD050000000000000000FFFFFFFF0202000000
-      0100000002000000010000008102000003BE050000000000010000FFFFFFFF02
-      030000000100000003000000010000008102000003BF050000000000000000FF
-      FFFFFF02040000000100000004000000010000008102000003C0050000000000
-      010000FFFFFFFF02050000000100000005000000010000008102000003C10500
-      00000000000000FFFFFFFF020600000001000000060000000100000081020000
-      03C2050000000000010000FFFFFFFF0207000000010000000700000001000000
-      8102000003C3050000000000000000FFFFFFFF02080000000100000008000000
-      010000008102000003C4050000000000010000FFFFFFFF020900000001000000
-      09000000010000008102000003C5050000000000000000FFFFFFFF020A000000
-      010000000A000000010000008102000003C6050000000000010000FFFFFFFF02
-      0B000000010000000B000000010000008102000003C7050000000000000000FF
-      FFFFFF020C000000010000000C000000010000008102000003C8050000000000
-      010000FFFFFFFF020D000000010000000D000000010000008102000003C90500
-      00000000000000FFFFFFFF020E000000010000000E0000000100000081020000
-      03CA050000000000010000FFFFFFFF020F000000010000000F00000001000000
-      8102000003CB050000000000000000FFFFFFFF02100000000100000010000000
-      010000008102000003CC050000000000010000FFFFFFFF021100000001000000
-      11000000010000008102000003CD050000000000000000FFFFFFFF0212000000
-      0100000012000000010000008102000003CE050000000000010000FFFFFFFF02
-      130000000100000013000000010000008102000003CF050000000000000000FF
-      FFFFFF02140000000100000014000000010000008102000003D0050000000000
-      010000FFFFFFFF02150000000100000015000000010000008102000003D10500
-      00000000000000FFFFFFFF021600000001000000160000000100000081020000
-      03D2050000000000010000FFFFFFFF0217000000010000001700000001000000
-      8102000003D3050000000000000000FFFFFFFF02180000000100000018000000
-      010000008102000003D4050000000000010000FFFFFFFF021900000001000000
-      19000000010000008102000003D5050000000000000000FFFFFFFF021A000000
-      010000001A000000010000008102000003D6050000000000010000FFFFFFFF02
-      1B000000010000001B000000010000008102000003D7050000000000000000FF
-      FFFFFF021C000000010000001C000000010000008102000003D8050000000000
-      010000FFFFFFFF021D000000010000001D000000010000008102000003D90500
-      00000000000000FFFFFFFF021E000000010000001E0000000100000081020000
-      03DA050000000000010000FFFFFFFF021F000000010000001F00000001000000
-      8102000003DB050000000000000000FFFFFFFF02200000000100000020000000
-      010000008102000003DC050000000000010000FFFFFFFF022100000001000000
-      21000000010000008102000003DD050000000000000000FFFFFFFF0222000000
-      0100000022000000010000008102000003DE050000000000010000FFFFFFFF02
-      230000000100000023000000010000008102000003DF050000000000000000FF
-      FFFFFF02240000000100000024000000010000008102000003E0050000000000
-      010000FFFFFFFF02250000000100000025000000010000008102000003E10500
-      00000000000000FFFFFFFF022600000001000000260000000100000081020000
-      03E2050000000000010000FFFFFFFF0227000000010000002700000001000000
-      8102000003E3050000000000000000FFFFFFFF02280000000100000028000000
-      010000008102000003E4050000000000010000FFFFFFFF022900000001000000
-      29000000010000008102000003E5050000000000000000FFFFFFFF022A000000
-      010000002A000000010000008102000003E6050000000000010000FFFFFFFF02
-      2B000000010000002B000000010000008102000003E7050000000000000000FF
-      FFFFFF022C000000010000002C000000010000008102000003E8050000000000
-      010000FFFFFFFF022D000000010000002D000000010000008102000003E90500
-      00000000000000FFFFFFFF022E000000010000002E0000000100000081020000
-      03EA050000000000010000FFFFFFFF022F000000010000002F00000001000000
-      8102000003EB050000000000000000FFFFFFFF02300000000100000030000000
-      010000008102000003EC050000000000010000FFFFFFFF023100000001000000
-      31000000010000008102000003ED050000000000000000FFFFFFFF0232000000
-      0100000032000000010000008102000003EE050000000000010000FFFFFFFF02
-      330000000100000033000000010000008102000003EF050000000000000000FF
-      FFFFFF02340000000100000034000000010000008102000003F0050000000000
-      010000FFFFFFFF02350000000100000035000000010000008102000003F10500
-      00000000000000FFFFFFFF023600000001000000360000000100000081020000
-      03F2050000000000010000FFFFFFFF0237000000010000003700000001000000
-      8102000003F3050000000000000000FFFFFFFF02380000000100000038000000
-      010000008102000003F4050000000000010000FFFFFFFF023900000001000000
-      39000000010000008102000003F5050000000000000000FFFFFFFF023A000000
-      010000003A000000010000008102000003F6050000000000010000FFFFFFFF02
-      3B000000010000003B000000010000008102000003F7050000000000000000FF
-      FFFFFF023C000000010000003C000000010000008102000003F8050000015B00
-      68015BFFFFFFFF023D000000010000003D000000010000008102000003F90500
-      00000000000000FFFFFFFF023E000000010000003E0000000100000081020000
-      03FA050000000000010000FFFFFFFF023F000000010000003F00000001000000
-      8102000003FB050000000000000000FFFFFFFF02400000000100000040000000
-      010000008102000003FC050000000000010000FFFFFFFF024100000001000000
-      41000000010000008102000003FD050000000000000000FFFFFFFF0242000000
-      0100000042000000010000008102000003FE050000000000010000FFFFFFFF02
-      430000000100000043000000010000008102000003FF050000000000000000FF
-      FFFFFF0244000000010000004400000001000000810200000300060000000000
-      010000FFFFFFFF02450000000100000045000000010000008102000003010600
-      00000000000000FFFFFFFF024600000001000000460000000100000081020000
-      0302060000000000010000FFFFFFFF0247000000010000004700000001000000
-      810200000303060000000000000000FFFFFFFF02480000000100000048000000
-      01000000810200000304060000000000010000FFFFFFFF024900000001000000
-      4900000001000000810200000305060000000000000000FFFFFFFF024A000000
-      010000004A00000001000000810200000306060000000000010000FFFFFFFF02
-      4B000000010000004B00000001000000810200000307060000000000000000FF
-      FFFFFF024C000000010000004C00000001000000810200000308060000000000
-      010000FFFFFFFF024D000000010000004D000000010000008102000003090600
-      00000000000000FFFFFFFF024E000000010000004E0000000100000081020000
-      030A060000000000010000FFFFFFFF024F000000010000004F00000001000000
-      81020000030B060000000000000000FFFFFFFF02500000000100000050000000
-      0100000081020000030C060000000000010000FFFFFFFF025100000001000000
-      510000000100000081020000030D060000000000000000FFFFFFFF0252000000
-      01000000520000000100000081020000030E060000000000010000FFFFFFFF02
-      5300000001000000530000000100000081020000030F060000000000000000FF
-      FFFFFF0254000000010000005400000001000000810200000310060000000000
-      010000FFFFFFFF02550000000100000055000000010000008102000003110600
-      00000000000000FFFFFFFF025600000001000000560000000100000081020000
-      0312060000000000010000FFFFFFFF0257000000010000005700000001000000
-      810200000313060000000000000000FFFFFFFF02580000000100000058000000
-      01000000800200000314060000000000010000FFFFFFFF025900000001000000
-      59000000010000007F0200000315060000000000000000FFFFFFFF025A000000
-      010000005A000000010000007E0200000316060000000000010000FFFFFFFF02}
+      036B000000000000090000FFFFFFFF0202000000000000000200000000000000
+      13000000033C070000000000060000FFFFFFFF02030000000000000003000000
+      0000000013000000033D070000000000060000FFFFFFFF020400000000000000
+      040000000000000013000000033F070000000000060000FFFFFFFF0205000000
+      000000000500000000000000130000000343070000000000060000FFFFFFFF02
+      06000000000000000600000000000000130000000344070000000000060000FF
+      FFFFFF0207000000000000000700000000000000130000000345070000000000
+      060000FFFFFFFF020000000001000000000000000100000010000000036D0000
+      00000000060000FFFFFFFF020100000001000000010000000100000011000000
+      036F000000000000000000FFFFFFFF0202000000010000000200000001000000
+      00000000033B070000000000000000FFFFFFFF02030000000100000003000000
+      0100000000000000033E070000000000000000FFFFFFFF020400000001000000
+      0400000001000000000000000340070000000000000000FFFFFFFF0205000000
+      010000000500000001000000000000000342070000000000000000FFFFFFFF02
+      06000000010000000600000001000000000000000341070000000000000000FF
+      FFFFFF0207000000010000000700000001000000000000000346070000000000
+      000000FFFFFFFF02}
+    object vgrDetailBand4: TvgrDetailBand
+      StartPos = 1
+      EndPos = 1
+      DataSet = frmRpMain.ValueList1
+      Vertical = False
+    end
+    object vgrDataBand4: TvgrDataBand
+      StartPos = 1
+      EndPos = 1
+      Vertical = False
+    end
   end
 end
 </Template></Report>
