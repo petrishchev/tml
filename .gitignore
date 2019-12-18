@@ -3,3 +3,4 @@ Base/DISPATCHER.FDB
 DAServer/Station_1/WDT.log
 KLogger/Station_1/rtp.~tmp
 KEvents/DAServer_ID=1.tmp
+KEvents/KVision_ID=-1.tmp
